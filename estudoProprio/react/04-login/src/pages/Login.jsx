@@ -34,7 +34,7 @@ export default function login() {
     return (
         <>
             <Header />
-            <main>
+            <main className='mainLogin'>
                 <h1>Fazer login</h1>
                 <p>Entre em sua conta para ter acesso ao seu painel admin.</p>
                 <form className='form' onSubmit={(e) => login(e)}>

@@ -1,4 +1,3 @@
-import Back from '../assets/img/back.png';
 import './Auth.css';
 import Header from '../components/Header.jsx';
 import Input from '../components/Input.jsx';
@@ -31,7 +30,7 @@ export default function SignUp() {
     return (
         <>
             <Header />
-            <main className='main'>
+            <main className='mainLogin'>
                 <h1>Criar conta</h1>
                 <p>Crie sua conta para ter acesso ao seu painel admin.</p>
                 <form className='form' onSubmit={(e) => teste(e)} method="post">
