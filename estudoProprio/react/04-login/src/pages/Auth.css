@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 3.35rem;
+}
+main h1 {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+    width: 100%;
+}
+main p {
+    margin: 0;
+    opacity: 0.7;
+    font-size: 1.1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.8rem;
+}
+form button {
+    margin-top: 0.8rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: var(--destaque);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 100rem;
+    cursor: pointer;
+}
+form button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    color: #000;
+}
+.or {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 1.8rem 0.4rem;
+}
+.or p {
+    margin: 0 0.8rem;
+    opacity: 0.7;
+}
+.or .line {
+    width: 100%;
+    padding: 0.5px 0;
+    background-color: var(--border);
+    opacity: 0.7;
+}
+
+.error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ff4b4b;
+    font-size: 0.9rem;
+    gap: 0.4rem;
+    
+}

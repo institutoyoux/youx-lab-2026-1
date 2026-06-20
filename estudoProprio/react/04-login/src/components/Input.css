@@ -1,0 +1,22 @@
+label {
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+input {
+    max-width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1.5px solid var(--border);
+    font-size: 1rem;
+    padding: 1rem 0;
+    padding-left: 0.8rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+input::placeholder {
+    color: var(--border);
+}
+input:focus {
+    border-color: var(--destaque);
+}

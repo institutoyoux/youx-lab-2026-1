@@ -1,0 +1,25 @@
+:root {
+  --border: rgba(255, 255, 255, 0.4);
+  --destaque: rgb(87, 139, 250)
+}
+button, input {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+a {
+  color: var(--destaque);
+  text-decoration: none;
+}
