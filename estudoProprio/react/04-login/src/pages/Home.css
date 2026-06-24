@@ -63,6 +63,7 @@
 }
 .users {
     width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
@@ -85,7 +86,11 @@
     aspect-ratio: 1;
 }
 .usersTitle {
-    margin-left: 2%;
+    margin: 0 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .users .line {
     margin: 1rem 0;
@@ -103,6 +108,7 @@
     color: var(--destaque);
     padding: 0.5rem;
     border-radius: 15%;
+    cursor: pointer;
 }
 .user > .userDados {
     display: flex;
@@ -120,4 +126,87 @@
 .user > .bx-pencil {
     margin-left: auto;
     margin-right: 2%;
+}
+.logout {
+    width: 80%;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(87, 139, 250, 0.3);
+    color: #fff;
+    cursor: pointer;
+}
+.logout::after {
+    content: "";
+    background-color: var(--destaque);
+    width: 5%;
+    position: absolute;
+    top: 0px;
+    border-radius: 100%;
+    left: 0px;
+    filter: blur(15px);
+    aspect-ratio: 1;
+}
+.bg {
+    position: fixed;
+    width: 100vw;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.edit {
+    position: fixed;
+    width: 80%;
+    max-width: 380px;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(87, 139, 250, 0.3);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    z-index: 999;
+}
+.edit > .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.top > h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.top > i {
+    font-size: 1.4rem;
+}
+.edit input {
+    width: 95%;
+    margin: 1rem 0;
+}
+.edit > button {
+    padding: 1rem;
+    font-weight: bold;
+    background-color: var(--destaque);
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+.edit label {
+    margin: 0;
+    margin-right: auto;
+}
+.edit .line {
+    margin-bottom: 0.8rem;
 }

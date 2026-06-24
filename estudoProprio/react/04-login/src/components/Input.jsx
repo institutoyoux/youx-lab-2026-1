@@ -19,7 +19,7 @@ export default function Input(props) {
         <>
         {/* {props.pass ? 'sim' : 'não'} */}
         <label>{props.label}</label>
-        <input placeholder={props.placeholder} type={props.type} onInput={props.type === 'email' ? (e) => emailValid(e.target.value) : (e) => passValid(e.target.value)} />
+        <input placeholder={props.placeholder} type={props.type} onInput={props.type === 'email' ? (e) => emailValid(e.target.value) : props.setPassValid ? (e) => passValid(e.target.value) : null} defaultValue={props.defaultValue ? props.defaultValue : null}/>
         </>
     )
-}
+}   
