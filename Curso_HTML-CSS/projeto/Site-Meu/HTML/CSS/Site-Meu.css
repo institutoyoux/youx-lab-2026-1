@@ -1,0 +1,46 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+#Titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+#Subtitulo {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 75px;
+
+}
+#Introducao {
+    padding: 0rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

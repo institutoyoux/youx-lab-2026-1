@@ -1,4 +1,3 @@
-from os import PRIO_PGRP
 from time import sleep
 
 cardapio = [
@@ -65,68 +64,6 @@ cardapio = [
 ]
 print('------=------=------< Loja virtual >------=------=------')
 print('      =------          Bem vindo!          ------=')
-cardapio = [
-    {
-        "id": 1,
-        "nome": "Hambúrguer Clássico",
-        "preco": 25.50,
-        "avaliacoes": [5, 4, 5]
-    },
-    {
-        "id": 2,
-        "nome": "Pizza Margherita",
-        "preco": 45.00,
-        "avaliacoes": [5, 5, 4, 4, 5, 4]
-    },
-    {
-        "id": 3,
-        "nome": "Batata Frita",
-        "preco": 15.00,
-        "avaliacoes": [3, 4]
-    },
-    {
-        "id": 4,
-        "nome": "Refrigerante Lata",
-        "preco": 8.00,
-        "avaliacoes": [5, 5, 5, 4]
-    },
-    {
-        "id": 5,
-        "nome": "Cachorro Quente Prensado",
-        "preco": 18.90,
-        "avaliacoes": [4, 4, 5, 3]
-    },
-    {
-        "id": 6,
-        "nome": "Suco de Laranja Natural",
-        "preco": 12.00,
-        "avaliacoes": [5, 5, 5]
-    },
-    {
-        "id": 7,
-        "nome": "Sorvete de Baunilha",
-        "preco": 14.50,
-        "avaliacoes": [5, 4, 5, 5]
-    },
-    {
-        "id": 8,
-        "nome": "Porção de Onion Rings",
-        "preco": 22.00,
-        "avaliacoes": [4, 3, 4, 4, 5]
-    },
-    {
-        "id": 9,
-        "nome": "Salada Caesar",
-        "preco": 28.00,
-        "avaliacoes": [5, 5, 4]
-    },
-    {
-        "id": 10,
-        "nome": "Brownie de Chocolate",
-        "preco": 16.00,
-        "avaliacoes": [5, 5, 5, 5, 4]
-    }
-]
 nome = str(input('Digite seu nome: '))
 produto = []
 quebrarCodigo1 = 0
@@ -135,12 +72,12 @@ while quebrarCodigo1 == 0:
     print('[2] Adicionar item ao pedido')
     print('[3] Finalizar pedido')
     print('[4] Sair do sistema')
-    resposta1 = int(input('Escolha uma opção: '))
+    resposta1 = input('Escolha uma opção: ')
 
 
 
 
-    if resposta1 == 1:
+    if resposta1 == '1':
         print('------=------=------< Cardapio >------=------=------')
         print('      =------     Veja os produtos     ------=')
         print('------=------=------=----------=------=------=------')
@@ -158,7 +95,7 @@ while quebrarCodigo1 == 0:
 
 
 
-    elif resposta1 == 2:
+    elif resposta1 == '2':
         print('------=------=------< Carrinho >------=------=------')
         print('      =------    Escolha o produto     ------=')
         produto.clear()
@@ -202,7 +139,7 @@ while quebrarCodigo1 == 0:
 
 
 
-    elif resposta1 == 3:
+    elif resposta1 == '3':
         print('------=------=------< Pagamento >------=------=------')
         print('      =------ Hora de pagar pelo pedido ------=')
         print('Resumo dos produtos:')
@@ -250,7 +187,7 @@ while quebrarCodigo1 == 0:
             else:
                 print('ERRO! Resposta invalida.')
             print('------=------=------=----------=------=------=------')
-    elif resposta1 == 4:
+    elif resposta1 == '4':
         print(f'------=------=------< Saindo >------=------=------')
         print(f'      =------ Volte sempre {nome}!   ------=')
         quebrarCodigo1 += 1
