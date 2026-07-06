@@ -29,6 +29,10 @@ public class Conta {
         return this.balance;
     }
 
+    public void info() {
+        System.out.format("Account %d, Holder: %s, Balance: %s\n", this.getNumber(), this.getHolder(), this.getBalance());
+    }
+
     public void deposit(double valor) {
         this.balance += valor;
     }
