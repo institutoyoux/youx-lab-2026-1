@@ -1,10 +1,12 @@
 const VALOR_PADRAO=0
 
+
+let valor=0
+
 function add(v){
     valor+=v
 }
 
-let valor=0
 console.log(valor)
 
 add(10)
