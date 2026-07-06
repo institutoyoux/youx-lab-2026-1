@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #780000;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.banner{
+    height:70vh;
+
+    background-image:url('../img/banner.jpg');
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+    padding-left:60px;
+}
+
+.banner-texto{
+    max-width:500px;
+}
+
+.banner h2{
+    font-size:60px;
+}
+
+.banner p{
+    margin:20px 0;
+}
+
+button{
+    padding:12px 30px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.categoria{
+    padding:30px 50px;
+}
+
+.filmes{
+    display:flex;
+    gap:15px;
+    overflow-x:auto;
+}
+
+.filmes img{
+    width:200px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.filmes img:hover{
+    transform:scale(1.08);
+}
+.filmes img:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 20px rgba(255,255,255,.4);
+}
+.banner{
+    background:
+            linear-gradient(
+                    to right,
+                    rgb(142 2 2 / 0.9),
+                    rgba(0,0,0,.2)
+            ),
+            url('banner.jpg');
+}
+body{
+    background-color:#141414;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+.filmes{
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+.filmes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filmes img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* mantém proporção e corta o excesso */
+    border-radius: 8px;
+}
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
