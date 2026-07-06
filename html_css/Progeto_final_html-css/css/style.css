@@ -1,7 +1,7 @@
 /* Geral */
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Roboto";
 }
@@ -57,4 +57,10 @@ body {
 #filmes #filme .informacoes {
     margin: 1rem;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
 }
