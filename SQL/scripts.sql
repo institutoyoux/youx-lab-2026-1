@@ -793,9 +793,63 @@ from pedido pdd
 left outer join cliente cln on pdd.idcliente = cln.idcliente
 group by cln.nome
 
---
+--views
+create view cliente_profissao as
+select 
+	cln.nome as cliente,
+	cln.cpf,
+	prf.nome as profissao
+from cliente cln
+left outer join profissao prf on cln.idprofissao = prf.idprofissao
+select * from cliente_profissao
+select cliente from cliente_profissao where profissao = 'Professor'
 
+--exercicios
+--1 
+create view cliente_dados as 
+select 
+	cln.nome as cliente,
+	prf.nome as profissao,
+	ncn.nome as nacionalidade,
+	cmp.nome as complemento,
+	mnc.nome as municipio,
+	uf.nome as unidade_federacao,
+	brr.nome as bairro,
+	cln.rg,
+	cln.cpf,
+	cln.data_nascimento,
+	case cln.genero
+		when 'M' then 'Masculino'
+		when 'F' then 'Feminimo'
+	end as genero,
+	cln.logradouro,
+	cln.numero_residencia,
+	cln.observacoes
+from cliente cln
+left outer join profissao prf on cln.idprofissao = prf.idprofissao
+left outer join nacionalidade ncn on cln.idnacionalidade = ncn.idnacionalidade
+left outer join complemento cmp on cln.idcomplemento = cmp.idcomplemento
+left outer join municipio mnc on cln.idmunicipio = mnc.idmunicipio
+left outer join uf on mnc.iduf = uf.iduf
+left outer join bairro brr on cln.idbairro = brr.idbairro
+	
+--2
+create view municipio_uf as
+select
+	mnc.nome as municipio,
+	uf.nome as unidade_federacao,
+	uf.sigla
+from municipio mnc
+left outer join uf on mnc.iduf = uf.iduf
 
+--3
+create view produto_fornecedor as
+select
+	prd.nome as produto,
+	prd.valor,
+	frn.nome as fornecedor
+from produto prd
+left outer join fornecedor frn on prd.idfornecedor = frn.idfornecedor
 
 
 
