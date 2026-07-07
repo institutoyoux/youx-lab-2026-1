@@ -68,14 +68,15 @@ relatorio()
 
 
 
-
+        // nome dos personagens 
 const apenasNome = personagens.map(personagem => personagem.nome)
-
 console.log("*****")
 console.log("os nomes dos personagens são: " + apenasNome)
 
 
 
+
+        // personagem com o maior nivel 
 function Altonivel() {
     let nivelAlto = personagens[0]
     for (let i = 0; i < personagens.length; i++) {
@@ -83,18 +84,40 @@ function Altonivel() {
             nivelAlto = personagens[i]
         }
     }
+    return nivelAlto
 }
-("o personagem com o nivel mais alto é " + Altonivel())
+console.log("o personagem com o nivel mais alto é o:", Altonivel())
 
 
 
-//console.log("existem " + personagens.length + " personagem")  -------->>>>>>> "ARRUMAR"
+
+    // contar classe
+function contar(classe){
+    let contador= 0 
+    for (let i = 0; i < personagens.length; i++) {
+        if (personagens[i].classe === classe){
+            contador++ 
+        }
+    }
+    return contador
+}
+console.log(contar("Mago")) 
+console.log(contar("Guerreiro")) 
+console.log(contar("Ladino")) 
+console.log(contar("Curandeira")) 
+console.log(contar("Maga")) 
 
 
 
-///let total = 0 
-//for (let i=0; i< personagens.length; i++){
-//    total += personagens[i].nivel 
-//} 
-//let media = total / personagens.length
-//console.log("a soma media dos niveis é " + media)
+
+
+        // soma media dos niveis
+function somaNiveis(){
+    let total = 0 
+    for (let i=0; i< personagens.length; i++){
+    total += personagens[i].nivel 
+    } 
+    let media = total / personagens.length
+    return media
+}    
+console.log("a soma media dos niveis é " + somaNiveis())
