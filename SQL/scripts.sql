@@ -1,3 +1,4 @@
+youx9876
 create table cliente (
 	idcliente integer not null,
 	nome varchar(50) not null,
@@ -464,26 +465,26 @@ select sum(valor_unitario) from pedido_produto
 
 -- Relacionamento com join
 select cln.nome, prf.nome from cliente as cln left outer join profissao as prf on cln.idprofissao = prf.idprofissao
-select * from cliente
+select * from clie
 --exercícios
 --1
 select 
-	cln.nome as cliente,
+	cln.nome as cliente, 
 	prf.nome as profissao,
 	ncn.nome as nacionalidade,
 	cln.logradouro,
-	cln.numero_residencia, 
+	cln.numero,
 	cmp.nome as complemento,
 	brr.nome as bairro,
 	mnc.nome as municipio,
 	uf.nome as estado,
-	uf.sigla 
+	uf.sigla
 from cliente as cln
 left outer join profissao as prf on cln.idprofissao = prf.idprofissao
-left outer join nacionalidade as ncn  on cln.idnacionalidade = ncn.idnacionalidade
-left outer join complemento as cmp on cln.idcomplemento = cmp.idcomplemento
-left outer join bairro as brr on cln.idbairro = brr.idbairro
-left outer join municipio as mnc on cln.idmunicipio = mnc.idmunicipio
+left outer join nacionalidade ncn on cln.idnacionalidade = ncn.idnacionalidade
+left outer join complemento cmp on cln.idcomplemento = cmp.idcomplemento
+left outer join bairro brr on cln.idbairro = brr.idbairro
+left outer join municipio mnc on cln.idmunicipio = mnc.idmunicipio
 left outer join uf on mnc.iduf = uf.iduf
 
 --2
@@ -492,7 +493,7 @@ select
 	prd.valor,
 	frn.nome as fornecedor
 from produto prd
-left outer join fornecedor as frn on prd.idfornecedor = frn.idfornecedor
+left outer join fornecedor frn on prd.idfornecedor = frn.idfornecedor
 
 --3
 select
@@ -509,22 +510,25 @@ select
 	trn.nome as transportadora,
 	vnd.nome as vendedor
 from pedido pdd
-left outer join cliente cln on pdd.cliente = cln.idcliente
+left outer join cliente cln on pdd.idcliente = cln.idcliente
+left outer join transportadora trn on pdd.idtransportadora = trn.idtransportadora
+left outer join vendedor vnd on pdd.idvendedor = vnd.idvendedor
 
 --5
-select
+select 
 	pdt.nome as produto,
-	pdp.quantidade as quantidade,
+	pdp.quantidade,
 	pdp.valor_unitario
-from pedido_produto pdp
-left outer join produto pdt on pdp.idproduto = pdt.idproduto
+from  pedido_produto pdp
+left outer join  produto pdt on pdp.idproduto = pdt.idproduto
 
 --6
-select
+select 
 	cln.nome,
 	pdd.data_pedido
 from cliente cln
-inner join pedido pdd on pdd.idcliente = cln.idcliente order by cln.nome
+inner join pedido pdd on pdd.idcliente = cln.idcliente
+order by cln.nome
 
 --7
 select
@@ -562,33 +566,171 @@ from pedido pdd
 left outer join vendedor vnd on pdd.idvendedor = vnd.idvendedor group by vnd.nome
 
 
+-- 12
+select
+	trn.nome as transportadora,
+	sum(pdd.valor) as total
+from pedido pdd
+inner join transportadora trn on pdd.idtransportadora = trn.idtransportadora
+group by trn.nome
 
+-- 13
+select
+	cln.nome as cliente,
+	count(pdd.idpedido) as total
+from pedido pdd
+left outer join cliente cln on pdd.idcliente = cln.idcliente
+group by cln.nome
 
+-- 14
+select 
+	pdt.nome as produto,
+	sum(pdp.quantidade) as total
+from pedido_produto pdp
+left outer join produto pdt on pdp.idproduto = pdt.idproduto
+group by pdt.nome
 
+-- 15
+select 
+	pdd.data_pedido,
+	sum(pdp.valor_unitario) as total
+from pedido_produto pdp
+left outer join pedido pdd on pdp.idpedido = pdd.idpedido
+group by pdd.data_pedido
 
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
+-- 16
+select 
+	pdd.data_pedido,
+	sum(pdp.quantidade) as quantidade
+from pedido_produto pdp
+left outer join pedido pdd on pdp.idpedido = pdd.idpedido
+group by pdd.data_pedido
 --cabou
+	
+-- Comandos adicionais
+select * from pedido
+
+select 
+	data_pedido, 
+	extract(day from data_pedido), 
+	extract(month from data_pedido),
+	extract(year from data_pedido)
+from pedido
+	
+select nome, substring(nome from 1 for 5), substring(nome, 2) from cliente
+
+select nome, upper(nome) from cliente
+
+select nome, cpf, coalesce(cpf, 'Não informado') from cliente
+
+select
+	case sigla
+		when 'PR' then 'Paraná'
+		when 'SC' then 'Santa Catarina'
+	else 'Outros'
+	end as uf
+from
+	uf
+
+--exercícicos
+-- 1
+select
+	nome,
+	coalesce(extract(month from data_nascimento), 0)
+from cliente
+
+-- 2
+select
+	nome,
+	case extract(month from data_nascimento)
+		when 1 then 'Janeiro'
+		when 2 then 'Fevereiro'
+		when 3 then 'Março'
+		when 4 then 'Abril'
+		when 5 then 'Maio'
+		when 6 then 'Junho'
+		when 7 then 'Julho'
+		when 8 then 'Agosto'
+		when 9 then 'Setembro'
+		when 10 then 'Outubro'
+		when 11 then 'Novembro'
+		when 12 then 'Dezembro'
+	else 'Não informado'
+	end as mes
+from cliente
+
+-- 3
+select
+	nome,
+	coalesce(extract(year from data_nascimento), 0)
+from cliente
+
+-- 4
+select 
+	nome, 
+	substring(nome from 5 for 10) 
+from municipio
+
+-- 5
+select 
+	nome, 
+	upper(nome) 
+from municipio
+
+-- 6
+select
+	nome,
+	case genero
+		when 'M' then 'Masculino'
+		when 'F' then 'Feminino'
+	end as genero
+from cliente
+
+-- 7
+select
+	nome,
+	valor,
+	case 
+		when valor >= 500 then 'Acima ou igual a 500'
+	else
+		'Abaixo de 500'
+	end as faixa
+from produto
+--cabou 
+
+-- Subconsultas
+-- Selecionar a data do pedido e o valor onde o valor seja maior que a média dos 
+-- valores de todos os pedidos
+select
+	data_pedido,
+	valor
+from pedido
+where valor > (select avg(valor) from pedido)
+
+-- Exemplo com count
+select
+	pdd.data_pedido,
+	pdd.valor,
+	(select sum(quantidade) from pedido_produto pdp where pdp.idpedido = pdd.idpedido) as total
+from pedido pdd
+	
+select * from pedido_produto
+
+-- Exemplo com update
+select * from pedido
+
+update pedido set valor = valor + ((valor * 5) / 100) 
+where valor > (select avg(valor) from pedido)
+
+-- 1. O nome dos clientes que moram na mesma cidade do Manoel. Não deve ser mostrado o Manoel. 
+select
+	nome,
+	idmunicipio
+from cliente
+where idmunicipio = (select idmunicipio from cliente where nome = 'Manoel')
+and idcliente != 1
+	
+select * from cliente
 
 
 
