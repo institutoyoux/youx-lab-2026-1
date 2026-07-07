@@ -722,7 +722,7 @@ select * from pedido
 update pedido set valor = valor + ((valor * 5) / 100) 
 where valor > (select avg(valor) from pedido)
 
--- 1. O nome dos clientes que moram na mesma cidade do Manoel. Não deve ser mostrado o Manoel. 
+-- 1
 select
 	nome,
 	idmunicipio
@@ -732,9 +732,68 @@ and idcliente != 1
 	
 select * from cliente
 
+--2
+select
+	data_pedido,
+	valor
+from pedido
+where valor < (select avg(valor) from pedido)
 
+--3
+select
+	pdd.data_pedido,
+	pdd.valor,
+	cln.nome as cliente,
+	vnd.nome as vendedor,
+	(select sum(quantidade) from pedido_produto pdp where pdp.idpedido = pdd.idpedido)
+from pedido pdd
+left outer join cliente cln on pdd.idcliente = cln.idcliente
+left outer join vendedor vnd on pdd.idvendedor = vnd.idvendedor
+where (select sum(quantidade) from pedido_produto pdp where pdp.idpedido = pdd.idpedido) >= 2
 
+--4
+select
+	nome,
+	idmunicipio
+from cliente
+where idmunicipio = (select idmunicipio from transportadora where idtransportadora = 1)
 
+select * from transportadora
+
+--5
+select
+	nome,
+	idmunicipio
+from cliente
+where idmunicipio in (select distinct(idmunicipio) from transportadora)
+	
+select distinct(idmunicipio) from cliente
+
+--6
+update pedido 
+set valor = valor + ((valor * 5) / 100)
+where (select sum(pdp.valor_unitario) from pedido_produto pdp where pdp.idpedido = pedido.idpedido) > (select avg(valor_unitario) from pedido_produto)
+
+select 
+	pdd.idpedido,
+	(select sum(valor_unitario) from pedido_produto pdp where pdp.idpedido = pdd.idpedido)
+from pedido pdd
+
+--7
+select
+	cln.nome,
+	(select count(idpedido) from pedido pdd where pdd.idcliente = cln.idcliente) as total
+from cliente cln
+
+--8
+select
+	cln.nome as cliente,
+	count(pdd.idpedido) as total
+from pedido pdd
+left outer join cliente cln on pdd.idcliente = cln.idcliente
+group by cln.nome
+
+--
 
 
 
