@@ -40,6 +40,8 @@ const personagens = [{
         11000
 }];
 
+
+
 // rank dos personagens
 function rankPersonagem(personagem) {
     let experiencia = personagem.experiencia
