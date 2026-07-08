@@ -859,21 +859,41 @@ select nome,case genero
            when 'M' then 'Masculino'
 		   else 'Feminino'
 		   end 
-		   from cliente
+		   from cliente;
 
 --7. O nome do produto e o valor. Caso o valor seja maior do que R$ 500,00 mostrar a mensagem “Acima de 500”, caso contrário, mostrar a mensagem “Abaixo de 500”.
 select nome,valor, case when valor >= 500 then 'Acima ou igual a 500 reais'
                   else 'Abaixo de 500 Reais'
 				  end
-				  from produto
+				  from produto;
 
 -- SUBCONSULTAS 
-select data_pedido,valor_total from pedidos where valor_total > (select avg(valor_total) from pedidos) -- Seleciona a data,e os valores APENAS que estao acima da media
+select data_pedido,valor_total from pedidos where valor_total > (select avg(valor_total) from pedidos); -- Seleciona a data,e os valores APENAS que estao acima da media
 
 -- Exemplo com count 
 select pdd.data_pedido,
        pdd.valor_total,
 	   (select sum(quantidade) from pedido_produto pdp where pdp.idpedido = pdd.idpedido)
-	   from pedidos pdd
+	   from pedidos pdd;
 
 -- Exemplo com update 
+select * from pedidos
+
+update pedidos set valor_total = valor_total + ((valor_total * 5)/ 100)
+where valor_total >  (select avg(valor_total) from pedidos)
+
+-- EXERCICIOS 
+-- 1. O nome dos clientes que moram na mesma cidade do Manoel. Não deve ser mostrado o Manoel.
+select nome,idmunicipio from cliente where idmunicipio = (select idmunicipio from cliente where nome = 'Manoel') and idcliente <> 1;
+
+--2. A data e o valor dos pedidos que o valor do pedido seja menor que a média de todos os pedidos.
+select pdd.data_pedido,
+       pdd.valor_total
+	   from pedidos pdd where valor_total < (select avg(valor_total) from pedidos);
+
+--3. A data,o valor, o cliente e o vendedor dos pedidos que possuem 2 ou mais produtos.
+ select pdd.data_pedido,pdd.valor_total,cln.nome as cliente,vnd.nome as vendedor,(select sum(quantidade) from pedido_produto pdp where pdp.idpedido = pdd.idpedido) from pedidos pdd left outer join cliente cln on pdd.idcliente = cln.idcliente left outer join vendedor vnd on pdd.idvendedor = vnd.idvendedor;
+
+ --4. O nome dos clientes que moram na mesma cidade da transportadora BSTransportes.
+select * from transportadora
+ select nome,idmunicipio from cliente where idmunicipio = (select idmunicipio from transportadora where nome = 'Bs.Transportes')
