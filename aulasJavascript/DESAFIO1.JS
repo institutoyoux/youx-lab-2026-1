@@ -1,5 +1,3 @@
-
-
 const personagens = [{
     nome: "Aragorn", classe: "Guerreiro", nivel: 12,
     experiencia: 8500
@@ -42,7 +40,7 @@ const personagens = [{
 
 
 
-// rank dos personagens
+    // rank dos personagens
 function rankPersonagem(personagem) {
     let experiencia = personagem.experiencia
     if (experiencia < 5000) {
@@ -54,7 +52,7 @@ function rankPersonagem(personagem) {
     }
 }
 
-//relatorio completo dos personagens
+    //relatorio completo dos personagens
 function relatorio() {
     for (p in personagens) {
         console.log("*******")
@@ -103,13 +101,30 @@ function contar(classe){
     }
     return contador
 }
-console.log(contar("Mago")) 
-console.log(contar("Guerreiro")) 
-console.log(contar("Ladino")) 
-console.log(contar("Curandeira")) 
-console.log(contar("Maga")) 
+console.log("Mago: " + contar("Mago")) 
+console.log("guerreiro: " + contar("Guerreiro")) 
+console.log("ladino: " + contar("Ladino")) 
+console.log("curandeira: " + contar("Curandeira")) 
+console.log("maga: " + contar("Maga")) 
 
 
+
+// criar uma função chamada getAllClasses que recebe como parâmetro uma lista de personagens
+// e retorna uma lista com todas as classes encontradas na lista de personagens
+// obs.: não retornar classe duplicada
+
+function getAllClasses(listaPersonagens){
+    let listaDeClasses = []
+    for (p of listaPersonagens){
+        if (!listaDeClasses.includes(p.classe)){
+            listaDeClasses.push(p.classe)
+        }
+    }
+    return listaDeClasses
+}
+
+const classes = getAllClasses(personagens)
+console.log(classes);
 
 
 
