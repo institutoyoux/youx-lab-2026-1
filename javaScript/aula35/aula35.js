@@ -28,4 +28,4 @@ voltar.addEventListener('click', ()=>{
         el.classList.toggle('selecionado')
         caixa1.appendChild(el)
     })
-})  
+})
