@@ -69,9 +69,9 @@ lista = []
 #=======================================================================================================================
 
 print('\033[031m===' * 25)
-print('\033[034m==========\033[031SSEJA- \033[034mBEM-VINDO A \033[031mLANCHONETE\033[031m============')
+print('\033[034m\033[031SSEJA- \033[034mBEM-VINDO A \033[031mLANCHONETE\033[031m============')
 print('\033[034m===' * 25 )
-nome = str(input("                \033[033mPOR-FAVOR DIGITE SEU NOME POR GENTILIZA A FRENTE POR GENTILIZA -> "))
+nome = str(input("\033[033mPOR-FAVOR DIGITE SEU NOME POR GENTILIZA A FRENTE POR GENTILIZA -> "))
 print("OLA,{} ,ESCOLHA UM ITEM DO CARDAPIO POR GENTILEZA !!! ".format(nome,))
 opcao = ""
 while opcao != 1:
