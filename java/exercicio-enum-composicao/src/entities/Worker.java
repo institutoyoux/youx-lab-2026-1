@@ -41,6 +41,9 @@ public class Worker {
     public void setBaseSalary(Double baseSalary) {
         this.baseSalary = baseSalary;
     }
+    public String getDepartment() {
+        return this.department.getName();
+    }
     public void addContact(HourContract contract) {
         contracts.add(contract);
     }
@@ -58,5 +61,6 @@ public class Worker {
                 sum += contract.totalValue();
             }
         }
+        return sum;
     }
 }
