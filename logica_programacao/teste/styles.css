@@ -1,0 +1,181 @@
+h1 {color: rebeccapurple;}
+
+h2 {color: royalblue}
+
+h3 {color: darkviolet}
+
+h4 {color: midnightblue}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+}
+
+#Sobre-O-Container {
+    flex: 1.4;
+    padding: 2rem 4rem;
+}
+
+#Logo {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#Logo img {
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
+#Exclusivo {
+    text-transform: uppercase;
+    color: #0075ff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+
+
+#Sobre-O-Container h2 {
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+#data {
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+#descricao {
+    max-width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#Sobre-O-Container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#user-constainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.user-card {
+    border: 2px solid #ccc;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+
+.user-card img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.user-card .user-role{
+
+}
+
+#Formulario-Container {
+    width: 40%;
+    background-image: url("./img_de_teste/pattern.png");
+    background-size: cover;
+    color: aliceblue;
+}
+
+#form-inner {
+    margin: 3.0rem;
+    padding: 3.0rem;
+    border: 2.0px solid floralwhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inner h3 {
+    font-size: 2.0rem;
+    margin-bottom: 1.0rem !important;
+}
+
+#form-inner p {
+    margin-bottom: 1.0rem !important;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2.0rem;
+}
+
+#name-contairner {
+    display: flex;
+    gap:0.8rem;
+}
+
+#register-form input {
+    padding: 0.8rem 0.6rem !important;
+    border: none;
+    border-radius: 2.9px !important;
+}
+
+#email {
+    min-width: 20%;
+}
+
+#register-form input[type="submit"] {
+background-color: transparent;
+color: azure;
+border: 2px solid azure;
+font-size: 1.0rem !important;
+font-weight: bold;
+cursor: pointer;
+transition: 0.4s;
+}
+
+#register-form input[type="submit"]:hover {background-color: blanchedalmond;color: black;
+
+}
+
+#benefits {
+    text-align: left;
+    align-self: start;
+}
+
+#benefits h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#benefits ul {
+    list-style-position: inside;
+}
+
+#benefits li {
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
