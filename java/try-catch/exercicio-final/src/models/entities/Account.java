@@ -24,8 +24,10 @@ public class Account {
         balance += valor;
     }
     public void withdraw(Double valor) throws IllegalArgumentException {
-        if (valor > withdrawLimit || valor > balance) {
-            throw new IllegalArgumentException("Erro: valor de saque ultrapassa o saldo atual ou limite");
+        if (valor > withdrawLimit) {
+            throw new IllegalArgumentException("Erro: valor de saque ultrapassa o limite de saque");
+        } else if (valor > balance) {
+            throw new IllegalArgumentException("Erro: o valor de saque é maior que o saldo disponivel!");
         } else {
             balance -= valor;
         }
