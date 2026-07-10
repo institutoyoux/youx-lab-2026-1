@@ -237,15 +237,17 @@ select * from disciplina
 -- Para um dado aluno, retornar todas as disciplinas que esse aluno faz e qual professor ministra cada uma dessas disciplinas
 
 select 
+	usra.nome as aluno,
 	dsc.nome as disciplina,
-	usr.nome as professor
+	usrp.nome as professor
 from aluno as aln
 inner join turma trm on aln.id_turma = trm.id
 inner join rel_disciplina_turma rdt on trm.id = rdt.id_turma
 inner join disciplina dsc on rdt.id_disciplina = dsc.id
 inner join professor prf on dsc.id_professor = prf.id
-inner join usuario usr on prf.id_usuario = usr.id
-where aln.id = 10
+inner join usuario usrp on prf.id_usuario = usrp.id
+inner join usuario usra on aln.id_usuario = usra.id
+where aln.id = 13
 order by dsc.nome asc
 
 
