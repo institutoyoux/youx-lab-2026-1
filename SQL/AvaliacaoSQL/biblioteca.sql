@@ -303,24 +303,64 @@ left outer join aluno aln on emp.idaluno = aln.idaluno
 group by aln.nome
 having sum(emp.valor) > 12
 
+--44
+select
+	upper(nome)
+from anulo
+order by nome desc
 
+--45
+select * 
+from emprestimo
+where extract(year from data_emprestimo) = 2012 
+and extract(month from data_emprestimo) = 4
 
+--46
+select *,
+	case devolvido
+		when 'S' then 'Devolução completa'
+		when 'N' then 'Em atraso'
+	end as status
+from emprestimo
 
+--47
+select
+	substring (nome from 5 for 10)
+from autor
 
+--48
+select 
+	valor,
+	case extract(month from data_emprestimo)
+		when 1 then 'Janeiro'
+		when 2 then 'Fevereiro'
+		when 3 then 'Março'
+		when 4 then 'Abril'
+		when 5 then 'Maio'
+	end as mes
+from emprestimo
 
+--49
+select
+	data_emprestimo,
+	valor
+from emprestimo
+where valor > (select avg(valor) from emprestimo)
 
+--50
+select
+	emp.data_emprestimo,
+	emp.valor,
+	(select count(elv.idemprestimo) from emprestimo_livro elv where elv.idemprestimo = emp.idemprestimo)
+from emprestimo emp
+where (select count(elv.idemprestimo) 
+	 from emprestimo_livro elv 
+	 where elv.idemprestimo = emp.idemprestimo) > 1
+select * from emprestimo_livro
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--51
+select
+	data_emprestimo,
+	valor
+from emprestimo
+where valor < (select sum(valor) from emprestimo)
