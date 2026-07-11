@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Personagem[] personagens = new Personagem[2];
-        personagens[0] = new Personagem("Alfredo", "Guerreiro", 1, 2000);
-        personagens[1] = new Personagem("Teste", "Guerreiro", 1, 20);
+        Personagem[] personagens = new Personagem[1];
+        personagens[0] = new Personagem("Personagem", "Guerreiro", 1, 2000);
         relatorio(personagens);
         nomes(personagens);
         maiorNivel(personagens);
@@ -14,9 +13,9 @@ public class Main {
         String rank = "";
         if (personagem.experiencia < 5000) {
             rank = "iniciante";
-        } else if (personagem.experiencia >= 5000 && personagem.experiencia < 15000) {
+        } else if (personagem.experiencia < 15000) {
             rank = "Veterano";
-        } else if (personagem.experiencia >= 15000) {
+        } else {
             rank = "Lendário";
         }
         return rank;
@@ -70,8 +69,7 @@ public class Main {
         }
         for (Classe classe : classes) {
             if (classe != null) {
-                System.out.println("Classe: " + classe.nome +
-                        " | Quantidade: " + classe.quantidade);
+                System.out.println("Classe: " + classe.nome + " | Quantidade: " + classe.quantidade);
             }
         }
     }

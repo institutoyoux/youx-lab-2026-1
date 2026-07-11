@@ -15,7 +15,7 @@ experiencia: 4500 }, { nome: "Arwen", classe: "Curandeira", nivel: 14, experienc
 
 
 
-function experiencia(exp) {
+function experiencia(exp) { 
     if (exp < 5000) {
         return 'Iniciante'
     } else if (exp < 15000) {
@@ -35,6 +35,12 @@ Experiencia: ${rank}
 `
     )
 }
+
+for (p of personagens){
+    relatorio(p)
+}
+
+
 const nomes = personagens.map((personagem) => personagem.nome)
 const maiorNivel = (personagens) => {
     let maior = false
@@ -64,6 +70,7 @@ let niveis = 0;
 personagens.forEach((personagem) => {
     niveis += personagem.nivel
 })
+
 
 const adicionarPersonagem = (nome, cl, ni, exp) => {
     const newp = {nome: nome, classe: cl, nivel: ni, experiencia: exp}

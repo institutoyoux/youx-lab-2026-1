@@ -1,0 +1,37 @@
+select * from aluno;
+
+select 
+	us.nome as aluno
+from 
+	aluno as al
+left join
+	usuario as us on al.id = us.id
+
+
+select 
+	dic.nome as materia,
+	us.nome as professor
+from aluno as al
+left join
+turma as tu on al.id = tu.id
+left join 
+	rel_disciplina_turma as rel on rel.id_turma = tu.id
+left join 
+	Disciplina as dic on dic.id = rel.id_disciplina
+left join
+	professor as pr on dic.id_professor = pr.id
+left join
+	usuario as us on pr.id_usuario = us.id
+where al.id = 67
+
+select * from aluno where id = 67
+select * from turma where id = 3
+select * from rel_disciplina_turma where id_turma = 3
+select * from disciplina where id = 1
+
+select
+	dic.nome
+from aluno as al
+left join
+	
+where al.id = 67

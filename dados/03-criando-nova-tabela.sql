@@ -17,9 +17,9 @@ insert into profissao (idprofissao, nome) values (5, 'Professor');
 create table nacionalidade (
 	id int not null primary key,
 	nome varchar(30) not null unique
- )
+ );
 
-select * from nacionalidade
+select * from nacionalidade;
 insert into nacionalidade (id, nome) values (1, 'Brasileira');
 insert into nacionalidade (id, nome) values (2, 'Italiana');
 insert into nacionalidade (id, nome) values (3, 'Norte-americana');
