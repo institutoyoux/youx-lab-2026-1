@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222;
+}
+
+.container{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+}
+
+img:hover{
+    content: url("https://www.w3schools.com/js/pic_bulbon.gif");
+}
