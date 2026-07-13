@@ -57,24 +57,43 @@ Bônus 2: Criar uma função buscarPorClasse(classe).
 Bônus 3: Criar uma função ganharExperiencia(nome, quantidade) que atualize a experiência de um
 personagem e exiba seu   */
 
-function rankin(listaPersonagens) {
+function addRankToList(listaPersonagens) {
     for (p of listaPersonagens) {
         if (p.experiencia < 5000) {
-            console.log("Nome: " + p.nome + " // Nível de experiência: Iniciante")
-        } else if (p.experiencia >= 5000 && p.experiencia < 15000) {
-            console.log("Nome: " + p.nome + " // Nível de experiência: Veterano")
+            p["rank"] = "Iniciante"
+        } else if (p.experiencia < 15000) {
+            p["rank"] = "Veterano"
         } else {
-            console.log("Nome: " + p.nome + " // Nível de experiência: Lendário")
+            p["rank"] = "Lendario"
         }
+    }
+    return listaPersonagens
+}
+
+function getRanking(personagem) {
+    if (personagem.experiencia < 5000) {
+        return "Iniciante"
+    } else if (personagem.experiencia < 15000) {
+        return "Veterano"
+    } else {
+        return "Lendario"
     }
 }
 
-const ranking = rankin(personagens)
+
+console.log(addRankToList(personagens));
+
+const ranking = addRankToList(personagens)
 console.log(ranking)
 
-for (dados of personagens) {
-    console.log('Nome: ' + dados.nome + ' Classe: ' + dados.classe + ' Nivel: ' + dados.nivel + ' Experiencia: ' + dados.experiencia)
+function relatorioPersonaagens(listadePersonagens) {
+    for (dados of listadePersonagens) {
+        console.log('Nome: ' + dados.nome + ' Classe: ' + dados.classe + ' Nivel: ' + dados.nivel + ' Experiencia: ' + dados.experiencia +  " ranking: " + getRanking(dados))
+    }
 }
+
+relatorioPersonaagens(personagens)
+
 
 let listaNomes = personagens.map((dados) => {
     return dados.nome
@@ -93,7 +112,7 @@ for (let i = 1; i < personagens.length; i++){
 }
 console.log("O personagem de maior nível é " + nomeMaiorNivel + " com nível igual a " + maiorNivel);
 
-const contagemClasses = {}
+/* const contagemClasses = {}
 for ( let i = 0; i < personagens.length; i++){
     const classe = personagens[i].classe
     contagemClasses[classe]=(contagemClasses[classe] || 0) + 1
@@ -101,7 +120,23 @@ for ( let i = 0; i < personagens.length; i++){
 console.log("A contagem de classes é: ");
 for (classe in contagemClasses){
     console.log(`${classe}: ${contagemClasses[classe]}`);
+} */
+
+function contarPersonagensporClasse(listadePersonagens){
+    const contagem={}
+    for(p of listadePersonagens){
+        if(p.classe in contagem){
+            contagem[p.classe]++
+        }
+        else {
+            contagem[p.classe] = 1
+        }
+    }
+    return contagem
 }
+
+let contagemDeClasses = contarPersonagensporClasse(personagens)
+console.log(contagemDeClasses);
 
 
 let valor = 0
