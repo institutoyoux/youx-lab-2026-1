@@ -255,7 +255,7 @@ where aln.id = 15;
 
 
 -- Codigo com Inner join
-
+EXPLAIN ANALYZE
 select
 	dsp.nome as disciplina,
 	usr.nome as professor
@@ -271,12 +271,12 @@ inner join
 	professor prof on dsp.id_professor = prof.id
 inner join
 	usuario usr on usr.id = prof.id_usuario
-where aln.id = 15;
+where aln.id = 68;
 
 
 
 -- Codigo reduzido
-
+EXPLAIN ANALYZE
 select
 	dsp.nome as disciplina,
 	usr.nome as professor
@@ -290,4 +290,4 @@ inner join
 	professor prof on dsp.id_professor = prof.id
 inner join
 	usuario usr on usr.id = prof.id_usuario
-where aln.id = 15;
+where aln.id = 68;
