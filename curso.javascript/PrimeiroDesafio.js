@@ -18,7 +18,7 @@ const personagens = [
 
 const lista1 = [1,2,3,4,5,6,6]
 
-contagemDeClasses = {
+contagem = {
     "Guerreiro": 2,
     "Mago": 1,
     "Arqueiro": 1
@@ -92,15 +92,21 @@ console.log(`O maior nível é de ${nomeMaiorNivel}: ${maiorNivel}xp`);
 
 
 //  5. Contar quantos personagens existem em cada classe.
+function contagemDeClasses(lista){
+    const contagem = {}
+    for (p of lista){
+        if (p.classe in contagem){
+            contagem[p.classe]++
+        }
+        else {
+            contagem[p.classe] = 1
+        }
+    }
+    return contagem
+}
 
-
-
-
-
-
-
-
-
+const contagemPersonagensClasse = contagemDeClasses(personagens)
+console.log(contagemPersonagensClasse)
 
 
 // 6. Calcular a média dos níveis do grupo.
@@ -117,3 +123,18 @@ function media(lista) {
 
 const mediaNiveis = media(personagens)
 console.log(`A media dos niveis é ${mediaNiveis}`);
+
+
+//  Bônus 1 : Implementar uma função adicionar Personagem(nome, classe, nivel, experiencia).
+
+
+
+
+
+// Bônus 2: Criar uma função buscarPorClasse(classe). 
+
+
+
+
+
+// Bônus 3: Criar uma função ganharExperiencia(nome, quantidade) que atualize a experiência de um personagem e exiba seu novo rank.
