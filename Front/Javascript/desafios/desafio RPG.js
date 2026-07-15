@@ -2,8 +2,6 @@ console.log(".........................")
 console.log(" DESAFIO RPG YOU X LAB ")
 console.log(".........................")
 
-
-
 const personagens = [
     { nome: "Aragorn", classe: "Guerreiro", nivel: 12, experiencia: 8500 },
     { nome: "Gandalf", classe: "Mago", nivel: 20, experiencia: 20000 },
@@ -31,7 +29,7 @@ function Rank(experiencia) {
          return "Lendário";
     }
 }
-console.log("=========RELATORIO=========");
+console.log("=======PERSONAGMENS=======");
 
 for(let personagem of personagens) {
     console.log("Nome:" + personagem.nome);
@@ -47,4 +45,5 @@ const nomes = personagens.map(function(personagem){
 
 console.log(nomes);
 
-let nivel = personagens.map
+let nivelsDosPersonagems
+
