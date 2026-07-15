@@ -34,4 +34,6 @@ void main() {
     System.out.printf("Alcool: %d %n", alcool);
     System.out.printf("Gasolina: %d %n", gasolina);
     System.out.printf("Diesel: %d %n", diesel);
+
+    sc.close();
 }
