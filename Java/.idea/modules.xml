@@ -13,7 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/44-Exercicios-estrutura-condicional/44-Exercicios.iml" filepath="$PROJECT_DIR$/44-Exercicios-estrutura-condicional/44-Exercicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/45-sintaxe-opcional-operadores-de-atribuicao-cumulativa/45-sintaxe-opcional-operadores-de-atribuicao-cumulativa.iml" filepath="$PROJECT_DIR$/45-sintaxe-opcional-operadores-de-atribuicao-cumulativa/45-sintaxe-opcional-operadores-de-atribuicao-cumulativa.iml" />
       <module fileurl="file://$PROJECT_DIR$/46-Sintaxe-opcional_estrutura_switch-case/46-Sintaxe-opcional_estrutura_switch-case.iml" filepath="$PROJECT_DIR$/46-Sintaxe-opcional_estrutura_switch-case/46-Sintaxe-opcional_estrutura_switch-case.iml" />
-      <module fileurl="file://$PROJECT_DIR$/47-expresao_condicional_ternaria/47-expresao_condicional_ternaria.iml" filepath="$PROJECT_DIR$/47-expresao_condicional_ternaria/47-expresao_condicional_ternaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/47-expresao_condicional_ternaria/47-expressao_condicional_ternaria.iml" filepath="$PROJECT_DIR$/47-expresao_condicional_ternaria/47-expressao_condicional_ternaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/48-escopo_e_inicializacao/48-escopo_e_inicializacao.iml" filepath="$PROJECT_DIR$/48-escopo_e_inicializacao/48-escopo_e_inicializacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/25-sintaxe_simplificada/sintaxe_simplificada.iml" filepath="$PROJECT_DIR$/25-sintaxe_simplificada/sintaxe_simplificada.iml" />
     </modules>
