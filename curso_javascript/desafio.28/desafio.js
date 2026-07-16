@@ -146,5 +146,4 @@ for(personagem of personagens){
     quantidade++
 }
 let media = valor / quantidade
-console.log('A media dos niveis dos personagens é: ');
-console.log(media) 
+console.log('A media dos niveis dos personagens é: ' + media);
