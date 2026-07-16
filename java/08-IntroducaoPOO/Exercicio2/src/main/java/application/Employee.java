@@ -6,6 +6,7 @@ public class Employee {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+        Employee employee = new Employee();
 
         System.out.println("Name: ");
         String name = sc.nextLine();
@@ -14,5 +15,6 @@ public class Employee {
         System.out.println("Tax: ");
         double tax = sc.nextDouble();
 
+        
     }
 }
