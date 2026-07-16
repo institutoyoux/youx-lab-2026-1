@@ -7,6 +7,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Aulas/Aula1/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Aulas/Aula7/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Pycharm/Aulas/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Pycharm/Aulas/Aula1/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Pycharm/Aulas/Aula7/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Pycharm/Desafios/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (youx-lab-2026-1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
