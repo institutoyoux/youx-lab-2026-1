@@ -1,0 +1,159 @@
+:root {
+    --border: rgba(0,0,0,0.3);
+    --destaque: rgb(100, 100, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+header {
+    max-width: 400px;
+    width: 92%;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+header .bx {
+    font-size: 1.5rem;
+    aspect-ratio: 1;
+    padding: 0.5rem;
+}
+
+.tarefas {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tarefa {
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.tarefa div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+.tarefa div span {
+    font-weight: 500;
+}
+.tarefa div p {
+    margin: 0;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.tarefa .status {
+    border-radius: 100%;
+    aspect-ratio: 1;
+    border: none;
+    background-color: var(--border);
+}
+.tarefa .act {
+    padding: 0.4rem;
+    margin: 0 0.1rem;
+    cursor: pointer;
+}
+
+.check {
+    aspect-ratio: 1;
+    display: flex;
+    padding: 0.2rem;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: transparent;
+    max-width: 20px;
+    max-height: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid var(--border);
+}
+.sucess {
+    border: 1px solid green;
+    color: green;
+    cursor: default;
+}
+.add {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: fixed;
+    z-index: 99;
+    margin: 0 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: rgba(255,255,255,0.15);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(2px);
+    padding: 0.5rem 1rem;
+}
+.add label {
+    margin: 0.5rem 0;
+}
+.add div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.add div span {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    border-radius: 100rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.status span[select] {
+    opacity: 1;
+    border: 1px solid var(--destaque);
+    background-color: var(--destaque);
+    color: #fff;
+}
+.add .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & h1 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    & i {
+        font-size: 1.2rem;
+    }
+}
+.add input, .add select {
+    font-size: 1.05rem;
+    outline: none;
+    padding: 0.3rem;
+}
+
+.submit {
+    margin: 1rem 0;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: var(--destaque);
+    color: #fff;
+    font-weight: bold;
+}
