@@ -64,8 +64,6 @@ console.log(nomes)
 separadora()
 
 
-let maiorNivel = personagens[0];
-
 // Iniciante se experiência < 5000
 // Veterano se experiência >= 5000 e < 15000
 // Lendário se experiência >= 15000
@@ -96,6 +94,7 @@ rank(personagens)
 console.log('   '.repeat(40));
 
 //Pegando o personaguem com o maior nivel
+let maiorNivel = personagens[0];
 
 for (personagem of personagens) {
     if (personagem.nivel > maiorNivel.nivel) {
