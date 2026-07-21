@@ -1,6 +1,6 @@
 const caixa1=document.querySelector("#caixa1")
 const caixa2=document.querySelector("#caixa2")
-const btn=document.querySelector("#btn-copiar")
+const btn=document.querySelector("#btn-trasnferir")
 const todosCursos=[...document.querySelectorAll(".curso")]
 
 todosCursos.map((el)=>{
