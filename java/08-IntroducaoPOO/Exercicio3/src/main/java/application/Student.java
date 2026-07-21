@@ -25,6 +25,5 @@ public class Student {
             System.out.println("SITUAÇÃO: " + situacao);
             System.out.printf("REPROVADO FALTANDO " + (60 - boletim) + "PTS");
         }
-
     }
 }
