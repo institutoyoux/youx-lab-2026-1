@@ -1,6 +1,8 @@
 package com.startjava.spring.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import org.aspectj.weaver.ast.Or;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -22,6 +24,12 @@ public class Product implements Serializable {
     @ManyToMany
     @JoinTable(name = "tb_product_category", joinColumns = @JoinColumn(name = "product_id"), inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<Category> categories = new HashSet<>();
+
+
+    @OneToMany(mappedBy = "id.product")
+    private Set<OrderItem> items = new HashSet<>();
+
+
     public Product() {}
 
     public Product(Long id, String name, String description, Double price, String imgUrl) {
@@ -75,7 +83,14 @@ public class Product implements Serializable {
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
     }
-
+    @JsonIgnore
+    public Set<Order> getOrders() {
+        Set<Order> set = new HashSet<>();
+        for (OrderItem item : items) {
+            set.add(item.getOrder());
+        }
+        return set;
+    }
     @Override
     public boolean equals(Object object) {
         if (object == null || getClass() != object.getClass()) return false;
