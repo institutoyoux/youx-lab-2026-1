@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" filepath="$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/31-Saida_de_dados/31-Saida_de_dados.iml" filepath="$PROJECT_DIR$/.idea/31-Saida_de_dados/31-Saida_de_dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" filepath="$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/32-Processamento-de-dados-Casting/32-Processamento-de-dados-Casting.iml" filepath="$PROJECT_DIR$/32-Processamento-de-dados-Casting/32-Processamento-de-dados-Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/33-Entrada-de-dados/33-Entrada-de-dados.iml" filepath="$PROJECT_DIR$/33-Entrada-de-dados/33-Entrada-de-dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/34-Entrada-de-dados-parte-2/34-Entrada-de-dados-parte-2.iml" filepath="$PROJECT_DIR$/34-Entrada-de-dados-parte-2/34-Entrada-de-dados-parte-2.iml" />
@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/75-object_e_toString/75-object_e_toString.iml" filepath="$PROJECT_DIR$/75-object_e_toString/75-object_e_toString.iml" />
       <module fileurl="file://$PROJECT_DIR$/76-finalizando_o_programa/76-finalizando_o_programa.iml" filepath="$PROJECT_DIR$/76-finalizando_o_programa/76-finalizando_o_programa.iml" />
       <module fileurl="file://$PROJECT_DIR$/77-exercicios_de_fixacao/77-exercicios_de_fixacao.iml" filepath="$PROJECT_DIR$/77-exercicios_de_fixacao/77-exercicios_de_fixacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/78-membros_estaticos-parte_1/78-membros_estaticos-parte_1.iml" filepath="$PROJECT_DIR$/78-membros_estaticos-parte_1/78-membros_estaticos-parte_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-1/exercicio-1.iml" filepath="$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-1/exercicio-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-2/exercicio-2.iml" filepath="$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-2/exercicio-2.iml" />
