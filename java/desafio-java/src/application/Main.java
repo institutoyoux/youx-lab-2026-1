@@ -37,7 +37,7 @@ public class Main {
         List<Produto> produtos = Arrays.asList(p1, p2,p3,p4,p5,p6);
 
         Pedido pe1 = new Pedido(0, produtos, c1, e1.getId(), StatusPedido.ATRASADO);
-        Pedido pe2 = new Pedido(1, produtos, c1, e1.getId(), StatusPedido.AGUARDANDO_ENVIO);
+        Pedido pe2 = new Pedido(1, produtos, c2, e1.getId(), StatusPedido.AGUARDANDO_ENVIO);
         List<Pedido> pedidos = Arrays.asList(pe1, pe2);
 
         Scanner input = new Scanner(System.in);
