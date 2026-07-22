@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="formulario">
+        <form action="#">
+            <h1 class="title">Cadastre-se</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu Email" required>
+            <label for="senha">Senha:</label>
+
+            <div class="senha">
+                <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                <div class="eye" id="dsenha">
+                    <i class='bx bx-show' onclick="view()"></i>
+                </div>
+            </div>
+            <a href="pag/">Entrar</a>
+        </form>
+    </section>
+    <script>
+        function view() {
+            not_view = document.getElementById("dsenha")
+            input = document.getElementById("senha")
+            if (input.type === "password") {
+                input.type = "text"
+                not_view.innerHTML = `<i class='bx bx-hide' onclick="view()"></i>`
+
+            }
+            else {
+                not_view.innerHTML = `<i class='bx bx-show' onclick="view()"></i>`
+                input.type = "password"
+
+            }
+
+    }
+    </script>
+</body>
+
+</html>
