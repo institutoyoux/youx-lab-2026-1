@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" filepath="$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Secao-3/24-Primeiro_programa1/24-Primeiro_programa1.iml" filepath="$PROJECT_DIR$/Secao-3/24-Primeiro_programa1/24-Primeiro_programa1.iml" />
       <module fileurl="file://$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" filepath="$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/32-Processamento-de-dados-Casting/32-Processamento-de-dados-Casting.iml" filepath="$PROJECT_DIR$/32-Processamento-de-dados-Casting/32-Processamento-de-dados-Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/33-Entrada-de-dados/33-Entrada-de-dados.iml" filepath="$PROJECT_DIR$/33-Entrada-de-dados/33-Entrada-de-dados.iml" />
@@ -38,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/86-encapsulamento/86-encapsulamento.iml" filepath="$PROJECT_DIR$/86-encapsulamento/86-encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/88-modificadores_de_acesso/88-modificadores_de_acesso.iml" filepath="$PROJECT_DIR$/88-modificadores_de_acesso/88-modificadores_de_acesso.iml" />
       <module fileurl="file://$PROJECT_DIR$/89-exercicio_de_fixacao/89-exercicio_de_fixacao.iml" filepath="$PROJECT_DIR$/89-exercicio_de_fixacao/89-exercicio_de_fixacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/96-Vvetores_parte-1/96-Vvetores_parte-1.iml" filepath="$PROJECT_DIR$/96-Vvetores_parte-1/96-Vvetores_parte-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-1/exercicio-1.iml" filepath="$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-1/exercicio-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-2/exercicio-2.iml" filepath="$PROJECT_DIR$/77-exercicios_de_fixacao/exercicio-2/exercicio-2.iml" />

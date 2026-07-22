@@ -37,9 +37,4 @@ public class Banco {
     public String getNome() {
         return nome;
     }
-
-    public void setNumeroConta(int numero) {
-        this.numeroConta = numero;
-    }
-
 }
