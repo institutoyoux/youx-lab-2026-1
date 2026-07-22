@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    max-width: 75%;
+}
+
+form{
+    display: flex;
+    border-style: groove;
+    height: 200px;
+    width: 90%;
+    align-items: flex-start
+}
+thead{
+    display: flex;
+    border-style: groove;
+    align-items: center;
+    align-items: flex-start
+   
+    
+}
+
+.button-btnCadastrarTarefa{
+    display: flex;
+    justify-content: flex-end;
+}
+

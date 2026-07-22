@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DESAFIO2.css">
+    <title>Desafio</title>
+</head>
+
+<body>
+    <div class="containerFormulario">
+        <form>
+            <label for="nomeDaTarefa">
+                Nome da Tarefa
+            </label>
+            <input id="nomeDaTarefa" type="text">
+            <label for="tipo">
+                Tipo
+            </label>
+            <select name="selectTipoTarefa" id="tipo">
+                <option>
+                    Selecione...
+                </option>
+                <option>
+                    Estudos
+                </option>
+                <option>
+                    Casa
+                </option>
+                <option>
+                    Trabalho
+                </option>"pessoal"
+            </select>
+            <label for="dataDeCadastro">
+                Data De Cadastro
+            </label>
+            <input type="date" id="dataDeCadastro">
+            <label for="dataParaTermino">
+                Data Para Termino
+            </label>
+            <input type="date" id="dataDeTermino">
+            <label for="status">
+                Status
+            </label>
+            <select name="" id="status">
+                <option>Selecione...</option>
+                <option>Não Iniciado</option>
+                <option>Em Andamento</option>
+                <option>Concluido</option>
+            </select>
+        </form>
+        <button id="btnCadastrarTarefa"> Cadastrar Tarefa</button>
+    </div>
+    <div class="containerTabela">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Tipo</th>
+                    <th>Cadastro</th>
+                    <th>Término</th>
+                    <th>Status</th>
+                    <th>Prazo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+                <!-- <tr>
+                    <td>asdfa</td>
+                    <td>asdf</td>
+                    <td>efaes</td>
+                    <td> caas</td>
+                    <td>tgsf</td>
+                    <td>fghjgfj</td>
+                    <td>hyjyhfvjn</td>
+                </tr> -->
+            </tbody>
+        </table>
+
+    </div>
+    <script src="DESAFIO2.js"></script>
+</body>
+
+</html>
