@@ -35,7 +35,7 @@ btnCadastrar.addEventListener('click', () => {
         alert('Data inválida')
         return
     }
-    if(form.status.value == 'SELECIONE...' || form.tipo.value == 'SELECIONE...'){
+    if (form.status.value == 'SELECIONE...' || form.tipo.value == 'SELECIONE...') {
         alert('Digite as informações')
         return
     }
@@ -145,11 +145,11 @@ btnCadastrar.addEventListener('click', () => {
                 // linhaAntiga.replaceWith(novaLinha)
                 novaLinha.remove()
 
+                
             }
-            btnCadastrar.innerText = '+ Cadastrar Tarefa'
         })
     })
     tabela.appendChild(novaLinha)
     limparInput()
-
+    btnCadastrar.innerText= '+ Cadastrar Tarefa'
 })
