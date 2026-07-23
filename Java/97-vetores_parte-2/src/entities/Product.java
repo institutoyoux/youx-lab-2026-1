@@ -10,9 +10,9 @@ public class Product {
         this.price = price;
     }
 
-   /* public String getName() {
+    public String getName() {
         this.name = name;
-    }*/
+    }
 
     public void setName(String name) {
         this.name = name;
