@@ -25,4 +25,5 @@ public class Dados {
     public char getGenero() {
         return genero;
     }
+
 }

@@ -57,7 +57,7 @@ public class Program {
         double media = alturaMulheres / soma;
 
         System.out.printf("Menor altura: %.2f%n", menor);
-        System.out.printf("Mairo altura: %.2f%n", maior);
+        System.out.printf("Maior altura: %.2f%n", maior);
         System.out.printf("Media de altura das mulheres: %.2f%n", media);
         System.out.printf("Numero de homens = %d%n", homens);
 
