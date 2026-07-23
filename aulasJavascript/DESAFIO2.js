@@ -18,7 +18,14 @@ function limparInputs() {
 }
 
 btnCadastrarTarefa.addEventListener("click", (evt) => {      // criou um evento pro botão, quando ele ser clicado, aparecerá todos os valores que foi declarado                                                          //     
-    
+
+    const nome = document.getElementById("nomeDaTarefa").value
+    const tipo = document.getElementById("tipo").value
+    // if (nome === "" || tipo === "Selecione..." | dataDeCadastro === "" | dataParaTermino === "" | statusTarefa === "Selecione..." ){
+    //     alert ("preencha todos os campos para conseguir cadastrar ")
+    //     return
+    // }
+
     const dataAtual = new Date()
     const dataTermino = new Date(dataParaTermino.value)
 
@@ -50,9 +57,12 @@ btnCadastrarTarefa.addEventListener("click", (evt) => {      // criou um evento 
     let acoes = document.createElement("td")  //criei um td 
 
     let btnEditar = document.createElement("button") // criei um elemento botao
+    btnEditar.setAttribute("class", "btn-editar")
     btnEditar.textContent = "Editar" // usei o textContent pra dar o nome ao botao 
 
     let btnExcluir = document.createElement("button")
+    btnExcluir.setAttribute("class", "btn-deletar")
+
     btnExcluir.textContent = "Excluir"
 
 
@@ -69,7 +79,7 @@ btnCadastrarTarefa.addEventListener("click", (evt) => {      // criou um evento 
 
         linha.remove()
 
-        
+
     })
 
 

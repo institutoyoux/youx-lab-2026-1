@@ -1,83 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="DESAFIO2.css">
-    <title>Desafio</title>
+    <title>Gerenciador de Tarefas</title>
 </head>
 
 <body>
-    <div class="containerFormulario">
-        <form>
-            <label for="nomeDaTarefa">
-                Nome da Tarefa
-            </label>
-            <input id="nomeDaTarefa" type="text">
-            <label for="tipo">
-                Tipo
-            </label>
-            <select name="selectTipoTarefa" id="tipo">
-                <option>
-                    Selecione...
-                </option>
-                <option>
-                    Estudos
-                </option>
-                <option>
-                    Casa
-                </option>
-                <option>
-                    Trabalho
-                </option>"pessoal"
-            </select>
-            <label for="dataDeCadastro">
-                Data De Cadastro
-            </label>
-            <input type="date" id="dataDeCadastro">
-            <label for="dataParaTermino">
-                Data Para Termino
-            </label>
-            <input type="date" id="dataDeTermino">
-            <label for="status">
-                Status
-            </label>
-            <select name="" id="status">
-                <option>Selecione...</option>
-                <option>Não Iniciado</option>
-                <option>Em Andamento</option>
-                <option>Concluido</option>
-            </select>
-        </form>
-        <button id="btnCadastrarTarefa"> Cadastrar Tarefa</button>
-    </div>
-    <div class="containerTabela">
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Tarefa</th>
-                    <th>Tipo</th>
-                    <th>Cadastro</th>
-                    <th>Término</th>
-                    <th>Status</th>
-                    <th>Prazo</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody id="corpoTabela">
-                <!-- <tr>
-                    <td>asdfa</td>
-                    <td>asdf</td>
-                    <td>efaes</td>
-                    <td> caas</td>
-                    <td>tgsf</td>
-                    <td>fghjgfj</td>
-                    <td>hyjyhfvjn</td>
-                </tr> -->
-            </tbody>
-        </table>
+    <div class="caixa1">
+        <div class="titulo">
+            <h1>Gerenciador de Tarefas Web</h1>
+        </div>
 
+        <div class="containerFormulario">
+            <h2>Nova Tarefa</h2>
+            <form class="inputs">
+                <!-- Campo Nome da Tarefa ocupa 2 colunas -->
+                <div class="campo campo-largura-dupla">
+                    <label for="nomeDaTarefa">NOME DA TAREFA</label>
+                    <input id="nomeDaTarefa" type="text" placeholder="Exercícios de Manipulação de DOM">
+                </div>
+
+                <div class="campo">
+                    <label for="tipo">TIPO</label>
+                    <select name="selectTipoTarefa" id="tipo">
+                        <option>Selecione...</option>
+                        <option>Estudos</option>
+                        <option>Casa</option>
+                        <option>Trabalho</option>
+                        <option>Pessoal</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="dataDeCadastro">DATA DE CADASTRO</label>
+                    <input type="date" id="dataDeCadastro">
+                </div>
+
+                <div class="campo">
+                    <label for="dataParaTermino">DATA PARA TÉRMINO</label>
+                    <input type="date" id="dataDeTermino">
+                </div>
+
+                <div class="campo">
+                    <label for="status">STATUS</label>
+                    <select name="status" id="status">
+                        <option>Selecione...</option>
+                        <option>Não iniciado</option>
+                        <option>Em Andamento</option>
+                        <option>Concluído</option>
+                    </select>
+                </div>
+
+                <div class="campo-botao">
+                    <button id="btnCadastrarTarefa" type="button">+ Cadastrar Tarefa</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="containerTabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Tipo</th>
+                        <th>Término</th>
+                        <th>Status</th>
+                        <th>Prazo</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela"></tbody>
+            </table>
+        </div>
     </div>
     <script src="DESAFIO2.js"></script>
 </body>
