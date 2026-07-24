@@ -16,7 +16,7 @@ public class Application {
 
 
         builder.bannerMode(Banner.Mode.OFF);
-        ConfigurableApplicationContext applicationContext = builder.context();
+        ConfigurableApplicationContext applicationContext = builder.run(args);
        // var produtoRepository = applicationContext.getBean("produtoRepository");
 
         builder.profiles("producao");
