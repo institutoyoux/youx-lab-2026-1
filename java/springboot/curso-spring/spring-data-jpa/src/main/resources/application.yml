@@ -10,5 +10,6 @@ spring:
     show-sql: true
 #    hibernate: -- permite a geração de banco apartir de java (não recommendado em produção)
 #      ddl-auto: update -- permite a geração de banco apartir de java (não recommendado em produção)
+    dd-auto: none
     properties:
       hibernate.format_sql: true
