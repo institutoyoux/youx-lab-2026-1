@@ -6,10 +6,12 @@ import com.cursospring.libaryapi.model.Livro;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -96,5 +98,48 @@ class LivroRepositoryTest {
         Livro livro = repository.findById(id).orElse(null);
         System.out.println(livro.getTitulo());
         System.out.println(livro.getAutor().getNome());
+    }
+
+    @Test
+    void pesquisarPorTituloTest() {
+        List<Livro> lista = repository.findByTitulo("Outro Livro");
+        lista.forEach(System.out::println);
+
+    }
+
+    @Test
+    void pesquisarPorIsbnTest() {
+        List<Livro> lista = repository.findByIsbn("90887-84874");
+        lista.forEach(System.out::println);
+    }
+
+    @Test
+    void pesquisarTituloPrecoTest() {
+        List<Livro> lista = repository.findByTituloAndPreco("Outro Livro", BigDecimal.valueOf(100));
+        lista.forEach(System.out::println);
+    }
+
+    @Test
+    void listarLivrosComQueryJPQL() {
+        var resultado = repository.listarOrdenandoPorTituloAndPreco();
+        resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void listarAutores() {
+        var resultado = repository.listarAutoresLivros();
+        resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void listarTitulosDiferentes() {
+        var resultado = repository.listarNomesDiferentesLivros();
+        resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void listarGenerosDeLivrosAutoresBrasileiros() {
+        var resultado = repository.listarNomesDiferentesLivros();
+        resultado.forEach(System.out::println);
     }
 }
