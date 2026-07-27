@@ -139,7 +139,29 @@ class LivroRepositoryTest {
 
     @Test
     void listarGenerosDeLivrosAutoresBrasileiros() {
-        var resultado = repository.listarNomesDiferentesLivros();
+        var resultado = repository.listarGeneroAutoresBrasileiros();
         resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void listarPorGeneroQueryParamsTest() {
+        var resultado = repository.findByGenero(GeneroLivro.BIOGRAFIA);
+        resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void listarPorGeneroPositionalParamsTest() {
+        var resultado = repository.findByGeneroPositional(GeneroLivro.BIOGRAFIA);
+        resultado.forEach(System.out::println);
+    }
+
+    @Test
+    void deletarPorGenTest(){
+        repository.deleteByGenero(GeneroLivro.BIOGRAFIA);
+    }
+
+    @Test
+    void updateDataPublicacaoTest(){
+        repository.updateDataPublicacao(LocalDate.of(2000, 1, 1));
     }
 }
