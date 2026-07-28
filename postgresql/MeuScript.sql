@@ -1051,11 +1051,24 @@ select * from Dados_pedido
 
 --6
 select * from pedido_produto
+create view produto_pedido as
 select 
+	prd.nome as produto,
 	pdp.quantidade,
 	pdp.valor_unitario
-from 
-oiiiiiii
+from
+	pedido_produto pdp
+left outer join 
+	produto prd on pdp.idproduto = prd.idproduto
+--campos autoincremento 
+create table exemplo ( 
+	idexemplo serial not null,
+	nome varchar(50) not null, 
+	
+	constraint pk_exemplo_idexemplo primary key (idexemplo)
+	
+);
+opaaa
 	
 	
 	
