@@ -74,14 +74,16 @@ btnCadastrar.addEventListener('click', () => {
 
 
 
-    // tabela.appendChild(novaLinha)
 
     if (form.status.value == 'EM ANDAMENTO') {
-        colunaStatus.style.background = 'blue'
+        // colunaStatus.style.background = 'blue'
+        colunaStatus.setAttribute('class','azul')
     } else if (form.status.value == 'NÃO INICIADO') {
-        colunaStatus.style.background = 'gray'
+        // colunaStatus.style.background = 'gray'
+        colunaStatus.setAttribute('class','cinza')
     } else if (form.status.value == 'FINALIZADO') {
-        colunaStatus.style.background = 'green'
+        // colunaStatus.style.background = 'green'
+        colunaStatus.setAttribute('class','verde')
     }
 
 
@@ -95,11 +97,10 @@ btnCadastrar.addEventListener('click', () => {
     const colunaPrazo = document.createElement('td')
     if (hoje <= dataTarefa) {
         prazo = 'EM DIA'
-        colunaPrazo.style.background = 'green'
-
+        colunaPrazo.setAttribute('class','verde')
     } else {
         prazo = 'ATRASADO'
-        colunaPrazo.style.background = 'red'
+        colunaPrazo.setAttribute('class','vermelho')
     }
     colunaPrazo.innerText = prazo
     colunaPrazo.setAttribute('id', 'coluna')

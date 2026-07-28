@@ -130,3 +130,19 @@ select {
     color: rgb(59, 65, 76);
 
 }
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.cinza{
+    background-color: gray;
+}
+
+.vermelho{
+    background-color: red;
+}
