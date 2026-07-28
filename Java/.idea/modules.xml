@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/111-Exercicio_de_fixacao_matriz/111-Exercicio_de_fixacao_matriz.iml" filepath="$PROJECT_DIR$/111-Exercicio_de_fixacao_matriz/111-Exercicio_de_fixacao_matriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/118-instanciando_data-hora/118-instanciando_data-hora.iml" filepath="$PROJECT_DIR$/118-instanciando_data-hora/118-instanciando_data-hora.iml" />
       <module fileurl="file://$PROJECT_DIR$/119-convertendo_data-hora_para_texto/119-convertendo_data-hora_para_texto.iml" filepath="$PROJECT_DIR$/119-convertendo_data-hora_para_texto/119-convertendo_data-hora_para_texto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/120-convertendo_data-hora_global_para_local/120-convertendo_data-hora_global_para_local.iml" filepath="$PROJECT_DIR$/120-convertendo_data-hora_global_para_local/120-convertendo_data-hora_global_para_local.iml" />
       <module fileurl="file://$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" filepath="$PROJECT_DIR$/24-Primeiro_programa/24-Primeiro_programa.iml" />
       <module fileurl="file://$PROJECT_DIR$/Secao-3/24-Primeiro_programa1/24-Primeiro_programa1.iml" filepath="$PROJECT_DIR$/Secao-3/24-Primeiro_programa1/24-Primeiro_programa1.iml" />
       <module fileurl="file://$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" filepath="$PROJECT_DIR$/31-Saida_de_dados/31-Saida_de_dados.iml" />
@@ -48,7 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/86-encapsulamento/86-encapsulamento.iml" filepath="$PROJECT_DIR$/86-encapsulamento/86-encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/88-modificadores_de_acesso/88-modificadores_de_acesso.iml" filepath="$PROJECT_DIR$/88-modificadores_de_acesso/88-modificadores_de_acesso.iml" />
       <module fileurl="file://$PROJECT_DIR$/89-exercicio_de_fixacao/89-exercicio_de_fixacao.iml" filepath="$PROJECT_DIR$/89-exercicio_de_fixacao/89-exercicio_de_fixacao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/96-Vvetores_parte-1/96-Vvetores_parte-1.iml" filepath="$PROJECT_DIR$/96-Vvetores_parte-1/96-Vvetores_parte-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/96-vetores_parte-1/96-vetores_parte-1.iml" filepath="$PROJECT_DIR$/96-vetores_parte-1/96-vetores_parte-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/97-vetores_parte-2/97-vetores_parte-2.iml" filepath="$PROJECT_DIR$/97-vetores_parte-2/97-vetores_parte-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/98-exercicios_de_fixacao_vetores/98-exercicios_de_fixacao_vetores.iml" filepath="$PROJECT_DIR$/98-exercicios_de_fixacao_vetores/98-exercicios_de_fixacao_vetores.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
