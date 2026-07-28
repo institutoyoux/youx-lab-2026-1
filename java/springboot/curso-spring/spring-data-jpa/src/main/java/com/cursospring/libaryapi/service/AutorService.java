@@ -1,7 +1,11 @@
 package com.cursospring.libaryapi.service;
 
+import com.cursospring.libaryapi.exceptions.OperacaoNaoPermitidaException;
 import com.cursospring.libaryapi.model.Autor;
 import com.cursospring.libaryapi.repository.AutorRepository;
+import com.cursospring.libaryapi.repository.LivroRepository;
+import com.cursospring.libaryapi.validator.AutorValidator;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,16 +14,14 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Service
+@RequiredArgsConstructor
 public class AutorService {
-    @Autowired
     private final AutorRepository repository;
-
-
-    public AutorService(AutorRepository repository) {
-        this.repository = repository;
-    }
+    private final AutorValidator autorValidator;
+    private final LivroRepository livroRepository;
 
     public Autor salvar(Autor autor) {
+        autorValidator.validar(autor);
         return repository.save(autor);
     }
 
@@ -27,6 +29,7 @@ public class AutorService {
         if(autor.getId() == null) {
             throw new IllegalArgumentException("Para atualizar o autor é necessario que ele já esteja cadastrado!");
         }
+        autorValidator.validar(autor);
         repository.save(autor);
     }
 
@@ -35,6 +38,9 @@ public class AutorService {
     }
 
     public void deletar(Autor autor) {
+        if (possuiLivro(autor)) {
+            throw new OperacaoNaoPermitidaException("Não é permitido deletar autor que possui livros cadastrados!");
+        }
         repository.delete(autor);
     }
 
@@ -49,5 +55,8 @@ public class AutorService {
             return repository.findByNacionalidade(nacionalidade);
         }
         return repository.findAll();
+    }
+    public boolean possuiLivro(Autor autor) {
+        return livroRepository.existsByAutor(autor);
     }
 }
