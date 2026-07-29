@@ -15,6 +15,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("tarefas")
 @RequiredArgsConstructor
+@CrossOrigin
 public class TarefaController {
     private final TarefaRepository repository;
 
