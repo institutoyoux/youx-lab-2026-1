@@ -1,6 +1,6 @@
-console.log(".........................")
-console.log(" DESAFIO RPG YOU X LAB ")
-console.log(".........................")
+console.log("==↓===========================↓=")
+console.log("==↓==-Y-=O-=U-=X-==L-=A-=B-===↓=")
+console.log("==↓===========================↓=")
 
 const personagens = [
     { nome: "Aragorn", classe: "Guerreiro", nivel: 12, experiencia: 8500 },
@@ -22,28 +22,61 @@ const personagens = [
 ];
 function Rank(experiencia) {
     if (experiencia < 5000) {
-        return "Iniciante";
-      } else if (experiencia < 15000) {
-        return "Veterano";
-     }  else {
-         return "Lendário";
+        return "iniciante";
+    }else if (experiencia < 15000) {
+        return "veterano";
+    }else{
+        return "lendario"
     }
 }
-console.log("=======PERSONAGMENS=======");
+console.log("=↓==↓==P=E=R=O=N=A=G=E=N=S==↓===↓=")
 
-for(let personagem of personagens) {
+for (let personagem of personagens) {
     console.log("Nome:" + personagem.nome);
-    console.log("classe:" + personagem.classe);
+    console.log("classe:" + personagem.classe)
     console.log("nivel:" + personagem.nivel);
-    console.log("experiencia:" + personagem.experiencia);
+    console.log("experiencia: " + personagem.experiencia)
     console.log("Rank:" + personagem.experiencia);
-    console.log("===========================")
+    console.log("==↓=========↓==========↓=========↓")
 }
-const nomes = personagens.map(function(personagem){
+const nomes = personagens.map(function (personagem) {
     return personagem.nome;
 });
-
 console.log(nomes);
 
-let nivelsDosPersonagems
+let maiorNivel = personagens[0];
 
+for (let personagem of personagens) {
+
+    if(personagem.nivel > maiorNivel.nivel){
+        maiorNivel = personagem;
+    }
+}
+
+console.log("Maior nivel:");
+console.log(maiorNivel);
+console.log("=====================================================================")
+
+let classes = {};
+for (let personagem of personagens) {
+
+    if(classes[personagem.classe]){
+        if(classes[personagem.classe]){
+            classes[personagem.classe]++;
+        }else{
+            classes[personagem.classe] = 1;
+        }
+    }
+}
+
+console.log(classes)
+
+let soma = 0;
+
+for (let personagem of personagens) {
+    soma += personagem.nivel;
+}
+
+let media = soma / personagens.length;
+
+console.log("media dos niveis:" + media);

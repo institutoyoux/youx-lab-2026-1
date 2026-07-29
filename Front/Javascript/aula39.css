@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:linear-gradient(124deg, #111111, #050505, #020202);
+    background-size:300% 300%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:auto;
+}
+
+@keyframes fundo{
+    0%{background-position:left;}
+    100%{background-position:right;}
+}
+
+main{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.caixa{
+    width:320px;
+    min-height:470px;
+    padding:20px;
+
+    display:flex;
+    flex-direction:column;
+
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(10px);
+
+    border:2px solid rgb(85 19 41);
+    border-radius:18px;
+
+    box-shadow:
+            0 0 20px #551329,
+            inset 0 0 20px #551329;
+
+    transition:.4s;
+}
+
+.caixa:hover{
+    box-shadow:
+            0 0 40px #551329,
+            inset 0 0 30px #551329;
+}
+
+.curso{
+
+    background: #070707;
+
+    color:#fff;
+
+    border:2px solid #551329;
+
+    border-radius:12px;
+
+    margin:8px 0;
+
+    padding:16px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+    transition:.35s;
+
+    user-select:none;
+
+    box-shadow:
+            0 0 8px #551329;
+}
+
+.curso:hover{
+
+    transform:translateY(-5px) scale(1.05);
+
+    box-shadow:
+            0 0 15px #551329,
+            0 0 35px #b70741,
+            0 0 60px #ff0000;
+
+    color:white;
+
+    border-color:white;
+}
+
+.curso:active{
+
+    transform:scale(.95);
+
+}
+
+.selecionados{
+
+    background:#00ffff;
+
+    color:#000;
+
+    font-weight:bold;
+
+    border:2px solid white;
+
+    box-shadow:
+            0 0 15px cyan,
+            0 0 30px cyan,
+            0 0 60px cyan;
+
+}
+
+button{
+
+    width:170px;
+
+    height:60px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(45deg,#00ffff,#0066ff);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:
+            0 0 15px #00ffff66;
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+            0 0 20px cyan,
+            0 0 40px cyan,
+            0 0 80px cyan;
+
+}
+
+button:active{
+
+    transform:scale(.95);
+
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:cyan;
+    border-radius:10px;
+}
+
+::selection{
+    background:cyan;
+    color:black;
+}
