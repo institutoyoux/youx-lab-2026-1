@@ -70,23 +70,14 @@ btnCadastrar.addEventListener('click', () => {
     colunaStatus.innerText = form.status.value
     colunaStatus.setAttribute('class', 'colunaStatus')
     colunaStatus.setAttribute('id', 'coluna')
-    novaLinha.appendChild(colunaStatus)
-
-
-
-
     if (form.status.value == 'EM ANDAMENTO') {
-        // colunaStatus.style.background = 'blue'
         colunaStatus.setAttribute('class','azul')
     } else if (form.status.value == 'NÃO INICIADO') {
-        // colunaStatus.style.background = 'gray'
         colunaStatus.setAttribute('class','cinza')
     } else if (form.status.value == 'FINALIZADO') {
-        // colunaStatus.style.background = 'green'
         colunaStatus.setAttribute('class','verde')
     }
-
-
+    novaLinha.appendChild(colunaStatus)
 
     tarefas.push({ id: tarefas.length + 1, nome: form.nome.value, inicio: form.inicio.value, final: form.final.value, status: form.status.value, tipo: form.tipo.value })
 
