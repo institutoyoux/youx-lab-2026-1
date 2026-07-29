@@ -1,4 +1,4 @@
-x9876
+
 create table cliente (
 	idcliente integer not null,
 	nome varchar(50),
@@ -1068,33 +1068,129 @@ create table exemplo (
 	constraint pk_exemplo_idexemplo primary key (idexemplo)
 	
 );
-opaaa
+insert into exemplo (nome) values ('exemplo 1');
+insert into exemplo (nome) values ('exemplo 2');
+insert into exemplo (nome) values ('exemplo 3');
+insert into exemplo (nome) values ('exemplo 4');
+insert into exemplo (nome) values ('exemplo 5');
+
+select * from exemplo 
+
+select max(idbairro) + 1 from bairro
+create sequence bairro_id_seq minvalue 5
+alter table bairro alter idbairro set default nextval('bairro_id_seq')
+alter sequence 	bairro_id_seq owned by bairro.idbairro
+insert into bairro (nome) values ('teste 1');
+insert into bairro (nome) values ('teste 2');
+select * from bairro
 	
-	
-	
-	
+select * from cliente order by idcliente;
+
+select max(idcliente) + 1 from cliente
+create sequence cliente_id_seq minvalue 18
+alter table cliente alter idcliente set default nextval('cliente_id_seq')
+alter sequence cliente_id_seq owned by cliente.idcliente
+insert into cliente (nome) values ('teste 1')
 
 
+select * from complemento;
+
+select max(idcomplemento) + 1 from complemento 
+create sequence complemento_id_seq minvalue 3
+alter table complemento alter idcomplemento  set default nextval('complemento_id_seq')
+alter sequence complemento_id_seq owned by complemento.idcomplemento
+insert into complemento (nome) values ('teste 1')
 
 
+select * from fornecedor;
 
+select max(idfornecedor) + 1 from fornecedor 
+create sequence fornecedor_id_seq minvalue 4
+alter table fornecedor alter idfornecedor  set default nextval('fornecedor_id_seq')
+alter sequence fornecedor_id_seq owned by fornecedor.idfornecedor
+insert into fornecedor(nome) values ('teste')
 
+select * from municipio;
 
+select max(idmunicipio) + 1 from municipio
+create sequence municipio_id_seq minvalue 10 
+alter table municipio alter idmunicipio set default nextval('municipio_id_seq')
+alter sequence municipio_id_seq owned by municipio.idmunicipio
+insert into municipio(nome) values ('teste')
 
-
-
-
+select * from nacionalidade
   
+select max(idnacionalidade) + 1 from nacionalidade
+create sequence nacionalidade_id_seq minvalue 5
+alter table nacionalidade alter idnacionalidade set default nextval('nacionalidade_id_seq')
+alter sequence nacionalidade_id_seq owned by nacionalidade.idnacionalidade
+insert into nacionalidade(nome) values ('teste')
+
+
+select * from pedido;
+
+select max (idpedido) + 1 from pedido 
+create sequence pedido_id_seq minvalue 16
+alter table pedido alter idpedido set default nextval('pedido_id_seq')
+alter sequence pedido_id_seq owned by pedido.idpedido
 
 
 
+select * from pedido_produto
+select * from profissao
+
+select max(idprofissao) + 1 from profissao 
+create sequence profissao_id_seq minvalue 6
+alter table profissao alter idprofissao set default nextval('profissao_id_seq')
+alter sequence profissao_id_seq owned by profissao.idprofissao
 
 
+select * from transportadora 
 
+select max(idtransportadora ) + 1  from transportadora 
+create sequence transportadora_id_seq minvalue 3
+alter table transportadora alter idtransportadora set default nextval('transportadora_id_seq')
+alter sequence transportadora_id_seq owned by transportadora.idtransportadora
 
+select * from uf
 
+select max (iduf) + 1 from uf
+create sequence uf_id_seq minvalue 7
+alter table uf alter iduf set default nextval('uf_id_seq')
+alter sequence uf_id_seq owned by uf.iduf
 
+select * from vendedor 
 
+select max(idvendedor) + 1 from vendedor 
+create sequence vendedor_id_seq minvalue 9
+alter table vendedor alter idvendedor  set default nextval('vendedor_id_seq')
+alter sequence vendedor_id_seq  owned by vendedor.idvendedor
+
+--campos default 
+select * from pedido
+
+alter table pedido alter column data_pedido set default current_date;
+alter table pedido alter column valor set default 0;
+insert into pedido(idcliente, idvendedor, data_pedido,valor)
+values (1, 1, '2022-10-10', 234 )
+
+--exercicios
+select * from pedido_produto
+alter table pedido_produto alter column quantidade set default 1;
+alter table pedido_produto alter column valor_unitario set default 0;
+insert into pedido_produto(idpedido,idproduto) values (18,2);
+
+select * from produto
+alter table produto alter column valor set default 0;
+insert into produto(nome, idfornecedor, idproduto) values ('teste', 2, 89);
+
+--indices
+create index idx_cln_nome on cliente (nome);
+
+select * from cliente
+
+create index idx_pdd_data_pedido on pedido (data_pedido)
+create index idx_pdr_nome on produto (nome)
 
 
 
