@@ -9,24 +9,13 @@ body {
     font-family: "Bricolage Grotesque", sans-serif;
     color: rgb(111, 102, 112);
 }
-
-.back {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0 auto;
-    width: 80%;
-    z-index: -1;
-    opacity: 0;
-}
 main {
     margin: 0 auto;
     margin-top: 2rem;
     border: 1px solid var(--border);
     width: 75%;
     border-radius: 0.5rem;
-    overflow: hidden;
+    overflow: auto;
 }
 .title {
     background-color: rgb(241, 242, 246);

@@ -57,11 +57,11 @@ const status = (respostaApi) => {
         return { texto: "Em andamento", cor: "#0369A1" }
     }
     if (respostaApi === "FINALIZADO") {
-        return { texto: "Não iniciado", cor: "#15803D" }
+        return { texto: "Finalizado", cor: "#15803D" }
     }
 }
 
-const editar = async (tarefa) => {
+const editar = (tarefa) => {
     btn.setAttribute('act', 'editar')
     btn.setAttribute('idTarefa', tarefa.id)
     btn.innerHTML = '<i class="bx bx-pencil"></i> Editar Tarefa'
