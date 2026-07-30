@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO CRUD - HTML | CSS | JS | JAVA | SQL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <h1>Gerenciador de Tarefas Web</h1>
+        </div>
+        <section class="novaTarefa">
+            <h1>Nova Tarefa</h1>
+            <form id="form">
+                <div class="campo cima">
+                    <label>NOME DA TAREFA</label>
+                    <input type="text" id="nome" placeholder="Exercícios de Manipulação de DOM">
+                </div>
+                <div class="campo cima">
+                    <label>TIPO</label>
+                    <select id="tipo">
+                        <option value="TRABALHO">Trabalho</option>
+                        <option value="ESTUDOS">Estudos</option>
+                        <option value="PESSOAL">Pessoal</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label>DATA DE CADASTRO</label>
+                    <input type="date" id="dataCadastro">
+                </div>
+                <div class="campo">
+                    <label>DATA DE TERMINO</label>
+                    <input type="date" id="dataTermino">
+                </div>
+                <div class="campo">
+                    <label>STATUS</label>
+                    <select id="status">
+                        <option value="NAO_INICIADO">Não iniciado</option>
+                        <option value="ANDAMENTO">Em andamento</option>
+                        <option value="FINALIZADO">Finalizado</option>
+                    </select>
+                </div>
+                <button id="btn" act="criar"><i class="bx bx-plus"></i> Cadastrar Tarefa</button>
+            </form>
+        </section>
+        <table id="tarefas">
+            <tr>
+                <th>Tarefa</th>
+                <th>Tipo</th>
+                <th>Termino</th>
+                <th>Status</th>
+                <th>Prazo</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>   
+    <script src="script.js"></script>
+</body>
+</html>
