@@ -33,7 +33,6 @@ btnCadastrarTarefa.addEventListener("click", (evt) => {      // criou um evento 
     {
         "nome": nomeTarefa.value,
         "tipo": TipoTarefa.value,
-        "cadastro": dataDeCadastro.value,
         "termino": dataParaTermino.value,
         "status": statusTarefa.value,
         "prazo": dataTermino > dataAtual ? "Em Dia" : "Atrasado"
@@ -44,9 +43,9 @@ btnCadastrarTarefa.addEventListener("click", (evt) => {      // criou um evento 
     console.log(tarefas);
 
     const linha = document.createElement("tr")  // criou uma linha 
-
+    
     for (const chave in novaTarefa) {                            // roda por todas chaves da novaTarefa
-        let valor = novaTarefa[chave];                         // pega o valor da chave atual 
+        let valor = novaTarefa[chave];                         // pega o valor da chave atual     
         let coluna = document.createElement("td")            // cria um novo td
         coluna.innerText = valor                            // adiciona o valor como texto interno do td
         linha.appendChild(coluna)                           // adiciona o td como filho da linha 
