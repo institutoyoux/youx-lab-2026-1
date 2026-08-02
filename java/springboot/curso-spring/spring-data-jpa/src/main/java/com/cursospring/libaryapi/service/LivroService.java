@@ -4,7 +4,11 @@ import com.cursospring.libaryapi.model.GeneroLivro;
 import com.cursospring.libaryapi.model.Livro;
 import com.cursospring.libaryapi.repository.LivroRepository;
 import com.cursospring.libaryapi.repository.specs.LivroSpecs;
+import com.cursospring.libaryapi.validator.LivroValidator;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
@@ -18,8 +22,10 @@ import static com.cursospring.libaryapi.repository.specs.LivroSpecs.*;
 @RequiredArgsConstructor
 public class LivroService {
     private final LivroRepository repository;
+    private final LivroValidator validator;
 
     public Livro salvar(Livro livro) {
+        validator.validar(livro);
         return repository.save(livro);
     }
 
@@ -29,7 +35,13 @@ public class LivroService {
     public void deletar(Livro livro) {
         repository.delete(livro);
     }
-    public List<Livro> pesquisa(String isbn, String titulo, String nomeAutor, GeneroLivro genero, Integer anoPublicacao) {
+    public Page<Livro> pesquisa(String isbn,
+                                String titulo,
+                                String nomeAutor,
+                                GeneroLivro genero,
+                                Integer anoPublicacao,
+                                Integer pagina,
+                                Integer tamanhoPagina) {
         //select * from livro where isbn = :isbn and nomeAutor = :nomeAutor
 //        Specification<Livro> specs = Specification
 //                .where(LivroSpecs.isbnEqual(isbn))
@@ -55,6 +67,15 @@ public class LivroService {
         if (nomeAutor != null) {
             specs = specs.and(nomeAutorLike(nomeAutor));
         }
-        return repository.findAll(specs);
+        Pageable pageRequest = PageRequest.of(pagina, tamanhoPagina);
+        return repository.findAll(specs, pageRequest);
+    }
+
+    public void atualizar(Livro livro) {
+        if (livro.getId() == null) {
+            throw new IllegalArgumentException("Para atualizar é nescessario que o livro já esteja salvo na base.");
+        }
+        validator.validar(livro);
+        repository.save(livro);
     }
 }

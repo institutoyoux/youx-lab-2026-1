@@ -3,6 +3,7 @@ package com.cursospring.libaryapi.repository;
 import com.cursospring.libaryapi.model.Autor;
 import com.cursospring.libaryapi.model.GeneroLivro;
 import com.cursospring.libaryapi.model.Livro;
+import org.hibernate.query.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
@@ -10,9 +11,11 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.awt.print.Pageable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 /**
@@ -25,7 +28,7 @@ public interface LivroRepository extends JpaRepository<Livro, UUID>, JpaSpecific
 
     List<Livro> findByTitulo(String titulo);
 
-    List<Livro> findByIsbn(String isbn);
+    Optional<Livro> findByIsbn(String isbn);
 
     List<Livro> findByTituloAndPreco(String titulo, BigDecimal preco);
 
