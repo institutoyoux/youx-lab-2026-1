@@ -1,6 +1,4 @@
 const caixaCurso = document.querySelector("#caixaCurso");
-const btn_c = [...document.querySelectorAll(".curso")];
-const c1_2 = document.querySelector("#c1_2");
 
 const cursos = [
     "HTML",
@@ -12,27 +10,40 @@ const cursos = [
     "ReactNative"
 ];
 
-const btnCursosSelecionados = document.getElementById("btnCursosSelecionados");
+const btnCursosSelecionados = document.querySelector("#btnCursosSelecionados");
 
-cursos.map((el, chave) => {
+cursos.map((curso, indice) => {
+
     const novoElemento = document.createElement("div");
-    novoElemento.setAttribute("id", "c" + chave);
-    novoElemento.setAttribute("class", "curso c1");
-    novoElemento.innerHTML = el;
+    novoElemento.id = "c" + indice;
+    novoElemento.className = "curso c1";
+    novoElemento.innerHTML = curso;
 
     const comandos = document.createElement("div");
-    comandos.setAttribute("class", "comandos");
+    comandos.className = "comandos";
 
     const rb = document.createElement("input");
-    rb.setAttribute("type", "radio");
-    rb.setAttribute("name", "rb_curso");
+    rb.type = "radio";
+    rb.name = "rb_curso";
 
     comandos.appendChild(rb);
     novoElemento.appendChild(comandos);
     caixaCurso.appendChild(novoElemento);
+
 });
 
 btnCursosSelecionados.addEventListener("click", () => {
-    const todosRadios = document.querySelectorAll('input[type="radio"]');
-    console.log(todosRadios);
+
+    const todosRadios = [...document.querySelectorAll('input[type="radio"]')];
+    const radioSelecionados = todosRadios.filter((radio) => {
+        return radio.checked;
+    });
+    radioSelecionado=radioSelecionados[0]
+    //const cursoSelecionado=radioSelecionado.parentNode.parentNode.firstChild.textContent
+    const cursoSelecionado=radioSelecionado.parentNode.previousSibling.textContent
+    alert("Curso selecionado: " + cursoSelecionado)
+    // console.log(todosRadios);
+    // console.log(radioSelecionados);
+    // console.log(radioSelecionados);
+
 });

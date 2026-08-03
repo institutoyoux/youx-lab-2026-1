@@ -19,8 +19,8 @@ main{
 }
 
 .caixa{
-    width:350px;
-    min-height:520px;
+    width:390px;
+    min-height:220px;
     background:#fff;
     border:1px solid #dcdcdc;
     border-radius:25px;
@@ -75,11 +75,17 @@ button:hover{
 }
 
 .curso{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
     padding:15px;
     margin-bottom:12px;
+
     border:1px solid #ddd;
     border-radius:15px;
     background:#fafafa;
+
     cursor:pointer;
     transition:.25s;
 }
@@ -102,4 +108,19 @@ button:hover{
 ::-webkit-scrollbar-thumb{
     background:#bdbdbd;
     border-radius:20px;
+}
+#btnRemoverCurso{
+    margin-bottom:2px;
+}
+
+#btnCursosSelecionados{
+    margin: 1px;
+
+}
+
+#caixaCurso{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
 }

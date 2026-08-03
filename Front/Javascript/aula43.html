@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 43</title>
     <link rel="stylesheet" href="aula43.css">
 </head>
@@ -9,15 +10,17 @@
 
 <main>
 
+    <!-- Caixa de funcionalidades -->
     <div id="caixaNovoFuncionalidades" class="caixa">
 
         <div id="caixaNovoCurso" class="caixaFuncionalidades">
-            <label>Nome do curso</label>
+            <label for="nomeCurso">Nome do curso</label>
 
             <input
                     type="text"
                     id="nomeCurso"
-                    placeholder="Digite o nome do curso">
+                    placeholder="Digite o nome do curso"
+            >
 
             <button id="btnAdicionarNovoCurso">
                 Adicionar
@@ -31,23 +34,27 @@
         </div>
 
         <div id="caixaCursoSelecionado" class="caixaFuncionalidades">
-            <button id="btnCursoSelecionado">
+            <button id="btnCursosSelecionados">
                 Curso Selecionado
             </button>
+
         </div>
 
     </div>
 
+    <!-- Caixa onde ficarão os cursos -->
     <div id="caixaCursos" class="caixa">
-        <div class="curso">HTML</div>
-        <div class="curso">CSS</div>
-        <div class="curso">JavaScript</div>
-        <div class="curso">PHP</div>
-        <div class="curso">React</div>
-        <div class="curso">MySQL</div>
+
+        <div id="caixaCurso">
+
+            <!-- Os cursos serão criados pelo JavaScript -->
+
+        </div>
 
     </div>
+
 </main>
+
 <script src="aula43.js"></script>
 
 </body>
