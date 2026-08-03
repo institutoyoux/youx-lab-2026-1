@@ -2,8 +2,10 @@ package com.cursospring.libaryapi.service;
 
 import com.cursospring.libaryapi.exceptions.OperacaoNaoPermitidaException;
 import com.cursospring.libaryapi.model.Autor;
+import com.cursospring.libaryapi.model.Usuario;
 import com.cursospring.libaryapi.repository.AutorRepository;
 import com.cursospring.libaryapi.repository.LivroRepository;
+import com.cursospring.libaryapi.security.SecurityService;
 import com.cursospring.libaryapi.validator.AutorValidator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +23,12 @@ public class AutorService {
     private final AutorRepository repository;
     private final AutorValidator autorValidator;
     private final LivroRepository livroRepository;
+    private final SecurityService securityService;
 
     public Autor salvar(Autor autor) {
         autorValidator.validar(autor);
+        Usuario usuario = securityService.obterUsuarioLogado();
+        autor.setUsuario(usuario);
         return repository.save(autor);
     }
 

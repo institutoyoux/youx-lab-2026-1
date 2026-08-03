@@ -6,10 +6,16 @@ import com.cursospring.libaryapi.controller.mappers.AutorMapper;
 import com.cursospring.libaryapi.exceptions.OperacaoNaoPermitidaException;
 import com.cursospring.libaryapi.exceptions.RegistroDuplicadoException;
 import com.cursospring.libaryapi.model.Autor;
+import com.cursospring.libaryapi.model.Usuario;
+import com.cursospring.libaryapi.security.SecurityService;
 import com.cursospring.libaryapi.service.AutorService;
+import com.cursospring.libaryapi.service.UsuarioService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -25,11 +31,14 @@ import java.util.stream.Collectors;
 public class AutorController implements GenericController {
 
     private final AutorService service;
+    private final SecurityService securityService;
     private final AutorMapper mapper;
 
     @PostMapping
-    public ResponseEntity<Void> salvar(@RequestBody @Valid AutorDTO dto) {
+    @PreAuthorize("hasRole('GERENTE')")
+    public ResponseEntity<Void> salvar(@RequestBody @Valid AutorDTO dto, Authentication authentication) {
         Autor autor = mapper.toEntity(dto);
+
         service.salvar(autor);
         URI loc = gerarHeaderLocation(autor.getId());
 
@@ -37,6 +46,7 @@ public class AutorController implements GenericController {
     }
 
     @GetMapping("{id}")
+    @PreAuthorize("hasAnyRole('OPERADOR', 'GERENTE')")
     public ResponseEntity<AutorDTO> obterDetalhes(@PathVariable("id") String id) {
         var idAutor = UUID.fromString(id);
         Optional<Autor> autorOptional = service.obterPorId(idAutor);
@@ -49,6 +59,7 @@ public class AutorController implements GenericController {
     }
 
     @DeleteMapping("{id}")
+    @PreAuthorize("hasRole('GERENTE')")
     public ResponseEntity<Void> deletar(@PathVariable("id") String id) {
         var idAutor = UUID.fromString(id);
         Optional<Autor> autorOptional = service.obterPorId(idAutor);
@@ -61,6 +72,7 @@ public class AutorController implements GenericController {
     }
 
     @GetMapping
+    @PreAuthorize("hasAnyRole('OPERADOR', 'GERENTE')")
     public ResponseEntity<List<AutorDTO>> pesquisar(@RequestParam(value = "nome", required = false) String nome, @RequestParam(value = "nacionalidade", required = false) String nacionalidade) {
         List<Autor> resultado = service.pesquisaByExample(nome, nacionalidade);
         List<AutorDTO> lista = resultado.stream().map(mapper::toDTO).collect(Collectors.toList());
@@ -68,6 +80,7 @@ public class AutorController implements GenericController {
     }
 
     @PutMapping("{id}")
+    @PreAuthorize("hasRole('GERENTE')")
     public ResponseEntity<Void> atualizar(@PathVariable("id") String id, @RequestBody @Valid AutorDTO dto) {
         var idAutor = UUID.fromString(id);
         Optional<Autor> autorOptional = service.obterPorId(idAutor);

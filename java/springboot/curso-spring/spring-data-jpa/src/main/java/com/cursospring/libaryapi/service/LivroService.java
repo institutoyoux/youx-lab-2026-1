@@ -2,8 +2,9 @@ package com.cursospring.libaryapi.service;
 
 import com.cursospring.libaryapi.model.GeneroLivro;
 import com.cursospring.libaryapi.model.Livro;
+import com.cursospring.libaryapi.model.Usuario;
 import com.cursospring.libaryapi.repository.LivroRepository;
-import com.cursospring.libaryapi.repository.specs.LivroSpecs;
+import com.cursospring.libaryapi.security.SecurityService;
 import com.cursospring.libaryapi.validator.LivroValidator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -12,7 +13,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -23,9 +23,12 @@ import static com.cursospring.libaryapi.repository.specs.LivroSpecs.*;
 public class LivroService {
     private final LivroRepository repository;
     private final LivroValidator validator;
+    private final SecurityService securityService;
 
     public Livro salvar(Livro livro) {
         validator.validar(livro);
+        Usuario usuario = securityService.obterUsuarioLogado();
+        livro.setUsuario(usuario);
         return repository.save(livro);
     }
 
