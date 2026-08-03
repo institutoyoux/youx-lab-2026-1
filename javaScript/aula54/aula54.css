@@ -1,0 +1,9 @@
+#caixa{
+    border: 5px solid #000;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: columan;
+    margin: 5px;
+    padding: 5px;
+}
