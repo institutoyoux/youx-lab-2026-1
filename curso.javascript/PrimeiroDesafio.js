@@ -43,7 +43,7 @@ for (p of personagens) {
 }
 
 
-// // // 2. Exibir um relatório completo de todos os personagens. 
+// // // // 2. Exibir um relatório completo de todos os personagens. 
 function relatorio(listaPersonagens) {
     for (p of personagens) {
         console.log("Nome: " + p.nome)
@@ -60,22 +60,19 @@ relatorio(personagens)
 
 // //  3. Utilizar map() para criar uma lista contendo apenas os nomes dos personagens.
 
-function nome(personagem) {
-    //criar uma lista vazia
-    for (p of personagens) {
-        console.log("Nome: " + p.nome)
-        //adicionar nome na lista
-    }
-    //retornar lista/
+relatorio(personagens)
+
+function pegarListaNomes(listaPersonagens){
+    const nomes=listaPersonagens.map(personagem => personagem.nome)
 }
 
-nome(personagens)
+listaPersonagens = pegarListaNomes(personagens)
+console.log(listaPersonagens)
 
-// const fruta={nome: "Banana", preco: 5.00 ,
-// }
 
 
 // 4. Encontrar o personagem com maior nível.
+
 let maiorNivel = personagens[0].nivel
 let nomeMaiorNivel = personagens[0].nome
 for (personagem of personagens) {
@@ -125,16 +122,39 @@ const mediaNiveis = media(personagens)
 console.log(`A media dos niveis é ${mediaNiveis}`);
 
 
-//  Bônus 1 : Implementar uma função adicionar Personagem(nome, classe, nivel, experiencia).
+// //  Bônus 1 : Implementar uma função, adicionar Personagem(nome, classe, nivel, experiencia).
+// // chamar afunçao para oq ela vai recebr
+
+function adicionarPersonagem(nome, classe, nivel, experiencia) {
+    const NovoPersonagem = { nome: nome, classe: classe, nivel: nivel, experiencia: experiencia }
+    personagens.push(NovoPersonagem)
+}
+adicionarPersonagem("Joao", "Trabalhador", 2 , 13000)
+adicionarPersonagem("Ana" , "estudante" , 2 , 13000)
+
+console.log(personagens)
 
 
+// Bônus 2: Criar uma função buscar PorClasse(classe). 
+// criar uma funçao 
+// receber um parametro nome da classe
+// dentro da funçao console.log
+// chamar a funçao 
+
+// pegar todos os personagens
+// de alguma forma pegar o parametro e utilizalo e utilizar para fazer o filtro 
+// o meu filtro tem que retornar so os personagens(console.log).
 
 
-
-// Bônus 2: Criar uma função buscarPorClasse(classe). 
-
-
+function ClasseSeparadas(mago,guerreiro,Arqueiro,Ladino,Curandeira){
+    const PorClasse = {classe: mago, classe: guerreiro, classe:Arqueiro, classe:Ladino, classe: Curandeira}
+    personagens.push(PorClasse)
+console.log(PorClasse)
+}
+console.log(personagens)
+ClasseSeparadas("mago", "guerreiro", "Arqueiro","Ladino","Curandeira")
 
 
 
 // Bônus 3: Criar uma função ganharExperiencia(nome, quantidade) que atualize a experiência de um personagem e exiba seu novo rank.
+
