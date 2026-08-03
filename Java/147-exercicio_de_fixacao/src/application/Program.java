@@ -50,7 +50,7 @@ public class Program {
             soma += c.imposto();
         }
 
-        System.out.println();
+
         System.out.println("Total dos impostos: " + soma);
 
         sc.close();
