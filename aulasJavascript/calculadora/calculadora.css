@@ -3,4 +3,5 @@
 }
 .botoes{
     padding:11px;
+    display: flex;
 }
