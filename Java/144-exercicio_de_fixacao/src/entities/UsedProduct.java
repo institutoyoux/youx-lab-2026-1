@@ -1,0 +1,23 @@
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class UsedProduct extends Product {
+
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
+
+    private Date manufactureDate;
+
+    public UsedProduct() {}
+
+    public UsedProduct(String name, Double price, Date manufactureDate) {
+        super(name, price);
+        this.manufactureDate = manufactureDate;
+    }
+
+    @Override
+    public String priceTag() {
+        return getName() + " (usado) " + String.format("$ %.2f", getPrice()) + " (Data de fabricação: " + sdf.format(manufactureDate) + ")";
+    }
+}
