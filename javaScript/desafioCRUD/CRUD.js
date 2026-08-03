@@ -81,7 +81,6 @@ btnCadastrar.addEventListener('click', () => {
 
     tarefas.push({ id: tarefas.length + 1, nome: form.nome.value, inicio: form.inicio.value, final: form.final.value, status: form.status.value, tipo: form.tipo.value })
 
-
     let prazo = ""
     const hoje = new Date()
     const dataTarefa = new Date(form.final.value)
