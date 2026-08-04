@@ -8,7 +8,7 @@ public class Program {
 
     static void main(String[] args) {
 
-        String path = "c:\\temp\\in.txt";
+        String path = "/home/youx/Atividades/2/teste_abc.txt";
 
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
