@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="d45.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+
+</head>
+
+<body>
+    <div class="conteiner-geral">
+        <div class="titulo1">Gerenciador de Tarefas Web</div>
+        <div class="subtitulo">NOVA TAREFA</div>
+        <div>
+            <form class="formulario">
+                <div class="inputs">
+                    <div>
+                        <label for="nomeT">NOME DA TAREFA</label>
+                        <input type="text" id="nomeT" name="nomeT"><br>
+                    </div>
+                    <div>
+                        <label for="dataC">DATA DE CADASTRO</label>
+                        <input type="date" id="dataC" name="dataC"><br>
+                    </div>
+                    <div>
+                        <label for="dataT">DATA PARA TÉRMINO</label>
+                        <input type="date" id="dataT" name="dataT"><br>
+                    </div>
+                    <div>
+                        <label>TIPO</label>
+                        <select name="tipo" id="tipo">
+                            <option>PESSOAL</option>
+                            <option>TRABALHO</option>
+                            <option>ESTUDO</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>STATUS</label>
+                        <select name="status" id="status">
+                            <option>EM ANDAMENTO</option>
+                            <option>NÃO INICIADO</option>
+                            <option>FINALIZADO</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="conteiner-btn-cadastrar">
+                    <button id="btn-cadastrar">+ CADASTRAR TAREFA</button>
+                </div>
+            </form>
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr class="titulo">
+                            <th>Tarefa</th>
+                            <th>Tipo</th>
+                            <th>Cadastro</th>
+                            <th>Término</th>
+                            <th>Status</th>
+                            <th>Prazo</th>
+                            <th>Ações</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="corpo_tabela">
+                        <!-- <tr>
+                            <td>Entregar relatorio final</td>
+                            <td>Trabalho</td>
+                            <td>12/07/2026</td>
+                            <td>12/07/2026</td>
+                            <td class="status_emAndamento">EM ANDAMENTO</td>
+                            <td class="prazo_atrasado">ATRASADO</td>
+                            <td>
+                                <button class="btn_deletar">DELETAR</button>
+                                <button class="btn_editar">EDITAR</button>
+                            </td>
+                        <tr>
+                            <td>Exercícios de Manipulação de DOM</td>
+                            <td>Estudos</td>
+                            <td>18/07/2026</td>
+                            <td>12/07/2026</td>
+                            <td class="status_naoIniciado">NÂO INICIADO</td>
+                            <td class="prazo_emdia">EM DIA</td>
+                            <td>
+                                <button class="btn_deletar">DELETAR</button>
+                                <button class="btn_editar">EDITAR</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Comprar suprimentos</td>
+                            <td>Pessoal</td>
+                            <td>15/07/2026</td>
+                            <td>12/07/2026</td>
+                            <td class="status_finalizado">FINALIZADO</td>
+                            <td class="prazo_emdia">EM DIA</td>
+                            <td> 
+                                <button class="btn_deletar">DELETAR</button>
+                                <button class="btn_editar">EDITAR</button>
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="d45.js"></script>
+</body>
+
+</html>

@@ -9,7 +9,7 @@ const btnAdicionarNovoCursoDepois=document.getElementById("btnAdicionarNovoCurso
 const nomeCurso=document.getElementById("nomeCurso")
 
 let indice = 0;
-
+    
 const criarNovoCurso=(curso)=>{
      const novoElemento=document.createElement("div")
     novoElemento.setAttribute("id", "c"+indice)

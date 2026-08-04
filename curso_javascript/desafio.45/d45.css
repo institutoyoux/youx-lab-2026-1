@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner-geral{
+    border: 0.1rem solid gray;
+    background-color: #fdfdfd;
+    align-self: center;
+    display: flex;
+    border-radius: 0.5rem;
+    width: 80%;
+    margin: 1rem;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo1{
+    border: 1rem;
+    background-color: #f1f2f6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7f8c8d;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+form{
+    background-color: #ffffff;
+    border: 0.1rem solid gray;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input,
+select{
+    border-radius: 0.3rem;
+    border: 2px solid gray;
+    min-width: 15rem;
+    padding: 0.2rem;
+}
+.inputs{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 0.4rem;
+
+}
+.conteiner-btn-cadastrar{
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;  
+}
+#btn-cadastrar{
+    background-color: #27ae60;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    cursor:pointer
+}
+.tabela{
+    border: 0.3px solid rgb(158, 140, 140);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+.btn_deletar{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.btn_editar{
+    background-color: #f39c12;
+    color:white;
+    border-radius: 0.3rem;
+    border:none;
+    padding: 0.7rem;
+    cursor: pointer ;
+}
+.subtitulo{
+    margin: 1rem;
+    font-weight: bold;
+    color: rgb(44, 36, 36);
+}
+.prazo_emdia{
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 1rem;
+}
+.prazo_atrasado{
+    background-color: #e74c3c ;
+    color: white;
+    border-radius: 1rem;
+}
+.status_naoIniciado{
+    background-color: #95a5a6;
+    color: white;
+    border-radius: 1rem;
+}
+.status_emAndamento{
+    background-color: #3498db;
+    color: white;
+    border-radius: 1rem;
+}
+.status_finalizado{
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 01rem;
+}
+table{
+    border-spacing: 1em ;
+}
