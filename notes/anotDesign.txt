@@ -1,0 +1,39 @@
+Design além da ferramenta:
+
+Gestalt:
+	- O que é?
+		-teoria psicológica sobre o fenômeno da percepção visual
+		- Considera fatores como equlíbrio, clareza e harmonia das formas que vemos
+		- Contribui para melhor estruturação visual da forma e do design
+	-leis básicas da gestalt:
+		-semelhança
+		- proximidade
+		- continuidade
+		- pregnância
+		- fechamento
+		- unidade
+		- unificação
+		- segregação
+
+Design:
+	- resolver problemas através de comunicação visual
+	- se não resolve algo não é design, é enfeite
+	- Designer:
+		- "Qual o objetivo?"
+		- "Quem é o público?"
+		- "Qual ação a pessoa precisa tomar?"
+		- "Onde isso será usado?"
+	- elementos básicos:
+		- alinhamento
+		- hierarquia
+			- organizar as informações para mostrar oque é mais importante primeiro
+		- contraste
+			- diferença clara entre elementos para destacar algo
+		- semelhança
+			- pela gestalt, elementos semelhantes são agrupados pelo cérebro, podendo ajudar ou atrapalhar
+		- respiro
+			- espaço vazio entre textos e imagens para deixar mais organizado, fácil de ler e agradável aos olhos
+	- na prática:
+		- As Heurísticas de nielsen:
+
+- "Porque no fim das contas, design não é sobre beleza. É sobre reduzir dúvidas, evitar erros e tornar a vida das pessoas um pouco mais simples"

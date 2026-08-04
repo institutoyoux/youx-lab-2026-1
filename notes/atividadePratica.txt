@@ -1,0 +1,20 @@
+- Hipótese mestre: "Os recém formados saem da universidade sem as habilidades práticas que as empresas de tecnologias daqui precisam, gerando desemprego de um lado e vagas abertas do outro."
+
+- Hipóteses sec. de problema (5): (afirmações que detalham mais a hipótese central)
+  1- Acreditamos que exista a falta de atividades e ensino prático nas universidades, que simulariam o mercado de trabalho.
+  2- Também, a falta de parcerias e colaborações entre as empresas e universidades, podendo oferecer estágios para os alunos que contribuiriam futuramente na empresa.
+  3- Além da falta de materiais necessários para os professores não os incentivam a proporcionar aulas práticas.
+  4- Muitos alunos também não tem interesse em procurar atividades além das oferecidas pela universidade, ficando despreparados para ingressar em uma empresa.
+  5- 
+
+- Hipóteses sec. de cliente (5): 
+  1- Acreditamos que os recém-formados tenham em média de 23 a 26 anos.
+  2- Acreditamos também que eles tenham bastante tempo livre para trabalhar em um possível emprego.
+  3- Conhecimento teórico bem desenvolvido.
+  4- Acreditamos que tenha um trabalho de meio período.
+  5- Acreditamos também que tenha uma renda mensal de mais ou menos R$810,00.
+
+- Solução (Produto, serviço, etc):
+  - Um serviço de "cotas" na empresa que disponibilizaria vagas específicas para recém-formados que tenham interesse nos projetos da empresa e disponibilidade para o trabalho.
+
+

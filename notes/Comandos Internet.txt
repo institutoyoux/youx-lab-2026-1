@@ -1,0 +1,3 @@
+ sudo systemctl restart NetworkManager  *reinicia a internet
+ 
+ sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf   *configurar internet

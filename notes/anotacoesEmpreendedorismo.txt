@@ -1,0 +1,47 @@
+Qual dor seu negócio resolve: 
+- Importância dessa etapa: pessoas compram o valor que o produto traz, não o produto em si (NEGÓCIO CENTRADO NO USUÁRIO!).
+
+- Conhecer as necessidades do cliente:
+  - Quais os problemas do cliente?
+  - O problema realmente existe?
+  - Qual a intensidade em que esse problema incomoda?
+  - O cliente já buscou a resolução desse problema?
+
+- Persona | Perfil de cliente
+  Persona:
+    - Personagem criado
+    - Representa o cliente "perfeito" (provavelmente está no perfil de cliente)
+    - Utilizado para ajudar a desenvolver a campanha de marketing como um todo
+    - Detalhes sobre hábitos e trabalho
+  Perfil de cliente:
+    - Definição ampla
+    - Não se refere a alguém específico
+    - Pessoas que podem querer seu produto
+    - Não fala sobre hábitos
+    - se refere a um grupo de pessoas
+
+- Oque não é a validação de dor?
+  - Desconsiderar a solução pra um problema quando for validar e procurar dores
+
+- Oque é de fato a validação de dor:
+  - Uma ferramenta para conhecer o cliente/usuário
+  - Forma de encontrar o que o cliente/usuário não quer
+  - Ferramenta para testar hipóteses do seu negócio
+  - Coleta de informações do mercado
+
+- Ciclo IMPORTANTE!
+  - Learn
+  - Build
+  - Lean startup
+  - Mesure
+
+- HIPÓTESES:
+  - sempre validar e invalidar hipóteses
+  - Validação:
+    - Testar as hipóteses de imediado
+  - Tipos:
+    - Hipótese do cliente
+    - Hipótese do problema
+    - Hipótese da solução
+
+
