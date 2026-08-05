@@ -16,7 +16,6 @@ function limpar(){
 
 btn_cadastrar.addEventListener("click", (evt) => {
 
-
     evt.preventDefault()
     const dataCadastro = new Date(dataC.value)
     const dataTermino = new Date(dataT.value)
