@@ -1,0 +1,3 @@
+Pergunta do desafio:
+Para um dado aluno, retornar todas as disciplinas que esse aluno faz 
+e qual professor ministra cada uma dessas disciplinas
