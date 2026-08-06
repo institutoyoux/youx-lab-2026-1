@@ -164,7 +164,7 @@ while quebrarCodigo1 == 0:
             if resposta2 in 'Nn':
                 quebrarCodigo5 += 1
                 print('------=------=------=----------=------=------=------')
-            elif resposta2 in 'Ss':
+            elif resposta2 in 'Ss':System.out.println("[ID: 2] - [Nome: ] - []");
                 print('[Preço do produto] + [Quantidade] + [R$ 6,0 de entrega]')
                 print('Calculando o preço a se pagar...')
                 sleep(0.5)

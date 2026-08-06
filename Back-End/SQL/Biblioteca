@@ -339,21 +339,53 @@ group by
 having
 	sum(emp.valor) > 10
 
+-- CONSULTAS COMANDOS DIVERSOS
 
+-- 44. O nome de todos os alunos em ordem decrescente e em letra maiúscula.
+select upper(nome) from aluno order by nome desc;
 
+-- 45. Os empréstimos que foram feitos no mês 04 de 2012.
+select idemprestimo from emprestimo where extract(Month from data_emprestimo) = 4
+select * from emprestimo
 
+-- 46. Todos os campos do empréstimo. Caso já tenha sido devolvido, mostrar a mensagem “Devolução completa”, senão “Em atraso”.
+select *, case devolvido when 'S' Then 'Devolução completa' when 'N' then 'Não devolvido' end as status from emprestimo
 
+-- 47. Somente o caractere 5 até o caractere 10 do nome dos autores.
+select substring(nome from 5 for 10) from autor
 
+-- 48. O valor do empréstimo e somente o mês da data de empréstimo. Escreva “Janeiro”, “Fevereiro”, etc
+select valor, case extract(month from data_emprestimo) 
+	when 1 then 'Janeiro' when 2 then 'Fevereiro' when 3 then 'Março' 
+	when 4 then 'Abril' when 5 then 'Maio' when 6 then 'Junho' 
+	when 7 then 'Julho' when 8 then 'Agosto' when 9 then 'Setembro' 
+	when 10 then 'Outubro' when 11 then 'Novembro' 
+	when 12 then 'Dezembro' else 'Não informado' end as mes 
+from emprestimo
 
+-- SUBCONSULTAS
 
+-- 49. A data do empréstimo e o valor dos empréstimos que o valor seja maior que a média de todos os empréstimos.
+select data_emprestimo, valor from emprestimo where valor > (select avg(valor) from emprestimo)
 
+-- 50. A data do empréstimo e o valor dos empréstimos que possuem mais de um livro.
+select
+	emp.data_emprestimo,
+	emp.valor,
+	(select count(elv.idemprestimo) from emprestimo_livro as elv where elv.idemprestimo = emp.idemprestimo)
+from
+	emprestimo as emp
+where
+	(select count(elv.idemprestimo) from emprestimo_livro as elv where elv.idemprestimo = emp.idemprestimo) > 1
 
-
-
-
-
-
-
+-- 51. A data do empréstimo e o valor dos empréstimos que o valor seja menor que a soma de todos os empréstimos.
+select
+	data_emprestimo,
+	valor 
+from
+	emprestimo as emp
+where
+	valor < (select sum(valor) from emprestimo)
 
 
 
