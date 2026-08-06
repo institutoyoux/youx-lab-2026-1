@@ -17,3 +17,4 @@ btnVerificar.addEventListener("click", (evt)=>{
         resultado.innerHTML="OK"
     }
 })
+
