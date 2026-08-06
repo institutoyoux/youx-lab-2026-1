@@ -1,31 +1,27 @@
-class Pessoas{
-  canal = "CFB Cursos";
-  constructor(pnome, pidade) {
-    this.nome = pnome;
-    this.idade = pidade;
-  }
-  getNome() {
-    return this.nome;
-  }
-  getIdade() {
-    return this.idade;
-  }
-  setNome(nome) {
-    this.nome = nome;
-  }
-  setIdade(idade) {
-    this.idade = idade;
-  }
-  set velMax(velmax) {
-    this.velMax = velmax;
-  }
-  info() {
-    console.log(`Nome : ${this.nome}`);
-    console.log(`Idade :  ${this.idade}`);
+function Pessoas(pnome, pidade){
+    this.nome = pnome,
+    this.idade = pidade,
+  
+    this.getNome=function(){
+        return this.nome;
+    },
+    this.getIdade=function(){
+        return this.idade;
+    },
+    this.setNome=function(nome){
+        this.nome = nome;
+    },
+    this.setIdade=function(idade){
+        this.idade = idade;
+    }
 
-    console.log("-----------");
-  }
-}
+    this.info=function(){
+        console.log(`Nome : ${this.nome}`);
+        console.log(`Idade :  ${this.idade}`);
+
+        console.log("-----------");
+    }
+    }
 
 let pessoas = [];
 
