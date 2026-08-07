@@ -1,7 +1,8 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    border: none;
+    padding: 1px;
+    margin: 1px;
+    border-color: #0a0a0a;
+    border-radius:5px;
 }
 main{
     display: flex;
@@ -16,18 +17,20 @@ button{
     color: #ffffff;
     cursor: pointer;
     border-radius: 10px;
+    transition: border-color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
 }
 .curso{
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    border: 1px solid #000000;
-    border-radius: 100px;
-    padding: 10px;
-    margin: 5px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    margin-bottom:12px;
+    border:1px solid #000000;
+    border-radius:15px;
+    background:#fafafa;
+    cursor:pointer;
+    transition:.25s;
+
 }
 .selecionado{
     background-color: #800 !important;
@@ -35,12 +38,12 @@ button{
     border-color: #f00 !important;
 }
 .c1{
-    background-color: #ccc;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 .c2{
     background-color: #ffffff;
-    color: #ccc;
+    color: #ffffff;
 }
 
 .caixa{
