@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: parking-control
+  datasource:
+    url: jdbc:postgresql://localhost:5432/parking-control-db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+  properties:
+    hibernate:
+      jbdc:
+        lob:
+          non_contextual_creation: true
