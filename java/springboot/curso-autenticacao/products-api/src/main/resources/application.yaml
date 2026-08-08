@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: products-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/products
+    username: postgres
+    password: postgres
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
