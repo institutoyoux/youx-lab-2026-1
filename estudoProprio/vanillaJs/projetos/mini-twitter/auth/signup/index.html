@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login - miniTwitter</title>
+    <link rel="stylesheet" href="/auth/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+</head>
+
+<body>
+    <header class="authHeader">
+        <img src="/images/logo.png" class="logo">
+    </header>
+    <main class="authMain">
+        <h1 class="title">Crie sua conta!</h1>
+        <form id="loginForm">
+            <label for="login">Usuario</label>
+            <input type="text" name="username" id="username" placeholder="Seu nome de usuario" required>
+            <label for="login">Email</label>
+            <input type="email" name="email" id="email" placeholder="Seu endereço de email" required>
+            <label for="password">Senha</label>
+            <div class="eye">
+                <input type="password" name="password" id="password" placeholder="Sua senha" minlength="8" required>
+                <i id="eye" class='bx bx-show'></i>
+            </div>
+            <div class="error" disabled></div>
+            <button id="submit" act="signup" disabled>Continuar</button>
+        </form>
+    </main>
+    <script src="/auth/script/script.js"></script>
+</body>
+</html>

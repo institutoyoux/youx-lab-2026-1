@@ -1,0 +1,184 @@
+:root {
+    --destaque: rgb(0, 82, 255)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: rgb(16, 16, 16);
+    color: #fff;
+}
+section.loading {
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+    width: 100vw;
+    height: 100dvh;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.leftNav {
+    display: none;
+}
+
+
+@media(min-width: 500px) {
+    body {
+        flex-direction: row;
+        align-items: start;
+    }
+    header {
+        display: none;
+    }
+    section.leftNav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        max-width: 20%;
+        padding: 1rem;
+    }
+    section.leftNav img.logoNav {
+        width: 70px;
+        margin-right: auto;
+    }
+    section.leftNav div.nav {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.2rem;
+        font-size: 1rem;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        cursor: pointer;
+    }
+    section.leftNav div.nav i.bx {
+        font-size: 1.2rem;
+    }
+    section.leftNav div.nav.select {
+        background-color: rgba(255, 255, 255, 0.1);
+        font-weight: 500;
+    }
+    main {
+        padding: 1.5rem;
+        width: 100%;
+        width: 42rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 3.8rem;
+    }
+    main section.top {
+        font-weight: bold;
+        padding: 0.3rem 1.5rem;
+        width: 100%;
+        max-width: calc(100% - 2rem);
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    main section.top div.menu {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        position: relative;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    main section.top div.menu .modal {
+        position: absolute;
+        right: 1rem;
+        width: 10rem;
+        bottom: -2.5rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 0.5rem;
+        padding: 0.4rem 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    main .posts {
+        border: 1px solid #333;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    main .posts #posts {
+        width: 100%;
+    }
+    main .me {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #333;
+    }
+    main .me img {
+        width: 100%;
+        max-width: 40px;
+        border-radius: 100rem;
+        border: 1px solid var(--destaque);
+        margin-left: 1.5rem;
+    }
+    main .me input {
+        width: 70%;
+        padding: 0.5rem 0;
+        margin-left: 0.5rem;
+        color: #fff;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+    }
+    main .me button {
+        border: 1px solid #333;
+        background-color: transparent;
+        color: #fff;
+        padding: 0.6rem 1rem;
+        font-weight: bold;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        margin-left: 0.8rem;
+    }
+    main .posts .post {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        border-bottom: 1px solid #333;
+    }
+    main .posts .post .foto {
+        width: 100%;
+        max-width: 40px;
+        margin-left: 1.3rem;
+    }
+    main .posts .post .postContent {
+        margin-left: 1rem;
+    }
+    main .posts .post .postContent .username {
+        font-weight: 500;
+    }
+    main .posts .post .postContent section {
+        margin-top: 0.5rem;
+        color: #ccc;
+    }
+}

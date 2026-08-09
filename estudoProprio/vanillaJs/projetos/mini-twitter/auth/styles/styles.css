@@ -1,0 +1,136 @@
+:root {
+    --destaque: rgb(0, 82, 255)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+header.authHeader {
+    width: 700px;
+    padding: 1rem;
+    max-width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header.authHeader img.logo {
+    width: 100px;
+    max-width: 15%;
+    margin-right: auto;
+}
+
+@media(min-width: 500px) {
+    body {
+        flex-direction: row;
+        align-items: center;
+        min-height: 100vh;
+    }
+    header.authHeader {
+        width: 50%;
+        padding: 0;
+    }
+    header.authHeader img.logo {
+        max-width: 50%;
+        margin: 0;
+    }
+}
+
+
+main.authMain {
+    width: 415px;
+    max-width: 88%;
+    margin-top: 0.2rem;
+}
+
+main.authMain h1.title {
+    margin: 0;
+    font-size: 1.85rem;
+}
+
+main.authMain form#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+
+form#loginForm label {
+    font-size: 1.1rem;
+    margin: 0.4rem 0;
+    margin-right: auto;
+}
+
+form#loginForm input {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: calc(460px - 2rem);
+    max-width: calc(100% - 2rem);
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    outline: none;
+    color: #000;
+}
+
+form#loginForm input:focus {
+    border: 3px solid var(--destaque);
+}
+
+form#loginForm div.eye {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+form#loginForm div.eye i.bx {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+form#loginForm button#submit {
+    background-color: var(--destaque);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 1.3rem;
+    border-radius: 100rem;
+    border: none;
+}
+button:disabled {
+    opacity: 0.5;
+}
+.error {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 0.2rem;
+    color: red;
+    text-align: left;
+    width: 100%;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+.error i {
+    font-size: 1.2rem;
+}
+.error[disabled] {
+    display: none !important;
+    background-color: red;
+}

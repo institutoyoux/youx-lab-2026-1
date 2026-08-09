@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - miniTwitter</title>
+    <link rel="stylesheet" href="/home/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+</head>
+<body>
+    <section class="loading">
+        carregando...
+    </section>
+    <header class="homeHeader">
+        <img src="/images/logo.png" class="logo">
+    </header>
+    <section class="leftNav">
+        <img src="/images/logo.png" class="logoNav">
+        <div class="nav select"><i class="bx bx-home"></i>Para você</div>
+        <div class="nav"><i class="bx bx-plus"></i>Novo post</div>
+    </section>
+    <main>
+        <section class="top">
+            <span>Para você</span>
+            <div class="menu"><i class="bx bx-menu" id="menu"></i><div class="modal" id="modal" style="display: none;"><span>tem q terminar kkk</span></div>
+        </section>
+        <section class="posts">
+            <form class="me">
+                <img src="https://api.dicebear.com/7.x/micah/svg?seed=" class="perfil" id="perfil">
+                <input type="text" id="novidades" placeholder="Quais são novidades?">
+                <button class="postar" id="postar">Postar</button>
+            </form>
+            <section  id="posts">
+
+            </section>
+        </section>
+    </main>
+    <script src="/home/script/api.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
