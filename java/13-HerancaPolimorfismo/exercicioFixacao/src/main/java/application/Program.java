@@ -34,7 +34,7 @@ public class Program {
                 Double ctmFee = sc.nextDouble();
                 products.add(new ImportedProduct(name, price, ctmFee));
             }
-            if (op.equals("u")) {
+            else if (op.equals("u")) {
                 System.out.print("Manufacture date (DD/MM/YYYY): ");
                 Date date = sdf.parse(sc.next());
                 products.add(new UsedProduct(name, price, date));

@@ -1,6 +1,0 @@
-- Marca | Branding
-  - Marca:
-    - 
-  - Branding:
-    - "Como você será lembrado após o produto"
- - 
