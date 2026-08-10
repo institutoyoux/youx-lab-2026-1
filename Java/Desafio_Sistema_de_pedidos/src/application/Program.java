@@ -18,9 +18,9 @@ public class Program {
 
         Scanner sc = new Scanner(System.in);
 
-        Cliente c1 = new Cliente(1,"Luiz", "vinicius@gmail.com");
+        Cliente c1 = new Cliente(1,"Luiz", "luiz@gmail.com");
         Cliente c2 = new Cliente(2, "Breno", "breno@gmail.com");
-        Cliente c3 = new Cliente(3, "Ana", "aline@gmail.com");
+        Cliente c3 = new Cliente(3, "Ana", "ana@gmail.com");
         Cliente c4 = new Cliente(4, "Maria", "maria@gmail.com");
         Cliente c5 = new Cliente(5, "João", "joao@gmail.com");
 
@@ -61,6 +61,7 @@ public class Program {
         pedidos.add(pdd5);
 
         int resposta;
+        int id;
 
         do {
             System.out.println("""
@@ -76,7 +77,7 @@ public class Program {
             switch (resposta) {
                 case 1:
                     System.out.print("ID do pedido: ");
-                    int id = sc.nextInt();
+                    id = sc.nextInt();
                     for (Pedido pdd: pedidos) {
                         if (pdd.getId() == id) {
                             System.out.println(pdd.toString());
