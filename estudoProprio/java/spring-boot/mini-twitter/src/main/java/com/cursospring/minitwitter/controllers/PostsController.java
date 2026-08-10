@@ -1,10 +1,13 @@
 package com.cursospring.minitwitter.controllers;
 
+import com.cursospring.minitwitter.models.like.Like;
 import com.cursospring.minitwitter.models.post.Post;
 import com.cursospring.minitwitter.models.post.PostMapper;
 import com.cursospring.minitwitter.models.post.dto.PostCreateDto;
 import com.cursospring.minitwitter.models.post.dto.PostResponseDto;
+import com.cursospring.minitwitter.models.user.User;
 import com.cursospring.minitwitter.models.user.UserMapper;
+import com.cursospring.minitwitter.services.LikeService;
 import com.cursospring.minitwitter.services.PostService;
 import com.cursospring.minitwitter.services.UserService;
 import jakarta.validation.Valid;
@@ -17,6 +20,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+import java.util.UUID;
+
 @RestController
 @RequestMapping("/post")
 @RequiredArgsConstructor
@@ -26,20 +32,62 @@ public class PostsController {
     private final PostMapper postMapper;
     private final UserService userService;
     private final UserMapper userMapper;
+    private final LikeService likeService;
 
     @PostMapping("/new")
-    public ResponseEntity newPost(@RequestBody @Valid PostCreateDto post, Authentication authentication) {
+    public ResponseEntity<Void> newPost(@RequestBody @Valid PostCreateDto post, Authentication authentication) {
         String username = authentication.getName();
         var postEntity = postMapper.toEntity(post, userService.buscarPorUsername(username));
-        postEntity.setUser(userService.buscarPorUsername(username));
         postService.salvar(postEntity);
         return ResponseEntity.ok().build();
     }
 
     @GetMapping("/all")
-    public ResponseEntity<Page<PostResponseDto>> getAllPosts(@PageableDefault(size = 10, sort = "dataCriacao", direction = Sort.Direction.DESC) Pageable pageable) {
+    public ResponseEntity<Page<PostResponseDto>> getAllPosts(
+            @PageableDefault(size = 10, sort = "dataCriacao", direction = Sort.Direction.DESC) Pageable pageable,
+            Authentication authentication
+    ) {
         var posts = postService.todosPosts(pageable);
-        var postsMap = posts.map(post -> new PostResponseDto(post.getId(), post.getDataCriacao(), post.getConteudo(), userMapper.toUserResponseDto(post.getUser())));
+
+        User user = userService.buscarPorUsername(authentication.getName());
+        var postsMap = posts.map(post -> new PostResponseDto(post.getId(), post.getDataCriacao(), post.getConteudo(), post.getLikes().size(), likeService.verLikedPorIds(post.getId(), user.getId()), userMapper.toUserResponseDto(post.getUser())));
         return ResponseEntity.ok(postsMap);
+    }
+    @PostMapping("/{id}/like")
+    public ResponseEntity<Object> likePost(@PathVariable("id") UUID id, Authentication authentication) {
+        if (id == null) {
+            return ResponseEntity.badRequest().build();
+        }
+        Optional<Post> postOptional = postService.buscarporId(id);
+        if (postOptional.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+        User user = userService.buscarPorUsername(authentication.getName());
+        Post post = postOptional.get();
+        if (likeService.buscarPorUserEPost(user, post).isEmpty()) {
+            Like like = new Like(user, post);
+            likeService.like(like);
+            return ResponseEntity.ok().build();
+        }
+        return ResponseEntity.badRequest().build();
+    }
+    @DeleteMapping("/{id}/dislike")
+    public ResponseEntity<Void> dislikePost(@PathVariable("id") UUID id, Authentication authentication) {
+        if (id == null) {
+            return ResponseEntity.badRequest().build();
+        }
+        Optional<Post> postOptional = postService.buscarporId(id);
+        if (postOptional.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+        User user = userService.buscarPorUsername(authentication.getName());
+        Post post = postOptional.get();
+        Optional<Like> likeOptional = likeService.buscarPorUserEPost(user, post);
+        if (likeOptional.isPresent()) {
+            Like like = likeOptional.get();
+            likeService.dislike(like);
+            return ResponseEntity.ok().build();
+        }
+        return ResponseEntity.badRequest().build();
     }
 }

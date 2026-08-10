@@ -1,5 +1,6 @@
 package com.cursospring.minitwitter.models.post;
 
+import com.cursospring.minitwitter.models.like.Like;
 import com.cursospring.minitwitter.models.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -8,6 +9,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.time.Instant;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -30,4 +32,7 @@ public class Post {
     private String conteudo;
     @Column(name = "data_criacao", nullable = false, insertable = false, updatable = false)
     private Instant dataCriacao;
+    @OneToMany
+    @JsonIgnore
+    private List<Like> likes;
 }

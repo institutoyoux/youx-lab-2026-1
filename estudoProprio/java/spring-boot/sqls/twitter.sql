@@ -13,3 +13,10 @@ create table posts (
 	conteudo varchar(500) not null,
 	data_criacao TIMESTAMPTZ not null default now()
 )
+
+create table likes (
+	id uuid not null primary key,
+	post_id uuid not null references posts(id),
+	user_id uuid not null references users(id),
+    constraint unique_like unique (post_id, user_id)
+)

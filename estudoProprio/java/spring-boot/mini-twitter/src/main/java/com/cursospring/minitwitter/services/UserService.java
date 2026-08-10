@@ -1,9 +1,12 @@
 package com.cursospring.minitwitter.services;
 
+import com.cursospring.minitwitter.models.like.Like;
 import com.cursospring.minitwitter.models.user.User;
 import com.cursospring.minitwitter.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -24,5 +27,21 @@ public class UserService {
 
     public User buscarPorUsername(String username) {
         return repository.findByUsername(username);
+    }
+
+    public void addLike(Like like) {
+        User user = buscarPorUsername(like.getUser().getUsername());
+        if (user == null) {
+            throw new IllegalArgumentException("Usuario não encontrado");
+        }
+        user.getLikes().add(like);
+    }
+
+    public void removeLike(Like like) {
+        User user = buscarPorUsername(like.getUser().getUsername());
+        if (user == null) {
+            throw new IllegalArgumentException("Usuario não encontrado");
+        }
+        user.getLikes().remove(like);
     }
 }

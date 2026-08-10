@@ -1,5 +1,6 @@
 package com.cursospring.minitwitter.models.user;
 
+import com.cursospring.minitwitter.models.like.Like;
 import com.cursospring.minitwitter.models.post.Post;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -43,6 +44,9 @@ public class User implements UserDetails {
     @OneToMany(mappedBy = "user")
     @JsonIgnore
     private List<Post> posts;
+    @OneToMany
+    @JsonIgnore
+    private List<Like> likes;
 
     public User(String username, String email, String password, UserRole userRole) {
         this.username = username;

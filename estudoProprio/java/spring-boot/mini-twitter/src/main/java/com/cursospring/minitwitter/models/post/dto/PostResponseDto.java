@@ -9,6 +9,8 @@ public record PostResponseDto(
         UUID id,
         Instant data_criacao,
         String conteudo,
+        Integer likes,
+        Boolean liked,
         UserResponseDto user
 ) {
 }

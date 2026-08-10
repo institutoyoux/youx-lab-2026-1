@@ -25,9 +25,11 @@ const renderizarApi = async () => {
                 <div class="postContent">
                     <span class="username">${post.user.username}</span>
                     <section>${post.conteudo}</section>
+                    <div class="like">${post.liked ? `<i class="bx bxs-like" postId="${post.id}"></i>` : `<i class="bx bx-like" postId="${post.id}"></i>`}${post.likes}</div>
                 </div>`
         document.getElementById("posts").appendChild(newPost)
     })
+    permitirLike()
     removerLoading()
 }
 document.getElementById("menu").addEventListener("click", () => {
@@ -62,4 +64,31 @@ if (!token) {
     window.location.href = '/auth/login/'
 } else {
     renderizarApi()
+}
+
+const permitirLike = () => {
+    const liked = document.querySelectorAll(".like .bxs-like");
+    const like = document.querySelectorAll(".like .bx-like")
+    liked.forEach(icon => {
+        const url = `post/${icon.getAttribute("postId")}/dislike`
+        icon.addEventListener("click", async () => {
+            try {
+                const likeRes = await authApi.delete(url);
+                renderizarApi();
+            } catch (error) {
+                alert("Não foi possivel descurtir o post!")
+            }
+        })
+    })
+    like.forEach(icon => {
+        const url = `post/${icon.getAttribute("postId")}/like`
+        icon.addEventListener("click", async () => {
+            try {
+                const likeRes = await authApi.post(url)
+                renderizarApi();
+            } catch (error) {
+                alert("Não foi possivel curtir o post!")
+            }
+        })
+    })
 }
