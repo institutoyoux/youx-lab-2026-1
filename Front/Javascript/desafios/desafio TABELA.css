@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 65%;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+main h1 {
+    background: #f0f1f3;
+    padding: 18px;
+    font-size: 20px;
+    color: #64798b;
+    border-bottom: 1px solid #ccc;
+}
+
+#caixaNovaTarefa {
+    margin: 22px;
+    padding: 20px;
+    border: 1px dashed #bbb;
+    border-radius: 8px;
+}
+
+#caixaNovaTarefa h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #263b50;
+}
+
+#caixaCriarTarefas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo:nth-child(1) {
+    width: 48%;
+}
+
+.campo:nth-child(2) {
+    width: 48%;
+}
+
+.campo:nth-child(3) {
+    width: 30%;
+}
+
+.campo:nth-child(4) {
+    width: 30%;
+}
+
+.campo:nth-child(5) {
+    width: 30%;
+}
+
+.campo label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #45596b;
+}
+
+.campo input,
+.campo select {
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: white;
+}
+
+#btnCadastrarTarefa {
+    padding: 12px 18px;
+    background: #20ad62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnCadastrarTarefa:hover {
+    background: #168d4e;
+}
+
+#caixaTarefas {
+    margin: 22px;
+}
+
+#tabelaTarefas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabelaTarefas th {
+    background: #f5f5f5;
+    text-align: left;
+    padding: 12px;
+    color: #263b50;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabelaTarefas td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #34495e;
+}
+
+.status {
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.finalizado {
+    background: #28c76f;
+}
+
+.nao-iniciado {
+    background: #9aa8aa;
+}
+
+.em-andamento {
+    background: #3498db;
+}
+
+.prazo {
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.em-dia {
+    background: #28c76f;
+}
+
+.atrasado {
+    background: #ed4b3e;
+}
+
+.acoes button {
+    display: block;
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnEditar {
+    background: #f39c12;
+}
+
+.btnDeletar {
+    background: #e74c3c;
+}

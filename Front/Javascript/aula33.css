@@ -16,17 +16,17 @@
 }
 
 .c1 {
-    background-color: rgb(131 157 224 / 0.3);
+    background-color: rgb(250 159 53 / 0.31);
     color: #0a0909;
 }
 
 .c2 {
-    background-color: rgb(232 176 176 / 0.63);
-    color: #ccc;
+    background-color: rgb(85 19 41 / 0.47);
+    color: #070707;
 }
 
 .destaque {
     background-color: #844 !important;
     color: #ccc !important;
-    border-color: #f00 !important;
+    border-color: #551329 !important;
 }
