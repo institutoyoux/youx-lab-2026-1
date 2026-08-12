@@ -3,6 +3,7 @@ const somar=document.getElementById("somar")
 const subtrair=document.getElementById("subtrair")
 const multiplicar=document.getElementById("multiplicar")
 const dividir=document.getElementById("dividir")
+const potencia=document.getElementById("potencia")
 
 somar.addEventListener("click",(evt) => {
     let valor1=document.getElementById("v1").value
@@ -58,4 +59,23 @@ dividir.addEventListener("click",(evt) => {
 
     let resposta = valor1 / valor2
     resultado.innerText = resposta
+})
+
+potencia.addEventListener("click",(evt) => {
+    let valor1=document.getElementById("v1").value
+    let valor2=document.getElementById("v2").value
+    const resultado=document.getElementById("resultado")
+
+    valor1 = Number(valor1)
+    valor2 = Number(valor2)
+
+    let resposta = 1
+
+    for (let i = 0; i < valor2; i++) {
+            resposta *= valor1
+        }
+    
+
+    resultado.innerText = resposta
+
 })
