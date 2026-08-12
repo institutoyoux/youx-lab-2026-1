@@ -1,0 +1,9 @@
+
+button{
+    border: 5px ;
+    width: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 8px;
+    padding: 2px;
+}
