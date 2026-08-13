@@ -6,13 +6,13 @@
     border-radius: 10px;
     padding: 10px;
     margin: 5px 0px;
-    cursor:pointer
+    cursor: pointer;
 }
 .curso:hover{
-    border-color: #f00;
+    border-color: #3e4acb;
 }
 .c1{
-    background-color: #ccc;
+    background-color: rgb(204 204 204 / 0);
     color: #444;
 }
 .c2{
@@ -22,5 +22,25 @@
 .destaque{
     background-color: #844 !important;
     color: #ccc !important;
-    border-color: #f00 !important;
+    border-color: #008cff !important;
+}
+#c16{
+    background-color: rgb(204 204 204 / 0);
+    border-color: #606060;
+
+}
+.azul{
+    display: flex;
+    justify-content: center!important;
+    width: 200px;
+    border: 4px solid #e53a3a;
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 10px;
+    transition: width 3s;
+    cursor: pointer;
+    color: #0e0d0d;
+}
+.azul{
+    border-color: #7f8c8d;
 }

@@ -1,28 +1,54 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 45</title>
+    <link rel="stylesheet" href="aula46.css">
 </head>
 <body>
-<table>
-    <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-    </tr>
-    <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-    </tr>
-</table>
+<main>
+
+    <!-- Caixa de funcionalidades -->
+    <div id="caixaNovoFuncionalidades" class="caixa">
+
+        <div id="caixaNovoCurso" class="caixaFuncionalidades">
+            <label for="nomeCurso">Nome do curso</label>
+
+            <input
+                    type="text"
+                    id="nomeCurso"
+                    placeholder="Digite o nome do curso"
+            >
+            <button id="btnAdicionarAntes">
+                Adicionar Antes
+            </button>
+
+            <button id="btnAdicionarDepois">
+                Adicionar Depois
+            </button>
+        </div>
+
+        <div id="caixaRemoverCurso" class="caixaFuncionalidades">
+            <button id="btnRemoverCurso">
+                Remover Selecionado
+            </button>
+        </div>
+
+        <div id="caixaCursoSelecionado" class="caixaFuncionalidades">
+            <button id="btnCursosSelecionados">
+                Curso Selecionado
+            </button>
+        </div>
+    </div>
+    <div id="caixaCursos" class="caixa">
+
+        <div id="caixaCurso">
+        </div>
+    </div>
+</main>
+
+<script src="aula46.js"></script>
+
 </body>
-<script !src=""></script>
 </html>

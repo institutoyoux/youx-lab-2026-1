@@ -10,84 +10,55 @@ body {
 }
 
 main {
-    width: 65%;
-    margin: 20px auto;
+    width: 90%;
+    margin: 25px auto;
     background: white;
     border: 1px solid #ccc;
     border-radius: 10px;
-}
-
-main h1 {
-    background: #f0f1f3;
-    padding: 18px;
-    font-size: 20px;
-    color: #64798b;
-    border-bottom: 1px solid #ccc;
+    padding: 20px;
 }
 
 #caixaNovaTarefa {
-    margin: 22px;
     padding: 20px;
     border: 1px dashed #bbb;
     border-radius: 8px;
-}
-
-#caixaNovaTarefa h2 {
     margin-bottom: 20px;
-    font-size: 18px;
-    color: #263b50;
 }
 
 #caixaCriarTarefas {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.campo {
-    display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
-.campo:nth-child(1) {
-    width: 48%;
-}
-
-.campo:nth-child(2) {
-    width: 48%;
-}
-
-.campo:nth-child(3) {
-    width: 30%;
-}
-
-.campo:nth-child(4) {
-    width: 30%;
-}
-
-.campo:nth-child(5) {
-    width: 30%;
-}
-
-.campo label {
-    font-size: 12px;
+#caixaCriarTarefas label {
+    font-size: 14px;
     font-weight: bold;
     color: #45596b;
+    margin-top: 5px;
 }
 
-.campo input,
-.campo select {
-    height: 35px;
-    padding: 5px 10px;
+#caixaCriarTarefas input,
+#caixaCriarTarefas select {
+    width: 100%;
+    height: 40px;
+    padding: 1px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
     background: white;
 }
 
+#caixaCriarTarefas input:focus,
+#caixaCriarTarefas select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
 #btnCadastrarTarefa {
+    width: 180px;
     padding: 12px 18px;
+    margin-top: 10px;
     background: #20ad62;
     color: white;
     border: none;
@@ -101,79 +72,70 @@ main h1 {
 }
 
 #caixaTarefas {
-    margin: 22px;
+    padding: 20px;
+    border: 1px dashed #bbb;
+    border-radius: 8px;
 }
 
-#tabelaTarefas {
-    width: 100%;
-    border-collapse: collapse;
+#caixaEditarTarefas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-#tabelaTarefas th {
-    background: #f5f5f5;
-    text-align: left;
-    padding: 12px;
-    color: #263b50;
-    border-bottom: 1px solid #ddd;
-}
-
-#tabelaTarefas td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-    color: #34495e;
-}
-
-.status {
-    padding: 7px 10px;
-    border-radius: 20px;
-    color: white;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.finalizado {
-    background: #28c76f;
-}
-
-.nao-iniciado {
-    background: #9aa8aa;
-}
-
-.em-andamento {
-    background: #3498db;
-}
-
-.prazo {
-    padding: 7px 10px;
-    border-radius: 20px;
-    color: white;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.em-dia {
-    background: #28c76f;
-}
-
-.atrasado {
-    background: #ed4b3e;
-}
-
-.acoes button {
-    display: block;
-    width: 60px;
-    padding: 5px;
-    margin-bottom: 3px;
+#caixaEditarTarefas button {
+    padding: 10px 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
+    font-weight: bold;
     cursor: pointer;
 }
 
-.btnEditar {
+#btnEditarTarefa {
     background: #f39c12;
 }
 
-.btnDeletar {
+#btnEditarTarefa:hover {
+    background: #d68910;
+}
+
+#btnDeletarTarefa {
     background: #e74c3c;
+}
+
+#btnDeletarTarefa:hover {
+    background: #c0392b;
+}
+
+#statusFinalizado {
+    background: #28c76f;
+}
+
+#statusNaoIniciado {
+    background: #9aa8aa;
+}
+
+#statusEmAndamento {
+    background: #3498db;
+}
+
+#prazoEmDia {
+    background: #20ad62;
+}
+
+#statusFinalizado:hover {
+    background: #20a85c;
+}
+
+#statusNaoIniciado:hover {
+    background: #7f8c8d;
+}
+
+#statusEmAndamento:hover {
+    background: #2980b9;
+}
+
+#prazoEmDia:hover {
+    background: #168d4e;
 }

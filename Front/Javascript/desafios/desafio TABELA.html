@@ -1,81 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Desafio 2 Front End </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desafio 2 Front End</title>
+
     <link rel="stylesheet" href="desafio%20TABELA.css">
 </head>
+
 <body>
 
 <main>
+
     <div id="caixaNovaTarefa" class="caixa">
+
         <div id="caixaCriarTarefas" class="caixaFuncionalidades">
-            <label>NOME DA TAREFA</label>
-            <input type="text"
-                   name="nomeTarefa"
-                   id="nomeTarefa"/>
 
-            <label>TIPO</label>
-            <input type="text"
-                   name="tipoTarefa"
-                   id="tipoTarefa"/>
+            <label for="nomeTarefa">NOME DA TAREFA</label>
+            <input
+                    type="text"
+                    name="nomeTarefa"
+                    id="nomeTarefa"
+                    placeholder="Digite o nome da tarefa"
+            >
 
-            <label>DATA DE CADASTRO</label>
-            <input type="text"
-                   name="dataTarefa"
-                   id="dataTarefa"/>
+            <label for="tipoTarefa">TIPO</label>
+            <input
+                    type="text"
+                    name="tipoTarefa"
+                    id="tipoTarefa"
+                    placeholder="Digite o tipo da tarefa"
+            >
 
-            <label>DATA PARA TERMINO</label>
-            <input type="text"
-                   name="dataTerminoTarefa"
-                   id="dataTerminoTarefa"/>
+            <label for="dataTarefa">DATA DE CADASTRO</label>
+            <input
+                    type="date"
+                    name="dataTarefa"
+                    id="dataTarefa"
+            >
 
-            <label>STATUS</label>
-            <input type="text"
-                   name="statusTarefa"
-id="statusTarefa"/>
+            <label for="dataTerminoTarefa">DATA PARA TÉRMINO</label>
+            <input
+                    type="date"
+                    name="dataTerminoTarefa"
+                    id="dataTerminoTarefa"
+            >
 
+            <label for="statusTarefa">STATUS</label>
 
-<button id="btnCadastrarTarefa">
-    + Cadastrar Tarefa
-</button>
-</div>
-</div>
+            <select
+                    name="statusTarefa"
+                    id="statusTarefa"
+            >
+                <option value="nao-iniciado">NÃO INICIADO</option>
+                <option value="em-andamento">EM ANDAMENTO</option>
+                <option value="finalizado">FINALIZADO</option>
+            </select>
 
-<div id="caixaTarefas" class="caixa2">
-    <div id="caixaEditarTarefas" class="caixaFuncionalidades">
+            <button id="btnCadastrarTarefa">
+                + Cadastrar Tarefa
+            </button>
 
-        <button2 id="btnEditarTarefa">
-            Editar
-        </button2>
-
-        <button3 id="btnDeletarTarefa">
-            Excluir
-        </button3>
-
-        <statusFinalizado id="statusFinalizado">
-            FINALIZADO
-        </statusFinalizado>
-
-        <statusNaoIniciado id="statusNaoIniciado">
-            NÃO INICIADO
-        </statusNaoIniciado>
-
-        <statusEmAndamento id="statusEmAndamento">
-            EM ANDAMENTO
-        </statusEmAndamento>
-
-        <prazoEmDia id="prazoEmDia">
-            EM DIA
-        </prazoEmDia>
+        </div>
 
     </div>
-</div>
 
+
+    <div id="caixaTarefas" class="caixa2">
+
+        <div id="caixaEditarTarefas" class="caixaFuncionalidades">
+
+            <button id="btnEditarTarefa">
+                Editar
+            </button>
+
+            <button id="btnDeletarTarefa">
+                Excluir
+            </button>
+
+            <button id="statusFinalizado">
+                FINALIZADO
+            </button>
+
+            <button id="statusNaoIniciado">
+                NÃO INICIADO
+            </button>
+
+            <button id="statusEmAndamento">
+                EM ANDAMENTO
+            </button>
+
+            <button id="prazoEmDia">
+                EM DIA
+            </button>
+
+
+        </div>
+
+    </div>
 
 </main>
 
-<script src="desafio%20TABELA.html"></script>
+<script src="desafio%20RPG.js"></script>
 
 </body>
+
 </html>
