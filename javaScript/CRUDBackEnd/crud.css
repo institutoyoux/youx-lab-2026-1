@@ -1,0 +1,149 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa1 {
+    align-self: center;
+    border: 0.5px solid gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 70%;
+    border-radius: 0.5rem;
+}
+
+#titulo {
+    border-radius: inherit;
+    border: 0.5px;
+    background-color: rgb(212, 212, 212);
+    padding: 0.7rem;
+    display: flex;
+    color: rgb(120, 120, 120);
+    font-size: 1.2rem;
+    border-bottom: 1px solid;
+}
+
+#caixa2 {
+    border: 0.5px dashed grey;
+    margin: 2rem;
+    padding: 0.4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    color: rgb(83, 90, 101);
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+}
+
+.inputs div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+}
+
+input,
+select {
+    border-radius: 0.3rem;
+    border: 2px solid gray;
+    min-width: 15rem;
+    padding: 0.2rem;
+}
+
+#enviar {
+    padding: 0.7rem;
+    background-color: rgb(6, 158, 95);
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    border: 0px;
+}
+
+select {
+    cursor: pointer;
+}
+
+#caixa3 {
+    border: 0.5px solid grey;
+    margin: 2rem;
+    padding: 0.4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.4rem;
+}
+
+.btnEditar {
+    padding: 0.2rem;
+    background-color: rgb(255, 157, 0);
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    border: 0px;
+}
+
+.btnExcluir {
+    padding: 0.2rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    border: 0px;
+}
+
+.coluna {
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 0px;
+    text-align: center;
+}
+
+.tituloTabela {
+    border: 0.5px solid gray;
+    text-align: left;
+    color: rgb(59, 65, 76);
+
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.cinza{
+    background-color: gray;
+}
+
+.vermelho{
+    background-color: red;
+}
+

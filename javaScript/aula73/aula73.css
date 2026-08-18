@@ -10,10 +10,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #eee;
+    background-color: #1b1b1b;
     border: 3px solid #bbb;
     width: 320px;
-    border-radius: 5px;
+    border-radius: 0.8rem;
 }
 /* TÍTULO */
 .div_nome{
@@ -21,6 +21,10 @@
     justify-content: center;
     align-items: center;
     width: 220px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0.5rem;
 
 }
 
@@ -35,20 +39,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #aaa;
-    border: 3px solid #888;
+    background-color: #282828;
+    border: 3px solid #3e3e3e;
     font-weight: bold;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.9rem;
     margin: 2px;
     
 }
 
 .teclaOp{
-    background-color: #f44 !important;
-    border-color: #800 !important;
+    background-color: rgb(244, 110, 0) !important;
+    border-color: rgb(255, 89, 0) !important;
 }
 
 /* DISPLAY */
@@ -60,10 +64,11 @@
 }
 .display{
     width: 220px;
-    border: 1px solid blue;
-    background-color: green;
+    border: 0.1rem solid rgb(121, 121, 121);
+    background-color: rgb(63, 63, 63);
     text-align: right;
     padding: 5px;
     font-family: monospace;
     font-size: larger;
+    border-radius: 0.6rem;
 }

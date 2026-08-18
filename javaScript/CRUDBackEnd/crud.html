@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="crud.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio CRUD com BackEnd</title>
+</head>
+
+<body>
+    <div id="caixa1">
+        <div id="titulo">Gerenciador de Tarefas Web</div>
+        <div id="caixa2">
+            <h2>Nova Tarefa</h2>
+            <form id="form">
+                <div class="inputs">
+                    <div>
+                        <label>NOME DA TAREFA</label>
+                        <input id="nome" type="text">
+                    </div>
+                    <div>
+                        <label>TIPO</label>
+                        <select id="tipo">
+                            <option>SELECIONE...</option>
+                            <option value="TRABALHO">Trabalho</option>
+                            <option value="ESTUDOS">Estudo</option>
+                            <option value="PESSOAL">Pessoal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>DATA DE CADASTRO</label>
+                        <input id="inicio" type="date">
+                    </div>
+                    <div>
+                        <label>DATA PARA TÉRMINO</label>
+                        <input id="final" type="date">
+                    </div>
+                    <div>
+                        <label>STATUS</label>
+                        <select id="status">
+                            <option>SELECIONE...</option>
+                            <option value="NAO_INICIADO">NÃO INICIADO</option>
+                            <option value="ANDAMENTO">EM ANDAMENTO</option>
+                            <option value="FINALIZADO">FINALIZADO</option>
+                        </select>
+                    </div>
+                    <button id="enviar" acao="cadastrar">+ Cadastrar Tarefa</button>
+                </div>
+            </form>
+        </div>
+        <div id="caixa3">
+            <table id="tabela">
+                <tr class="tituloTabela">
+                    <th>Tarefa</th>
+                    <th>Tipo</th>
+                    <th>Início</th>
+                    <th>Término</th>
+                    <th>Status</th>
+                    <th>Prazo</th>
+                    <th>Ações</th>
+                </tr>
+                
+
+            </table>
+            <!-- Tarefas que vão add -->
+        </div>
+    </div>
+    <script src="crud.js"></script>
+</body>
+
+</html>
