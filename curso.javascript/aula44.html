@@ -1,31 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 44 de javascript</title>
-    <link rel="stylesheet" type="text/css" href="aula44.css">
+    <title>Aula 44</title>
+    <link rel="stylesheet" href="aula44.css">
 </head>
 <body>
-    <main>
-        <div id="caixaNovoFuncionalidades" class="caixa">
-            <div id="caixaNovoCurso" class="caixaNovoFuncionalidades">
-                <label>Nome do curso</label> 
-                <input type="text" name="nomeCurso" id="nomeCurso">
-                <button id="btnAdicionarNovoCurso">Adicionar</button>
-            </div>
-            <div id="caixaRemoverCurso" class="caixaNovoFuncionalidades">
-                <button id="btnRemoverCurso">Remover Selecionar</button>
-            </div>
-            <div id="caixaCursoSelecionado" class="caixaFunciona">
-                <button id="btnSelecionado">Curso Selecionar</button>
-            </div>
+
+<main>
+
+    <!-- Caixa de funcionalidades -->
+    <div id="caixaNovoFuncionalidades" class="caixa">
+
+        <div id="caixaNovoCurso" class="caixaFuncionalidades">
+            <label for="nomeCurso">Nome do curso</label>
+
+            <input
+                    type="text"
+                    id="nomeCurso"
+                    placeholder="Digite o nome do curso"
+            >
+            <button id="btnAdicionarAntes">
+                Adicionar Antes
+            </button>
+
+            <button id="btnAdicionarDepois">
+                Adicionar Depois
+            </button>
         </div>
-        <div id="caixaCursos" class="caixa">
-            <!--Cursos serao adicionados aqui -->
+
+        <div id="caixaRemoverCurso" class="caixaFuncionalidades">
+            <button id="btnRemoverCurso">
+                Remover Selecionado
+            </button>
         </div>
-    </main>
-    <script src="aula44.js"></script>
+
+        <div id="caixaCursoSelecionado" class="caixaFuncionalidades">
+            <button id="btnCursosSelecionados">
+                Curso Selecionado
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Caixa onde ficarão os cursos -->
+    <div id="caixaCursos" class="caixa">
+
+        <div id="caixaCurso">
+
+            <!-- Os cursos serão criados pelo JavaScript -->
+
+        </div>
+
+    </div>
+
+</main>
+
+<script src="aula44.js"></script>
+
 </body>
 </html>
