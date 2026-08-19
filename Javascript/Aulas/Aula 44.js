@@ -4,7 +4,7 @@ const c1_2=document.querySelector("#c1_2")
 const btnCursoSelecionado = document.querySelector("#btnCursoSelecionado")
 const cursos = ["HTML", "CSS", "JavaScript", "PHP", "React", "MySQL", "ReactNative"]
 const btnRemoverCurso = document.getElementById("btnRemoverCurso")
-
+const btnAdicionarNovoCurso = document.querySelector("#btnAdicionarNovoCurso");
 
 cursos.map((el,chave)=>{
     const novoElemento=document.createElement("div")
@@ -26,6 +26,7 @@ cursos.map((el,chave)=>{
     caixaCursos.appendChild(novoElemento)
 
 })
+
 const radioSelecionado=()=>{
     const todosRadios=[...document.querySelectorAll("input[type=radio]")]
     const radioSelecionado=todosRadios.filter((ele,ind,arr)=>{

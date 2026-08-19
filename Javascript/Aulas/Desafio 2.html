@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 2 Front End </title>
+    <link rel="stylesheet" href="Desafio%202.css">
+</head>
+<body>
+
+<main>
+    <div id="caixaNovaTarefa" class="caixaNovaTarefa">
+
+        <div id="caixaCriarTarefas" class="caixaFuncionalidades">
+            <div class="campo">
+                <label>NOME DA TAREFA</label>
+                <input type="text"
+                       name="nomeTarefa"
+                       id="nomeTarefa"/>
+            </div>
+
+
+            <div class="campo">
+                <label>DATA DE CADASTRO</label>
+                <input type="date"
+                       name="dataTarefa"
+                       id="dataTarefa"/>
+            </div>
+
+            <div class="campo">
+                <label>DATA PARA TERMINO</label>
+                <input type="date"
+                       name="dataTerminoTarefa"
+                       id="dataTerminoTarefa"/>
+            </div>
+
+            <div class="campo">
+                <label>STATUS</label>
+                <select
+                        name="statusTarefa"
+                        id="statusTarefa"
+                >
+                    <option value="nao-iniciado">NÃO INICIADO</option>
+                    <option value="em-andamento">EM ANDAMENTO</option>
+                    <option value="finalizado">FINALIZADO</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>TIPO</label>
+                <select
+                        name="statusTarefa"
+                        id="tiposTarefa"
+                >
+                    <option value="nao-iniciado">Trabalho</option>
+                    <option value="em-andamento">Estudos</option>
+                    <option value="finalizado">Pessoal</option>
+                </select>
+            </div>
+
+            <button id="btnCadastrarTarefa">
+                + Cadastrar Tarefa
+            </button>
+        </div>
+
+    </div>
+
+    <div id="caixaTarefas" class="caixa2">
+        <table id="tabelaTarefas">
+
+            <thead>
+            <tr>
+                <th>Tarefa</th>
+                <th>Tipo</th>
+                <th>Término</th>
+                <th>Status</th>
+                <th>Prazo</th>
+                <th>Ações</th>
+            </tr>
+            </thead>
+
+            <tbody id="listaTarefas">
+
+            </tbody>
+
+        </table>
+    </div>
+
+
+</main>
+
+<script src="Desafio%202.js"></script>
+
+</body>
+</html>

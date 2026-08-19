@@ -18,6 +18,21 @@ button{
     cursor: pointer;
     border-radius: 10px;
 }
+body{
+    background: linear-gradient(
+            40deg,
+            #ffffff,
+            #a3c3f5,
+            #0e0e0e,
+            #7fa8fd
+    );
+    background-size: 400% 400%;
+    animation: fundo 34s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .curso{
     display:flex;
     justify-content:space-between;
@@ -28,13 +43,13 @@ button{
     border-radius:15px;
     background:#fafafa;
     cursor:pointer;
-    transition:.25s;
+    transition: 1s;
 
 }
 .selecionado{
-    background-color: #800 !important;
-    color: #fcc !important;
-    border-color: #f00 !important;
+    background-color: #005488 !important;
+    color: #000000 !important;
+    border-color: #0040ff !important;
 }
 .c1{
     background-color: #ffffff;
@@ -80,4 +95,16 @@ button{
 #caixaNovoCurso input{
     margin: 10px;
     padding: 5px;
+}
+@keyframes fundo {
+    0%{
+        background-position: 1% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 50% 1%;
+    }
+
 }
