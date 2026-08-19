@@ -1,41 +1,48 @@
 const caixaCurso = document.querySelector("#caixaCurso");
 const btnRemoverCurso = document.querySelector("#btnRemoverCurso");
-const btnAdicionarNovoCurso = document.querySelector("#btnAdicionarNovoCurso");
 const btnAdicionarAntes = document.querySelector("#btnAdicionarAntes");
 const btnAdicionarDepois = document.querySelector("#btnAdicionarDepois");
 const btnCursosSelecionados = document.querySelector("#btnCursosSelecionados");
-const nomeCurso= document.querySelector("#nomeCurso");
+const nomeCurso = document.querySelector("#nomeCurso");
 
 const cursos = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "React",
-    "MySQL"
-];
+    "𝙃𝙏𝙈𝙇"
+    , "𝘾𝙎𝙎"
+    , "𝙅𝙖𝙫𝙖𝙎𝙘𝙧𝙞𝙥𝙩"
+    , "𝙋𝙃𝙋"
+    , "𝙍𝙚𝙖𝙘𝙩"
+    , "𝙈𝙮𝙎𝙌𝙇"];
 let indice = 0;
 
-const criarNovoCurso = (curso) => {
+const tirarSelecao=()=>{
+    const cursoSelecionado=[...document.querySelectorAll(".selecionado")]
+    cursoSelecionado.map((el)=>{
+        el.classList.remove("selecionado")
+    })
+}
+
+const criarNovoCurso = (curso, adicionarNaLista = false) => {
     const novoElemento = document.createElement("div");
     novoElemento.id = "c" + indice;
     novoElemento.className = "curso c1";
     novoElemento.innerHTML = curso;
-    const comandos = document.createElement("div");
-    comandos.className = "comandos";
-    const rb = document.createElement("input");
-    rb.type = "radio";
-    rb.name = "rb_curso";
-    comandos.appendChild(rb);
-    novoElemento.appendChild(comandos);
-    caixaCurso.appendChild(novoElemento);
+    novoElemento.addEventListener("click", (evt)=>{
+        tirarSelecao()
+        evt.target.classList.toggle("selecionado")
+    })
+
+    if (adicionarNaLista) {
+        caixaCurso.appendChild(novoElemento);
+    }
+
     indice++;
     return novoElemento;
 }
 
 cursos.map((curso) => {
-    criarNovoCurso(curso);
+    criarNovoCurso(curso, true);
 });
+
 const radioSelecionado = () => {
     const todosRadios = [...document.querySelectorAll('input[type="radio"]')];
     const radiosSelecionado = todosRadios.filter((ele) => {
@@ -43,53 +50,52 @@ const radioSelecionado = () => {
     });
     return radiosSelecionado[0];
 }
-btnCursosSelecionados.addEventListener("click", () => {
-    const rs = radioSelecionado();
-    if (rs == undefined) {
-        alert("Selecione um curso.");
-        return;
+const CursoSelecionado=()=>{
+    const CursosSelecionados=[...document.querySelectorAll(".selecionado")]
+    return CursosSelecionados[0]
+}
+btnCursosSelecionados.addEventListener("click", (evt) => {
+    try{
+        alert("Curso selecionado: " + CursoSelecionado().innerHTML);
+    }catch (ex){
+        alert("Selecione um Curso")
     }
-    const cursoSelecionado = rs.parentNode.previousSibling.textContent;
-    alert("Curso selecionado: " + cursoSelecionado);
-});
+})
 
 btnRemoverCurso.addEventListener("click", () => {
-    const rs = radioSelecionado();
-    if (rs == undefined) {
-        alert("Selecione algum Curso");
-        return;
+    const cs = CursoSelecionado();
+    if (cs!=undefined) {
+        cs.remove()
+    }else{
+        alert("Selecione algum Curso")
     }
     const cursoSelecionado = rs.parentNode.parentNode;
     cursoSelecionado.remove();
 });
 
 btnAdicionarAntes.addEventListener("click", (evt) => {
-    const rs = radioSelecionado();
     try{
-        if(nomeCurso.value!="") {
-            const cursoSelecionado = rs.parentNode.parentNode
-            const novoCurso=criarNovoCurso(nomeCurso.value);
-            caixaCurso.insertBefore(novoCurso,cursoSelecionado.nextSibling);
-            alert(CursoSelecionado)
+        if(nomeCurso.value!=""){
+            const novoCurso=criarNovoCurso(nomeCurso.value)
+            caixaCurso.insertBefore(novoCurso,CursoSelecionado())
         }else{
-            alert("Digite o nome do curso")
+            alert("Digite o nome do Curso Pae")
         }
     }catch (ex){
-        alert("selecione algum curso")
+        alert("Selecione um curso")
     }
 });
 
 btnAdicionarDepois.addEventListener("click", (evt) => {
-    const rs = radioSelecionado();
     try{
-        if (nomeCurso.value!="") {
-            const cursoSelecionado = rs.parentNode.parentNode
-            const novoCurso = criarNovoCurso(nomeCurso.value);
-            caixaCurso.insertBefore(novoCurso, cursoSelecionado.nextSibling);
-        } else {
-            alert("Digite o nome do curso")
+        if(nomeCurso.value!=""){
+
+            const novoCurso=criarNovoCurso(nomeCurso.value)
+            caixaCurso.insertBefore(novoCurso,CursoSelecionado().nextSibling)
+        }else{
+            alert("Digite o nome do Curso")
         }
-    }catch(ex){
-        alert("selecione algum curso")
+    }catch (ex){
+        alert("Selecione um curso")
     }
 });
