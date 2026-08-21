@@ -1,0 +1,157 @@
+:root {
+    --destaque: rgb(0, 82, 255)
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    color: #fff;
+    background-color: rgb(16, 16, 16);
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+main {
+    margin: 2rem 0;
+    width: 950px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    max-width: calc(100% - 3rem);
+    align-items: center;
+}
+
+.foto {
+    width: 110px;
+    max-width: 35%;
+    border-radius: 100rem;
+    border: 1px solid var(--destaque);
+}
+
+.dados {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.nome {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.username {
+    opacity: 0.8;
+}
+
+.conts span {
+    font-weight: 500;
+}
+
+.conts span span {
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+.seguir {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0.7rem 0.5rem;
+    border-radius: 100rem;
+    border: none;
+    font-weight: bold;
+    background: linear-gradient(to right bottom, var(--destaque), rgba(0, 0, 0, 0.15), var(--destaque));
+    border: 1px solid #555;
+    cursor: pointer;
+    color: #fff;
+}
+
+.seguir::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.05) 80%, rgba(255, 255, 255, 0.15));
+    z-index: -1;
+    padding: 0.5rem;
+    transform: translate(-50%, -50%);
+    border-radius: 100rem;
+    border: 1px solid #333;
+}
+
+main .posts {
+    border: 1px solid #333;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+main .posts .post {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+main .posts .post .foto {
+    width: 100%;
+    max-width: 40px;
+    margin-left: 1.3rem;
+    margin-bottom: auto;
+}
+
+main .posts .post .postContent {
+    margin-left: 1rem;
+}
+
+main .posts .post .postContent .username {
+    font-weight: 500;
+}
+
+main .posts .post .postContent section {
+    margin-top: 0.5rem;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.like {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    align-items: center;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.like .bx {
+    font-size: 1.1rem;
+}

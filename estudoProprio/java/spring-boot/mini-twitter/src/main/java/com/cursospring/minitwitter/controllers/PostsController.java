@@ -37,7 +37,8 @@ public class PostsController {
     @PostMapping("/new")
     public ResponseEntity<Void> newPost(@RequestBody @Valid PostCreateDto post, Authentication authentication) {
         String username = authentication.getName();
-        var postEntity = postMapper.toEntity(post, userService.buscarPorUsername(username));
+        User user = userService.buscarPorUsername(username).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
+        Post postEntity = postMapper.toEntity(post, user);
         postService.salvar(postEntity);
         return ResponseEntity.ok().build();
     }
@@ -47,10 +48,10 @@ public class PostsController {
             @PageableDefault(size = 10, sort = "dataCriacao", direction = Sort.Direction.DESC) Pageable pageable,
             Authentication authentication
     ) {
-        var posts = postService.todosPosts(pageable);
+        Page<Post> posts = postService.todosPosts(pageable);
 
-        User user = userService.buscarPorUsername(authentication.getName());
-        var postsMap = posts.map(post -> new PostResponseDto(post.getId(), post.getDataCriacao(), post.getConteudo(), post.getLikes().size(), likeService.verLikedPorIds(post.getId(), user.getId()), userMapper.toUserResponseDto(post.getUser())));
+        User user = userService.buscarPorUsername(authentication.getName()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
+        Page<PostResponseDto> postsMap = posts.map(post -> new PostResponseDto(post.getId(), post.getDataCriacao(), post.getConteudo(), post.getLikes().size(), likeService.verLikedPorIds(post.getId(), user.getId()), userMapper.toUserResponseDto(post.getUser()), user.getId() == post.getUser().getId()));
         return ResponseEntity.ok(postsMap);
     }
     @PostMapping("/{id}/like")
@@ -62,7 +63,7 @@ public class PostsController {
         if (postOptional.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
-        User user = userService.buscarPorUsername(authentication.getName());
+        User user = userService.buscarPorUsername(authentication.getName()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
         Post post = postOptional.get();
         if (likeService.buscarPorUserEPost(user, post).isEmpty()) {
             Like like = new Like(user, post);
@@ -80,7 +81,7 @@ public class PostsController {
         if (postOptional.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
-        User user = userService.buscarPorUsername(authentication.getName());
+        User user = userService.buscarPorUsername(authentication.getName()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
         Post post = postOptional.get();
         Optional<Like> likeOptional = likeService.buscarPorUserEPost(user, post);
         if (likeOptional.isPresent()) {
@@ -89,5 +90,16 @@ public class PostsController {
             return ResponseEntity.ok().build();
         }
         return ResponseEntity.badRequest().build();
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> exluirPostPorId(@PathVariable("id") UUID id, Authentication authentication) {
+        User user = userService.buscarPorUsername(authentication.getName()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
+        Post post = postService.buscarporId(id).orElseThrow(() -> new IllegalArgumentException("Post não existe"));
+        if (post.getUser().getId() != user.getId()) {
+            throw new IllegalArgumentException("Só é possível deletar posts que você criou");
+        }
+        postService.deletar(post);
+        return ResponseEntity.noContent().build();
     }
 }

@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 85dvh;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input {
+    font-size: 1.5rem;
+    border-radius: 100rem;
+    padding: 1rem;
+    border: 1px solid black;
+    outline: none;
+}
+form input:focus {
+    border: 1px solid rgb(53, 124, 255);
+}
+form div {
+    position: relative;
+}
+form .campos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.campos button {
+    aspect-ratio: 1;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 100rem;
+    margin-left: 1rem;
+    background-color: rgb(53, 124, 255);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+form .sugestao {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 1px dashed;
+    margin-top: 0.5rem;
+    overflow: auto;
+    max-height: 6rem;
+    scrollbar-width: none;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+}
+form .sugestao span {
+    border-bottom: 1px dashed;
+    max-height: 3rem;
+    padding: 0.7rem 1rem;
+}
+form .sugestao p::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
+    background-color: black;
+    margin-top: 0.1rem;
+}
+main {
+    width: 480px;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 1.4rem 0;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-radius: 1rem;
+    position: relative;
+    display: none;
+}
+main .background {
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.dados {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+    padding-top: 0.3rem;
+}
+.name {
+    font-size: 1.9rem;
+}
+.hp span {
+    font-size: 1.2rem;
+}
+.hp {
+    font-size: 1.8rem;
+}
+.foto {
+    margin: 0 auto;
+    width: 93%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    height: 17.5rem;
+}
+.foto img {
+    width: 50%;
+}
+.habilidade {
+    margin-top: 2.6rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7rem;
+    color: red;
+    align-items: center;
+}
+.habilidade span {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: black;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+.last {
+    margin: 0 auto;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

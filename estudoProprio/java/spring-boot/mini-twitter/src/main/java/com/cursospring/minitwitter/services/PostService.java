@@ -42,4 +42,8 @@ public class PostService {
         }
         postOptional.get().getLikes().remove(like);
     }
+
+    public void deletar(Post post) {
+        repository.delete(post);
+    }
 }

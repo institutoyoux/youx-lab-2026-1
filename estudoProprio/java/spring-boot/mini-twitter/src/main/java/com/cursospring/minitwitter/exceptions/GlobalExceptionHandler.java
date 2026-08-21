@@ -24,7 +24,10 @@ public class GlobalExceptionHandler {
         String mensagem = e.getBindingResult().getFieldError().getDefaultMessage();
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorResponseDto("Campo " + campo + " " + mensagem));
     }
-
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<ErrorResponseDto> handleIllegalArgumentException(IllegalArgumentException e) {
+        return ResponseEntity.badRequest().body(new ErrorResponseDto(e.getMessage()));
+    }
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponseDto> handleAll(Exception e) {
         System.out.println(e);

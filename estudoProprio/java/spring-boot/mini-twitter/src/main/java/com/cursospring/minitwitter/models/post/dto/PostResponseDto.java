@@ -11,6 +11,7 @@ public record PostResponseDto(
         String conteudo,
         Integer likes,
         Boolean liked,
-        UserResponseDto user
+        UserResponseDto user,
+        Boolean owner
 ) {
 }

@@ -1,4 +1,4 @@
-package com.cursospring.apitarefas.enums;
+package com.cursospring.apitarefas.model.enums;
 
 public enum TipoTarefa {
     TRABALHO,

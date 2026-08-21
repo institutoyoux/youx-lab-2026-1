@@ -118,3 +118,6 @@ tr button {
     color: #fff;
     font-weight: bold;
 }
+tr button.delBtn {
+    background-color: red;
+}

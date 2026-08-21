@@ -99,7 +99,7 @@ const listar = async () => {
             <td>${tarefa.tipo}</td>
             <td>${data[2] + '/' + data[1] + '/' + data[0]}</td>
             <td>
-                <div style="background-color: ${statusFormatado.cor};">${statusFormatado.texto}</div>
+                <div style="b   ackground-color: ${statusFormatado.cor};">${statusFormatado.texto}</div>
             </td>
             <td>
                 <div style="background-color: ${atrasado ? '#15803D;' : 'red'}">${atrasado ? 'Em dia' : 'Atrasado'}</div>

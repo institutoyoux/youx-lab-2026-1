@@ -122,6 +122,9 @@ section.leftNav {
     }
     main .posts #posts {
         width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     main .me {
         width: 100%;
@@ -165,6 +168,11 @@ section.leftNav {
         flex-direction: row;
         padding: 1rem;
         border-bottom: 1px solid #333;
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
     }
     main .posts .post .foto {
         width: 100%;
@@ -174,6 +182,10 @@ section.leftNav {
     }
     main .posts .post .postContent {
         margin-left: 1rem;
+        width: 90%;
+    }
+    main .posts .post i.bx-dots-vertical-rounded {
+        margin-right: 2rem;
     }
     main .posts .post .postContent .username {
         font-weight: 500;
@@ -183,6 +195,29 @@ section.leftNav {
         color: #ccc;
         display: flex;
         flex-direction: column;
+    }
+    .opts {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .opt {
+        top: 30%;
+        z-index: 999;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 100%;
+        min-width: 3rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid #333;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        & * {
+            cursor: pointer;
+        }
     }
     .like {
         margin-top: 1rem;

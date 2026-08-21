@@ -1,7 +1,7 @@
 package com.cursospring.apitarefas.model;
 
-import com.cursospring.apitarefas.enums.StatusTarefa;
-import com.cursospring.apitarefas.enums.TipoTarefa;
+import com.cursospring.apitarefas.model.enums.StatusTarefa;
+import com.cursospring.apitarefas.model.enums.TipoTarefa;
 import jakarta.persistence.*;
 import lombok.Data;
 

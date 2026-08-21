@@ -25,23 +25,17 @@ public class UserService {
         repository.save(newUser);
     }
 
-    public User buscarPorUsername(String username) {
+    public Optional<User> buscarPorUsername(String username) {
         return repository.findByUsername(username);
     }
 
     public void addLike(Like like) {
-        User user = buscarPorUsername(like.getUser().getUsername());
-        if (user == null) {
-            throw new IllegalArgumentException("Usuario não encontrado");
-        }
+        User user = buscarPorUsername(like.getUser().getUsername()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
         user.getLikes().add(like);
     }
 
     public void removeLike(Like like) {
-        User user = buscarPorUsername(like.getUser().getUsername());
-        if (user == null) {
-            throw new IllegalArgumentException("Usuario não encontrado");
-        }
+        User user = buscarPorUsername(like.getUser().getUsername()).orElseThrow(() -> new IllegalArgumentException("Usuario não encontrado"));
         user.getLikes().remove(like);
     }
 }

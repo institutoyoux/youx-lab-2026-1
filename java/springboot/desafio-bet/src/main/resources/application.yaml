@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: desafio-bet
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bet
+    username: postgres
+    password: postgres
+
+  jpa:
+    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
