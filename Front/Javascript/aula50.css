@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: linear-gradient(
+            40deg,
+            #ffffff,
+            #a3c3f5,
+            #0e0e0e,
+            #7fa8fd
+    );
+    background-size: 400% 400%;
+    animation: fundo 34s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.caixa{
+    border: 5px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    margin: 15px;
+    width: 390px;
+    padding: 5px;
+    overflow: auto;
+    overflow-wrap: break-word;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+#resultado {
+    margin-top: 15px;
+    padding: 15px;
+
+    background-color: #f2f2f2;
+    border-radius: 12px;
+
+    line-height: 1.7;
+}
+.verde{
+    border-color: #151515;!important;
+    background-color: #c9ffc9;!important;
+}
+.azul{
+    border-color: blue;!important;
+    background-color: #ccccfd;!important;
+}
+.vermelho{
+    border-color: #ff0000;!important;
+    background-color: #f58585;!important;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #4444ff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: 6s;
+    cursor: pointer;
+    color: black;
+}
+#caixa_pesquisar input{
+    padding: 6px;
+    border-radius: 7px;
+    width: 367px;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes fundo {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+
+}
