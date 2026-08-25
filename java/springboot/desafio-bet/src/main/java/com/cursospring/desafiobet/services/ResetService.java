@@ -1,5 +1,6 @@
 package com.cursospring.desafiobet.services;
 
+import com.cursospring.desafiobet.model.email.EmailResetPass;
 import com.cursospring.desafiobet.model.reset.Reset;
 import com.cursospring.desafiobet.model.user.User;
 import com.cursospring.desafiobet.repositories.ResetRepository;
@@ -17,6 +18,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class ResetService {
     private final ResetRepository repository;
+    private final EmailService emailService;
 
     public Reset gerarCodePorUser(User user) {
         Optional<Reset> optional =  repository.findByUserId(user.getId());
@@ -27,6 +29,8 @@ public class ResetService {
         newReset.setUserId(user.getId());
         newReset.setCode(gerarCode());
         newReset.setExpireDate(genExpire());
+        EmailResetPass email = new EmailResetPass(user.getEmail(), newReset.getCode());
+        emailService.sendResetCode(email);
         return repository.save(newReset);
     }
     private Integer gerarCode() {
