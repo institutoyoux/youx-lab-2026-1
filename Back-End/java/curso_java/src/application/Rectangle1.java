@@ -8,7 +8,7 @@ public class Rectangle1 {
         Scanner sc = new Scanner(System.in);
 
         Rectangle2 rectangle = new Rectangle2();
-        rectangle.weight = sc.nextDouble();
+        rectangle.width = sc.nextDouble();
         rectangle.height = sc.nextDouble();
         System.out.println(rectangle);
         sc.close();

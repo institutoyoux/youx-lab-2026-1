@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import entities.Order;
+import entities.enums.OrderStatus;
+import java.util.Date;
+
 public class Testes {
-    public static void main(String[] args){
-        Scanner teste = new Scanner(System.in);
-        int num = teste.nextInt();
-        for(int i=1; i<= num; i+=2){
-            System.out.print("Valor de 1: %d%n".formatted(i));
-        }
+    public static void main(String[] args) {
+        Order order = new Order(1000, new Date(), OrderStatus.PROCESSING);
+        System.out.print(order);
     }
 }
