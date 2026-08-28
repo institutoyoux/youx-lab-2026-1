@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    background-image: url(harry.jpeg);
+}
+
+#container {
+    align-self: center;
+    padding: 1rem;
+}
+
+.informacoes {
+    border: 1px solid #333;
+    color: #fff;
+    background-color: rgba(15, 23, 42, 0);
+    backdrop-filter: blur(8px);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    gap: 1rem;
+    border-radius: 3rem;
+}
+
+
+img {
+    border-radius: 60%;
+    width: 150px;
+    display: flex;
+}
