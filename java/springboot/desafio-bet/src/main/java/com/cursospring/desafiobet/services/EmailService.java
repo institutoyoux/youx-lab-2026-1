@@ -3,9 +3,14 @@ package com.cursospring.desafiobet.services;
 import com.cursospring.desafiobet.model.email.EmailResetPass;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 @Service
 @RequiredArgsConstructor
@@ -16,20 +21,23 @@ public class EmailService {
         try {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
-            helper.setFrom("noreply@gmail.com");
-            helper.setSubject("Deu certo");
+            helper.setSubject("Seu código para resetar sua senha");
             helper.setTo(email.destino());
 
-            String template = """
-                    <img src="https://imgs.search.brave.com/o5sISSkaMAMEYMHXzeShF1u76x-Ck55ao3BGLqAnz2M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wYXJj/ZWlyb3NlcG4uaW1n/LmNvbS5ici93cC1j/b250ZW50L3VwbG9h/ZHMvZWxlbWVudG9y/L3RodW1icy82MTM5/MmNhMTYyMjNmLXF2/N2k0anRhb2Ryem8z/bHY3ajFmaWxwcW9t/cHo5dmJnbDg3b3ow/Y3Fiby5wbmc">
-                    Seu código é: ${codigo}
-                    """;
+            String template = carregarTemplateReset();
 
             template = template.replace("${codigo}", email.code().toString());
             helper.setText(template, true);
+            helper.addInline("estudante.png", new ClassPathResource("./templates/estudante.png"));
             mailSender.send(message);
         } catch (Exception e) {
             e.printStackTrace();
+            throw new RuntimeException("Erro ao enviar o código!");
         }
+    }
+    public String carregarTemplateReset() throws IOException {
+        ClassPathResource resource = new ClassPathResource("./templates/ResetEmailTemplate.html");
+
+        return new String(resource.getInputStream().readAllBytes(), StandardCharsets.UTF_8);
     }
 }

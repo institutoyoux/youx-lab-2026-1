@@ -15,7 +15,7 @@ class Tarefa {
         this.dataCadastro = dataCadastro
         this.dataTermino = dataTermino
         this.status = status
-        this.estaAtrasada = new Date(dataTermino) >= new Date()
+        this.estaEmDia = new Date(dataTermino) >= new Date()
     }
 }
 
@@ -48,7 +48,7 @@ const tarefaService = {
         )
     },
     gerarHtml(tarefa) {
-        const estaAtrasada = tarefa.estaAtrasada ? ['#15803D', 'Em dia'] : ['red', 'Atrasada']
+        const estaEmDia = tarefa.estaEmDia ? ['#15803D', 'Em dia'] : ['red', 'Atrasada']
         const tr = document.createElement("tr")
         tr.innerHTML = `
         <td class="nome"></td>
@@ -58,7 +58,7 @@ const tarefaService = {
         <div></div>
         </td>
         <td class="emDia">
-        <div style="background-color: ${estaAtrasada[0]}">${estaAtrasada[1]}</div>
+        <div style="background-color: ${estaEmDia[0]}">${estaEmDia[1]}</div>
         </td>
         <td class="campos">
         <button class="editBtn">Editar</button>
