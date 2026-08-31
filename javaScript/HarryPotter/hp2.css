@@ -28,6 +28,10 @@ body {
     border-radius: 3rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 img {
     border-radius: 60%;

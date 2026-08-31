@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f5022bf-36b6-457e-a3d8-97c18e41d2fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../html_css/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/.idea/html_css.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/0f20bb8d-41b6-4955-b192-33ad201e5b5f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/dinâmica.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/imagens/mob (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html_css/projeto_final/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/aula45/aula45.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/aula45/aula45.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/aula45/aula45.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/desafioCRUD/CRUD.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/desafioCRUD/CRUD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../javaScript/desafioCRUD/CRUD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/desafios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafios/.idea/desafios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafios/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafios/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafios/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../desafios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaScript/aula73/aula73.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaScript/aula73/aula73.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaScript/aula73/aula73.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaScript/aula73/aula73.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +38,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.9437.214" />
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
       </set>
     </attachedChunks>
   </component>
@@ -77,6 +52,7 @@
       <updated>1783969263817</updated>
       <workItem from="1783969264907" duration="138000" />
       <workItem from="1784641951985" duration="4000" />
+      <workItem from="1786726646246" duration="2000" />
     </task>
     <servers />
   </component>

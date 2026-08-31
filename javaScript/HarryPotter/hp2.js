@@ -20,6 +20,7 @@ async function Informacoes() {
             <p>House: ${informacoes[0].house}</p>
             <p>Ancestry: ${informacoes[0].ancestry}</p>
             <p>Patronus: ${informacoes[0].patronus}</p>
+            <a href="http://127.0.0.1:5500/hp.html">Back</a>
         </div>
         `;
   container.appendChild(caixa1);

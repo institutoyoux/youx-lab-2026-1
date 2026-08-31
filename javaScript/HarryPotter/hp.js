@@ -11,7 +11,7 @@ async function Personagem() {
     caixa1.innerHTML = `
         <img src=${personagem.image}></img>
         <p>${personagem.name}</p>
-        <a href="http://127.0.0.1:5500/HarryPotter/hp2.html?id=${personagem.id}" id="btnMais">More information</a>
+        <a href="http://127.0.0.1:5500/hp2.html?id=${personagem.id}" id="btnMais">More information</a>
         `;
         
     container.appendChild(caixa1);
