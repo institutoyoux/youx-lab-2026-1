@@ -1,4 +1,4 @@
-package exercicio02.entities;
+package s08_introducao_poo.exercicio02.entities;
 
 public class Funcionario {
     public String name;
@@ -9,10 +9,10 @@ public class Funcionario {
         return salario - taxa;
     }
     public void aumentoSalario(double porcentagem) {
-        salario = salario + (salario * (1 + porcentagem/100 ));
+        salario = salario + (salario * ( porcentagem/100 ));
     }
     public String toString() {
-        return name + ", " + "$ " + salario;
+        return name + ", " + "$ " + salarioLiquido();
 
     }
 }

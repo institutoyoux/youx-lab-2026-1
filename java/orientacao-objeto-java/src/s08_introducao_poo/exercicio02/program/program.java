@@ -1,6 +1,6 @@
-package exercicio02.program;
+package s08_introducao_poo.exercicio02.program;
 
-import exercicio02.entities.Funcionario;
+import s08_introducao_poo.exercicio02.entities.Funcionario;
 
 import java.util.Scanner;
 
@@ -17,6 +17,13 @@ public class program {
         funcionario.taxa = sc.nextDouble();
 
         System.out.println("employee: " + funcionario.toString());
+        System.out.println("Which percentage to increase salary?  ");
+        funcionario.aumentoSalario(sc.nextDouble());
+        System.out.println("updated data: " + funcionario.toString());
+
+
+
+
 
     }
 }

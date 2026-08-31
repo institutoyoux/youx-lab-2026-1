@@ -1,6 +1,6 @@
-package exercicio01.program;
+package s08_introducao_poo.exercicio01.program;
 
-import exercicio01.entities.Retangulo;
+import s08_introducao_poo.exercicio01.entities.Retangulo;
 
 import java.util.Scanner;
 
