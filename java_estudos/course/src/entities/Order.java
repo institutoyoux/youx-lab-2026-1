@@ -1,0 +1,56 @@
+package entities;
+
+import entities_enums.OrderStatus;
+
+import java.util.Date;
+
+public class Order {
+
+    private Integer id;
+    private Date moment;
+    private OrderStatus status;
+
+    public Order() {
+
+    }
+
+    public Order(OrderStatus status, Date moment, Integer id) {
+        this.status = status;
+        this.moment = moment;
+        this.id = id;
+    }
+
+    public OrderStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
+
+    public Date getMoment() {
+        return moment;
+    }
+
+    public void setMoment(Date moment) {
+        this.moment = moment;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "id=" + id +
+                ", moment=" + moment +
+                ", status=" + status +
+                '}';
+    }
+}
+
