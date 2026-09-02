@@ -1,0 +1,83 @@
+.quadro-persona{
+   border: 2px solid #d4af37;
+   border-radius: 18px;
+   padding: 20px;
+   margin: 20px 0;
+   background: rgba(30, 30, 65, 0.75)
+  
+
+}
+
+#titulo{
+    color: rgb(255, 0, 0);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body{
+
+    
+    min-height:100hv ;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e5/Hogwarts_castle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Georgia, serif;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 20px;
+}
+
+#resultado{
+    width: 80%;
+    max-width: 700px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(15, 15, 35, 0.85);
+
+    text-align:center ;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+    border: 2px solid #d3af37;
+}
+
+.nome-persona{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #e6c75a;
+    text-decoration: underline;
+}
+
+.nome-persona{
+    color: aqua;
+}
+
+.especie-persona {
+    color: #e6c75a;
+}
+
+.genero-persona{
+    color: #d4af37;
+}
+
+
+#carregando{
+   
+    position: absolute;
+    top: 45%;
+    color: rgb(10, 10, 10);
+    font-family: bold;
+    /* background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/22509870-dementador-assustador-fantasma-ilustracao-dentro-plano-desenho-animado-estilo-vetor.jpg"); */
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAHlBMVEX/vqD/vJ//uZ37tpn7rZT7spf9sZf6r5T/wKP5spVDftjRAAAAdklEQVR4nO3SQQ6DMAxFwdgkkN7/wi2LqrBmEauaOcGTv1sDAAD+Q7SI1Q0/35aoFFVWuSPNWXK6KNg0W44xttUZd5F77/0oVTXjbOp7lpowjzMqY64OuYrI1/a5U6momko9EwAAAAAAAAAAAAAAAAAAAAA88wb/jADFzJ/O0QAAAABJRU5ErkJggg==");
+    border-radius: 12px;
+   
+}
