@@ -25,13 +25,13 @@ const req_post = async () => {
         // Converte o objeto JavaScript para texto JSON
         body: JSON.stringify(corpo),
       }
-    );
+    )
 
     // Pega a resposta do servidor e transforma em objeto JS
     return await requisicao.json();
   } catch (error) {
     // Se der qualquer erro, mostra um alerta
-    alert("Deu erro aqui paezão");
+    alert("ERRO")
   }
 };
 

@@ -1,0 +1,50 @@
+#tituloP{
+    padding: 10px;
+    border: 1rem;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    margin-bottom: 35px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 5px rgb(5, 250, 21);
+    font-weight: bold;
+    color: rgb(192, 234, 192);
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-image: url("./fundo.png");   */
+    background-image: url("https://images.unsplash.com/photo-1668711495033-2aceccc63054?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhcGVsJTIwZGUlMjBwYXJlZGUlMjBkZSUyMGhhcnJ5JTIwcG90dGVyfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(252, 247, 247);
+}
+
+#personagens_geral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+#personagens_geral > a {
+    width: 499px;
+    height: auto;
+    background-color: rgba(26, 69, 29, 0);
+    backdrop-filter: blur(5px);
+    border: 3 px solid #002010;
+    border-radius: 12px;
+    padding: 15px;
+    color: rgb(242, 246, 244);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    display: flex;
+    max-height: 300px;
+    margin: auto;
+    border-radius: 12px;
+}
