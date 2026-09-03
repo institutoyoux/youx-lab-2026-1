@@ -50,7 +50,7 @@ public class Program {
                     .map(p -> p.getSalario())
                     .reduce(0.0, (x, y) -> x + y);
 
-            System.out.println("Somario do salario das pessoas que o nome começa com 'M': " + String.format("%.2f", salarioM));
+            System.out.println("Somatorio do salario das pessoas que o nome começa com 'M': " + String.format("%.2f", salarioM));
 
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
