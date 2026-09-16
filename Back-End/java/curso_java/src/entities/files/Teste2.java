@@ -1,4 +1,4 @@
-package entities;
+package entities.files;
 
 public class Teste2 {
     private String nome;

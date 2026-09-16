@@ -2,7 +2,7 @@ package exercicios_curso;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.EntitiesVetores;
+import entities.files.EntitiesVetores;
 
 public class ExercicioTreinamentoVetores_6 {
     public static void main(String[] args) {

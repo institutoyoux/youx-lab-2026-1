@@ -1,5 +1,5 @@
 package application;
-import entities.Account2;
+import entities.files.Account2;
 
 import java.util.Scanner;
 

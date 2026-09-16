@@ -1,7 +1,7 @@
 package exercicios_curso;
 import java.util.Scanner;
 import java.util.Locale;
-import entities.EntitiesVetores;
+import entities.files.EntitiesVetores;
 public class ExercicioTreinamentoVetores_3 {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);

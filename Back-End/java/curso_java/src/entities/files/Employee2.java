@@ -1,4 +1,4 @@
-package entities;
+package entities.files;
 public class Employee2 {
 
     public String name;

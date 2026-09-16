@@ -1,6 +1,6 @@
 package exercicios_curso;
 
-import entities.EntitiesVetores;
+import entities.files.EntitiesVetores;
 
 import java.util.Locale;
 import java.util.Scanner;

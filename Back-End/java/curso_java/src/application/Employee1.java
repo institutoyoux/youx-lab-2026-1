@@ -1,7 +1,7 @@
 package application;
 import java.util.Scanner;
 import java.util.Locale;
-import entities.Employee2;
+import entities.files.Employee2;
 public class Employee1 {
     public static void main (String[] args){
         Locale.setDefault(Locale.US);

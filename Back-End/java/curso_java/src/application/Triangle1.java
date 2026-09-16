@@ -1,5 +1,5 @@
 package application;
-import entities.Triangle2;
+import entities.files.Triangle2;
 
 import java.util.Locale;
 import java.util.Scanner;

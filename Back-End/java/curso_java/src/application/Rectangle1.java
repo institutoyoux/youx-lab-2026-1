@@ -1,7 +1,7 @@
 package application;
 import java.util.Scanner;
 import java.util.Locale;
-import entities.Rectangle2;
+import entities.files.Rectangle2;
 public class Rectangle1 {
     public static void main (String[] args){
         Locale.setDefault(Locale.US);

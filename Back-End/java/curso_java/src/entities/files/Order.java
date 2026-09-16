@@ -1,4 +1,4 @@
-package entities;
+package entities.files;
 import java.util.Date;
 import entities.enums.OrderStatus;
 public class Order {
