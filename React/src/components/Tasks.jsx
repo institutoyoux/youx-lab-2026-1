@@ -1,19 +1,16 @@
 import { ChevronRightIcon, TrashIcon } from "lucide-react";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
+import Button from "./button";
 
-function Tasks({tasks, onTaskClick, onDeleteTaskClick}) {
-    const navigate = useNavigate () 
+function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
+  const navigate = useNavigate();
 
-
-function onSeeDetailsClick(task){
-    const query = new URLSearchParams()
-    query.set("title", task.title)
-    query.set ("description", task.description)
-    navigate (`/task?${query.toString()}`)
-
-   
-}   
-
+  function onSeeDetailsClick(task) {
+    const query = new URLSearchParams();
+    query.set("title", task.title);
+    query.set("description", task.description);
+    navigate(`/task?${query.toString()}`);
+  }
 
   return (
     <ul className="space-y-4  p-6 bg-slate-200 rounded-md shadow">
@@ -22,20 +19,26 @@ function onSeeDetailsClick(task){
           <button
             onClick={() => onTaskClick(task.id)}
             className={`bg-slate-400 text-left w-full text-white p-2 rounded-md ${
-                task.isCompleted && "line-throug"
+              task.isCompleted && "line-throug"
             }`}
           >
             {task.title}
-
           </button>
-          <button onClick={() => onSeeDetailsClick(task)} className="bg-slate-400 p-2 roudend-md text-white">
-            <ChevronRightIcon />            
-          </button>
-          <button onClick={() => onDeleteTaskClick(task.id)} className="bg-slate-400 p-2 roudend-md text-white">
-            <TrashIcon />            
-          </button>
+          <Button
+            onClick={() => onSeeDetailsClick(task)}
+          
+          >
+            <ChevronRightIcon />
+          </Button>
+       
+          <Button
+            onClick={() => onDeleteTaskClick(task.id)}
+            
+          >
+            <TrashIcon />
+          </Button>
         </li>
-      ))}
+      ))} 
     </ul>
   );
 }
