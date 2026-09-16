@@ -1,5 +1,186 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    border: none;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-size: cover;
+  display: flex; /*organizar*/
+  justify-content: center; /*centralizar*/
+  border: 1px;
+  font-family: arial, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 1px solid rgb(80, 78, 78);
+  border-radius: 22px;
+  overflow: auto; /*recortar um elemento*/
+  background: white;
+  max-height: 900px;
+  min-width: 900px;
+}
+
+/* h1{
+    margin: 1;
+    color:  black;
+    font-size: 22px;
+    border-color:gray;
+    padding-right: 40%;
+    background-color: rgb(212, 212, 212);
+} */
+
+h2 {
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 0px;
+}
+
+.colunaAcoes {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  height: 100%;
+}
+
+.linhaCabecalho {
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+.tipo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 7px;
+}
+
+.linhaInputs {
+  display: flex;
+}
+
+.etiqueta{
+  text-align: center;
+  padding: 6px;
+  color: white;
+  border-radius: 40px;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.atrasado {
+  background-color: red;
+}
+
+.emDia {
+  background-color: green;
+}
+
+.botaoEditar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6px;
+  color: white;
+  background-color: rgb(224, 124, 10);
+  border: none;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.botaoDeletar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6px;
+  color: white;
+  background-color: rgb(248, 45, 45);
+  border: none;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.emAndamento{
+  color: white;
+  background-color: rgb(49, 145, 177);
+}
+
+.naoIniciado{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.658);
+}
+
+.finalizado{
+  color: white;
+  background-color:rgb(21, 184, 21);
+}
+
+#caixaBtnCadastrar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#btnAdicionarTarefa {
+  padding: 12px;
+  color: white;
+  background-color: rgb(20, 138, 20);
+  border: none;
+  border-radius: 4px;
+  font-weight: 900;
+}
+
+#titulo-superior {
+  background-color: rgba(0, 0, 0, 0.082);
+  width: 100%;
+  height: 38px;
+}
+
+#titulo1 {
+  font-size: 16px;
+  margin: 12px;
+}
+
+#titulo {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  border-bottom: 3px solid #dcdcdc;
+}
+
+#caixaCadastro {
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+#inputsTarefa {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+#containerTabela {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  margin-top: 18px;
+}
+
+#caixaCorpo {
+  margin: 20px;
+  width: 90%;
 }
