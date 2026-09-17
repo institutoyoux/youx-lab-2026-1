@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" filepath="$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" filepath="$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_Sequencial/Estrutura_Sequencial.iml" filepath="$PROJECT_DIR$/Estrutura_Sequencial/Estrutura_Sequencial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" filepath="$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" filepath="$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" filepath="$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" filepath="$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" filepath="$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_Condicional/estrutura_condicional.iml" filepath="$PROJECT_DIR$/Estrutura_Condicional/estrutura_condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_do-while/estrutura_do-while.iml" filepath="$PROJECT_DIR$/estrutura_do-while/estrutura_do-while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_for_aula57/estrutura_for_aula57.iml" filepath="$PROJECT_DIR$/estrutura_for_aula57/estrutura_for_aula57.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_for_exercicios/estrutura_for_exercicios.iml" filepath="$PROJECT_DIR$/estrutura_for_exercicios/estrutura_for_exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_while/estrutura_while.iml" filepath="$PROJECT_DIR$/estrutura_while/estrutura_while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exps_Cond_Ternaria/exps_cond_ternaria.iml" filepath="$PROJECT_DIR$/Exps_Cond_Ternaria/exps_cond_ternaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funcoes_sintaxe/funcoes_sintaxe.iml" filepath="$PROJECT_DIR$/funcoes_sintaxe/funcoes_sintaxe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primeiro_Projeto/primeiro_projeto.iml" filepath="$PROJECT_DIR$/Primeiro_Projeto/primeiro_projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teste/teste.iml" filepath="$PROJECT_DIR$/Teste/teste.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/youx-lab-2026-1.iml" filepath="$PROJECT_DIR$/.idea/youx-lab-2026-1.iml" />
     </modules>
   </component>
