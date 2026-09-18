@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  min-height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

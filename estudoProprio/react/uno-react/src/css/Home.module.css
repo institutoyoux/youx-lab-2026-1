@@ -1,0 +1,15 @@
+.meio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    margin-right: 20rem;
+    perspective: 800px;
+}
+
+.meio section {
+    margin-top: 5rem;
+    transform: rotateX(45deg);
+    transform-style: preserve-3d;
+    max-width: 7.5rem;
+}

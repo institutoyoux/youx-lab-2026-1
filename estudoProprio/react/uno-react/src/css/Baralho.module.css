@@ -1,0 +1,12 @@
+.baralho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 10rem;
+    perspective: 800px;
+}
+.baralho > section {
+    margin: 0 -3rem;
+    min-width: 100px;
+}

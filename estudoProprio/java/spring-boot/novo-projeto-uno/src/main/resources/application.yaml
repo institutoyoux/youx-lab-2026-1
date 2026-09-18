@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: novo-projeto-uno
+  datasource:
+    url: jdbc:postgresql://localhost:5432/projeto-uno
+    username: postgres
+    password: postgres
+
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}

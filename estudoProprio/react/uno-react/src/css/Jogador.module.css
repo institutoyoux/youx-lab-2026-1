@@ -1,0 +1,46 @@
+.jogador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primeirasInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.username, .quantidade {
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #7b767d;
+    border-radius: 100rem;
+    padding: 0.5rem;
+}
+.username {
+    text-align: left;
+    padding: 0.7rem 8.5rem;
+    padding-left: 0.5rem;
+}
+.quantidade {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    aspect-ratio: 1 / 1 !important;
+    max-width: 10%;
+    max-height: 100%;
+}
+.cartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.cartas > * {
+    min-width: 100px;
+}
