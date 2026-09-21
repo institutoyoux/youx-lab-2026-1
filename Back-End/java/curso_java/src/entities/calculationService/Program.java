@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import entities.calculationService.Product;
+import entities.calculationService.CalculationService;
 
 public class Program {
     public static void main(String[] args) {
@@ -22,11 +24,9 @@ public class Program {
                 line = br.readLine();
             }
 
-            Integer x = CalculationService.max(list);
+            Product x = CalculationService.max(list);
             System.out.println("Max: ");
             System.out.println(x);
-
-
         } catch (IOException e) {
             System.out.println("ERROR: " + e.getMessage());
         }
