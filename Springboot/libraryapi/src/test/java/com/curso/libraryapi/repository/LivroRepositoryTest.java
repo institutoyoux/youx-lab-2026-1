@@ -28,7 +28,7 @@ class LivroRepositoryTest {
         livro.setPreco(BigDecimal.valueOf(100));
         livro.setGenero(GeneroLivro.CIENCIA);
         livro.setTitulo("Ciencias");
-        livro.setDataPuplicacao(LocalDate.of(1980, 1, 2));
+        livro.setDataPublicacao(LocalDate.of(1980, 1, 2));
 
         Autor autor = autorRepository
                 .findById(UUID.fromString("f8efb671-9337-44f2-9bc8-16228ec30e16"))
@@ -46,7 +46,7 @@ class LivroRepositoryTest {
         livro.setPreco(BigDecimal.valueOf(100));
         livro.setGenero(GeneroLivro.FICCAO);
         livro.setTitulo("Terceiro Livro");
-        livro.setDataPuplicacao(LocalDate.of(1980, 1, 2));
+        livro.setDataPublicacao(LocalDate.of(1980, 1, 2));
 
         Autor autor = new Autor();
         autor.setNome("José");
@@ -67,7 +67,7 @@ class LivroRepositoryTest {
         livro.setPreco(BigDecimal.valueOf(100));
         livro.setGenero(GeneroLivro.FICCAO);
         livro.setTitulo("Outro livro");
-        livro.setDataPuplicacao(LocalDate.of(1980, 1, 2));
+        livro.setDataPublicacao(LocalDate.of(1980, 1, 2));
 
         Autor autor = new Autor();
         autor.setNome("João");

@@ -33,7 +33,7 @@ public class TransacaoService {
                 .findById(UUID.fromString("975e78fd-05a3-41a1-8147-6562b2e5aa5a"))
                 .orElse(null);
 
-        livro.setDataPuplicacao(LocalDate.of(2004, 6, 1));
+        livro.setDataPublicacao(LocalDate.of(2004, 6, 1));
 
     }
 
@@ -53,7 +53,7 @@ public class TransacaoService {
         livro.setPreco(BigDecimal.valueOf(100));
         livro.setGenero(GeneroLivro.FICCAO);
         livro.setTitulo("Teste Livro da Francisco");
-        livro.setDataPuplicacao(LocalDate.of(1980, 1, 2));
+        livro.setDataPublicacao(LocalDate.of(1980, 1, 2));
 
         livro.setAutor(autor);
 

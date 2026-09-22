@@ -22,8 +22,8 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
 
     // Query Method
     // select * from livro where id_autor = id
-    List<Livro> findByAutor(Autor autor);
 
+    List<Livro> findByAutor(Autor autor);
     List<Livro> findByTitulo(String titulo);
 
     List<Livro> findByIsbn(String isbn);
@@ -35,9 +35,9 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
     List<Livro> findByDataPublicacaoBetween(LocalDate  inicio, LocalDate fim);
 
 //    JPQL -> referencia as entidades e as propriedades
+
     @Query("select l from Livro as l order by l.titulo, l.preco")
     List<Livro> listarTodosOrdenadosPorTituloAndPreco();
-
     @Query("select a from Livro l join l.autor a")
     List<Autor> listarAutoresDosLivros();
 
@@ -54,15 +54,15 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
     List<String> listarGenerosAutoresBrasileiros();
 
     // named parameters -> parametros nomeados
+
     @Query("select l from Livro l where l.genero = :genero order by :paramOrdenacao")
     List<Livro> findByGenero(
             @Param("genero") GeneroLivro generoLivro,
             @Param("paramOrdenacao") String nomePropriedade);
-
     // positional parameters
+
     @Query("select l from Livro l where l.genero = ?1 order by ?2 ")
     List<Livro> findByGeneroPositionalParameters(GeneroLivro generoLivro, String nomePropriedade);
-
     @Modifying
     @Transactional
     @Query(" delete from Livro where genero = ?1 ")
@@ -70,6 +70,8 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
 
     @Modifying
     @Transactional
-    @Query(" update  Livro set dataPuplicacao = ?1 ")
+    @Query(" update  Livro set dataPublicacao = ?1 ")
     void updateDataPublicacao(LocalDate novaData);
+
+    boolean existsByAutor(Autor autor);
 }
