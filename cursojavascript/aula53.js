@@ -1,24 +1,29 @@
-let valores=[1,2]
+const btn_soma=document.querySelector("#btn_soma")
+const btn_subtracao=document.querySelector("#btn_subtracao")
+const btn_multiplicacao=document.querySelector("#btn_multiplicacao")
+const btn_divisao=document.querySelector("#btn_divisao")
+const res=document.querySelector("#res")
+
 const op=[
-    (val)=>{
-        let res=0
-        for(v of val){
-            rest+=v
-        }
-        return res
+    ()=>{
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])+Number(val[1])
     },
-    (val)=>{
-        let res=1
-        for(v of val){
-            res*=v
-        }
-        return res
+    ()=>{
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])-Number(val[1])
     },
-    (val)=>{
-        for(v of value){
-            console.log(v)
-        }
-    }
+    ()=>{
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])*Number(val[1])
+    },
+    ()=>{
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])/Number(val[1])
+    }    
 ]
 
-console.log(op[1](valores))
+btn_soma.addEventListener("click",op[0])
+btn_subtracao.addEventListener("click",op[1])
+btn_multiplicacao.addEventListener("click",op[2])
+btn_divisao.addEventListener("click",op[3])
