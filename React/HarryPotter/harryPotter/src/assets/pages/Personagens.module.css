@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    background-image: url("/fundo2.jpeg");
+}
+
+.titulo {
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    color: #D4AF37; 
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: none; 
+    gap: 3rem;
+}
+
+.personagem {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    align-self: center;
+    width: 290px;
+    height: 170px;
+    border: none;
+    border-radius: 2rem;
+    border: 2px outset  rgba(212, 175, 55, 0.1);
+    padding: 0.5rem ;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(212, 175, 55, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
+}
+
+.image {
+    width: 30%;
+    border-radius: 10rem;
+    overflow: hidden;
+    aspect-ratio: 0;
+    border: 3px solid #D4AF37;
+}
+
+.image img {
+    width: 100%;
+}
+
+button {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #10100d;
+    border: 2px solid #D4AF37;
+    cursor: pointer;
+    color: #D4AF37;
+    font-weight: lighter;
+}
+
+.loading {
+    border: none;
+    width: 60%;
+}
+
+.paginas {
+    justify-content: center;
+}
+
+.caixaPesquisar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

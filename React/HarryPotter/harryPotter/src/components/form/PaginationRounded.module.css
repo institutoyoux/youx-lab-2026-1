@@ -1,0 +1,16 @@
+.pagination {
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.pagination button {
+    color: white;
+    backdrop-filter: blur(8px);
+    background-color: rgba(212, 175, 55, 0.1);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-weight: bold;
+    margin: none;
+}
+
