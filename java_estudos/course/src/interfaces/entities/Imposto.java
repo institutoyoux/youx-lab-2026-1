@@ -1,9 +1,6 @@
 package interfaces.entities;
 
-public class Locadora01 {
+interface Imposto {
 
-    interface ServicoImposto {
-        double calcularImposto();
-        
-    }
+     double calcularImposto(double valor);
 }
