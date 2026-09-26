@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: api-upload-arquivos
+
+file:
+  upload-dir: uploads

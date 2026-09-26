@@ -58,16 +58,17 @@ body {
 .personagem {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid #333;
   border-radius: 1rem;
   backdrop-filter: blur(10px);
   width: 350px;
-  max-width: 50%;
+  max-width: 90%;
   padding: 1rem;
   gap: 1rem;
+  cursor: pointer;
 }
 .img {
   border-radius: 100rem;
@@ -105,5 +106,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  max-width: 30%;
+  width: 500px;
+  max-width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
 }
