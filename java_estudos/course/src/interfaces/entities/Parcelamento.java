@@ -1,12 +1,15 @@
 package interfaces.entities;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
-public class parcelamento {
+public class Parcelamento {
+
+    private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private LocalDate data;
     private Double valorParcela;
 
-    public parcelamento(LocalDate data, Double valorParcela) {
+    public Parcelamento(LocalDate data, Double valorParcela) {
         this.data = data;
         this.valorParcela = valorParcela;
     }
@@ -25,6 +28,10 @@ public class parcelamento {
 
     public void setValorParcela(Double valorParcela) {
         this.valorParcela = valorParcela;
+    }
+
+    public String toString() {
+        return data + " - " + valorParcela;
     }
 }
 

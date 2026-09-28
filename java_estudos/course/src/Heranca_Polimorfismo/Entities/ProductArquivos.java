@@ -1,13 +1,29 @@
 package Heranca_Polimorfismo.Entities;
 
-public class EntArquivos {
+public class ProductArquivos {
     private String nome;
     private Double preco;
     private Integer quantidade;
 
-    public EntArquivos(String nome, Double preco, Integer quantidade) {
+    public ProductArquivos(String nome, Double preco, Integer quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
+    }
+
+    public double total() {
+        return preco * quantidade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
+
+    public Integer getQuantidade() {
+        return quantidade;
     }
 }

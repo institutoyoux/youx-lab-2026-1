@@ -23,8 +23,7 @@ public class Program {
             Double saldo = sc.nextDouble();
             System.out.print("Limite de saque: ");
             Double limite = sc.nextDouble();
-            System.out.println();
-            System.out.print("Quanto quer sacar: ");
+            System.out.println();            System.out.print("Quanto quer sacar: ");
             Double saque = sc.nextDouble();
 
             Conta  conta = new Conta(numero,titular,saldo,limite,saque);
