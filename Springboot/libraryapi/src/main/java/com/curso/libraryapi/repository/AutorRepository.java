@@ -1,7 +1,6 @@
 package com.curso.libraryapi.repository;
 
 import com.curso.libraryapi.model.Autor;
-import org.springframework.data.domain.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

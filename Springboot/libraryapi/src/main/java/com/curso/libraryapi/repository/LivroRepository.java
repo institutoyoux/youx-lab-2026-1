@@ -3,22 +3,28 @@ package com.curso.libraryapi.repository;
 import com.curso.libraryapi.model.Autor;
 import com.curso.libraryapi.model.GeneroLivro;
 import com.curso.libraryapi.model.Livro;
+import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.awt.print.Pageable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 /**
  * @see LivroRepositoryTest
  */
 
-public interface LivroRepository extends JpaRepository<Livro, UUID> {
+public interface LivroRepository extends JpaRepository<Livro, UUID>, JpaSpecificationExecutor<Livro> {
+
+    Page<Livro> findByAutor(Autor autor, Pageable pageable);
 
     // Query Method
     // select * from livro where id_autor = id
@@ -26,7 +32,7 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
     List<Livro> findByAutor(Autor autor);
     List<Livro> findByTitulo(String titulo);
 
-    List<Livro> findByIsbn(String isbn);
+    Optional<Livro> findByIsbn(String isbn);
 
     List<Livro> findByTituloAndPreco(String titulo, BigDecimal preco);
 
@@ -63,6 +69,7 @@ public interface LivroRepository extends JpaRepository<Livro, UUID> {
 
     @Query("select l from Livro l where l.genero = ?1 order by ?2 ")
     List<Livro> findByGeneroPositionalParameters(GeneroLivro generoLivro, String nomePropriedade);
+
     @Modifying
     @Transactional
     @Query(" delete from Livro where genero = ?1 ")

@@ -122,8 +122,8 @@ class LivroRepositoryTest {
 
     @Test
     void pesquisaPorISBNTest(){
-        List<Livro> lista = repository.findByIsbn("20887-84874");
-        lista.forEach(System.out::println);
+        Optional<Livro> livro = repository.findByIsbn("20887-84874");
+        livro.ifPresent(Sytem.out::println)
     }
 
     @Test
