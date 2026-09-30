@@ -1,0 +1,84 @@
+.logo {
+  max-height: 80px;
+  margin-right: 60vw;
+}
+
+.logoMobile {
+  display: none;
+}
+
+.divMenu {
+    display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #ffbb33;
+  text-decoration: none;
+}
+
+@media (max-width: 440px) {
+  .logo {
+    display: none;
+  }
+
+  .logoMobile {
+    max-height: 80px;
+    display: block;
+
+  }
+
+  .logoMobile img {
+    max-height: 20%;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    background-color: #222;
+    padding: 2%;
+  }
+
+  .divMenu {
+    display: flex;
+    width: 90vw;
+  }
+
+  .listNavbar {
+    position: fixed;
+    top: 6rem;
+    backdrop-filter: blur(8px);
+    border: 1px solid #222;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    color: #222;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+  }
+
+}

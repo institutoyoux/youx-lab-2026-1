@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "name": "Opaaaaaa",
+      "budget": "222123322",
+      "category": {
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "rSB5vbQTngM"
+    },
+    {
+      "name": "Projeto da Casa Copacabana",
+      "budget": "2340000",
+      "category": {
+        "name": "Desenvolvimento"
+      },
+      "cost": 10348,
+      "services": [
+        {
+          "name": "Porta automática",
+          "cost": "10348",
+          "description": "Fazer a porta automática com reconhecimento facial",
+          "id": "e281a87c-75d9-489d-84ac-96a0c69715c1"
+        }
+      ],
+      "id": "2JsWYvMlpCA"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

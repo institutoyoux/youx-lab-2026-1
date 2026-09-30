@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.min-height {
+  min-height: 30%;
+}
+
+.start {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+@media (max-width: 440px) {
+  .start {
+    justify-content: center;
+    width: 100%;
+  }
+}
