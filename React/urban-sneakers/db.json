@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Urban Runner 001",
+      "category": "Corrida",
+      "price": 899.9,
+      "color": "Colorido",
+      "rating": 1,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 2,
+      "name": "Urban Street 002",
+      "category": "Casual",
+      "price": 399.9,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 3,
+      "name": "Urban Court 003",
+      "category": "Basquete",
+      "price": 249.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 4,
+      "name": "Urban Flip 004",
+      "category": "Skate",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 5,
+      "name": "Urban Classic 005",
+      "category": "Lifestyle",
+      "price": 349.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 6,
+      "name": "Urban Runner 006",
+      "category": "Corrida",
+      "price": 899.5,
+      "color": "Marrom",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 7,
+      "name": "Urban Runner Ultra Boost Max Edição Limitada 007",
+      "category": "Casual",
+      "price": 799.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 8,
+      "name": "Urban Court 008",
+      "category": "Basquete",
+      "price": 199.9,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 9,
+      "name": "Urban Flip 009",
+      "category": "Skate",
+      "price": 449.0,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 10,
+      "name": "Urban Classic 010",
+      "category": "Lifestyle",
+      "price": 449.9,
+      "color": "Branco",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 11,
+      "name": "Urban Runner 011",
+      "category": "Corrida",
+      "price": 249.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 12,
+      "name": "Urban Street 012",
+      "category": "Casual",
+      "price": 799.0,
+      "color": "Rosa",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 13,
+      "name": "Urban Court 013",
+      "category": "Basquete",
+      "price": 599.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 14,
+      "name": "Urban Flip 014",
+      "category": "Skate",
+      "price": 499.9,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 15,
+      "name": "Urban Classic 015",
+      "category": "Lifestyle",
+      "price": 899.0,
+      "color": "Vermelho",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 16,
+      "name": "Urban Runner 016",
+      "category": "Corrida",
+      "price": 249.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1715693754047-4c0b56576495?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 17,
+      "name": "Urban Street 017",
+      "category": "Casual",
+      "price": 399.9,
+      "color": "Verde",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 18,
+      "name": "Urban Court 018",
+      "category": "Basquete",
+      "price": 249.5,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 19,
+      "name": "Urban Flip 019",
+      "category": "Skate",
+      "price": 899.0,
+      "color": "Preto",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1631087606988-a6be38fccaf6?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 20,
+      "name": "Urban Classic 020",
+      "category": "Lifestyle",
+      "price": 449.9,
+      "color": "Cinza",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 21,
+      "name": "Urban Street 021",
+      "category": "Casual",
+      "price": 899.9,
+      "color": "Colorido",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 22,
+      "name": "Urban Court 022",
+      "category": "Basquete",
+      "price": 299.9,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 23,
+      "name": "Urban Flip 023",
+      "category": "Skate",
+      "price": 499.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 24,
+      "name": "Urban Classic 024",
+      "category": "Lifestyle",
+      "price": 899.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 25,
+      "name": "Urban Runner 025",
+      "category": "Corrida",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 26,
+      "name": "Urban Street 026",
+      "category": "Casual",
+      "price": 449.5,
+      "color": "Marrom",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 27,
+      "name": "Urban Court 027",
+      "category": "Basquete",
+      "price": 349.0,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 28,
+      "name": "Urban Flip 028",
+      "category": "Skate",
+      "price": 599.5,
+      "color": "Preto",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 29,
+      "name": "Urban Classic 029",
+      "category": "Lifestyle",
+      "price": 899.5,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 30,
+      "name": "Urban Runner 030",
+      "category": "Corrida",
+      "price": 299.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 31,
+      "name": "Urban Street 031",
+      "category": "Casual",
+      "price": 699.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 32,
+      "name": "Urban Court 032",
+      "category": "Basquete",
+      "price": 499.5,
+      "color": "Rosa",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 33,
+      "name": "Urban Flip 033",
+      "category": "Skate",
+      "price": 299.5,
+      "color": "Branco",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 34,
+      "name": "Urban Classic 034",
+      "category": "Lifestyle",
+      "price": 199.9,
+      "color": "Preto",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 35,
+      "name": "Urban Runner 035",
+      "category": "Corrida",
+      "price": 299.5,
+      "color": "Vermelho",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 36,
+      "name": "Urban Street 036",
+      "category": "Casual",
+      "price": 499.5,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1715693754047-4c0b56576495?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 37,
+      "name": "Urban Court 037",
+      "category": "Basquete",
+      "price": 599.0,
+      "color": "Verde",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 38,
+      "name": "Urban Flip 038",
+      "category": "Skate",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 39,
+      "name": "Urban Classic 039",
+      "category": "Lifestyle",
+      "price": 699.0,
+      "color": "Preto",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1631087606988-a6be38fccaf6?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 40,
+      "name": "Urban Runner 040",
+      "category": "Corrida",
+      "price": 449.9,
+      "color": "Cinza",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 41,
+      "name": "Urban Court 041",
+      "category": "Basquete",
+      "price": 299.5,
+      "color": "Colorido",
+      "rating": 1,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 42,
+      "name": "Urban Court High Performance Pro Series 042",
+      "category": "Skate",
+      "price": 399.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 43,
+      "name": "Urban Classic 043",
+      "category": "Lifestyle",
+      "price": 249.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 44,
+      "name": "Urban Runner 044",
+      "category": "Corrida",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 45,
+      "name": "Urban Street 045",
+      "category": "Casual",
+      "price": 299.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 46,
+      "name": "Urban Court 046",
+      "category": "Basquete",
+      "price": 599.9,
+      "color": "Marrom",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 47,
+      "name": "Urban Flip 047",
+      "category": "Skate",
+      "price": 449.0,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 48,
+      "name": "Urban Classic 048",
+      "category": "Lifestyle",
+      "price": 349.9,
+      "color": "Preto",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 49,
+      "name": "Urban Runner 049",
+      "category": "Corrida",
+      "price": 599.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 50,
+      "name": "Urban Street 050",
+      "category": "Casual",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 51,
+      "name": "Urban Court 051",
+      "category": "Basquete",
+      "price": 599.9,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 52,
+      "name": "Urban Flip 052",
+      "category": "Skate",
+      "price": 799.5,
+      "color": "Rosa",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 53,
+      "name": "Urban Classic 053",
+      "category": "Lifestyle",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 54,
+      "name": "Urban Runner 054",
+      "category": "Corrida",
+      "price": 499.0,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 55,
+      "name": "Urban Street 055",
+      "category": "Casual",
+      "price": 699.5,
+      "color": "Vermelho",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 56,
+      "name": "Urban Court 056",
+      "category": "Basquete",
+      "price": 349.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1715693754047-4c0b56576495?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 57,
+      "name": "Urban Flip 057",
+      "category": "Skate",
+      "price": 799.9,
+      "color": "Verde",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 58,
+      "name": "Urban Classic 058",
+      "category": "Lifestyle",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 59,
+      "name": "Urban Runner 059",
+      "category": "Corrida",
+      "price": 199.9,
+      "color": "Preto",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1631087606988-a6be38fccaf6?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 60,
+      "name": "Urban Street 060",
+      "category": "Casual",
+      "price": 199.0,
+      "color": "Cinza",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 61,
+      "name": "Urban Flip 061",
+      "category": "Skate",
+      "price": 349.0,
+      "color": "Colorido",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 62,
+      "name": "Urban Classic 062",
+      "category": "Lifestyle",
+      "price": 349.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 63,
+      "name": "Urban Runner 063",
+      "category": "Corrida",
+      "price": 799.5,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 64,
+      "name": "Urban Street 064",
+      "category": "Casual",
+      "price": 599.5,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 65,
+      "name": "Urban Court 065",
+      "category": "Basquete",
+      "price": 249.5,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 66,
+      "name": "Urban Flip 066",
+      "category": "Skate",
+      "price": 499.5,
+      "color": "Marrom",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 67,
+      "name": "Urban Classic 067",
+      "category": "Lifestyle",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 68,
+      "name": "Urban Runner 068",
+      "category": "Corrida",
+      "price": 449.9,
+      "color": "Preto",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 69,
+      "name": "Urban Street 069",
+      "category": "Casual",
+      "price": 349.5,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 70,
+      "name": "Urban Court 070",
+      "category": "Basquete",
+      "price": 299.0,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 71,
+      "name": "Urban Flip 071",
+      "category": "Skate",
+      "price": 249.5,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 72,
+      "name": "Urban Classic 072",
+      "category": "Lifestyle",
+      "price": 699.9,
+      "color": "Rosa",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 73,
+      "name": "Urban Runner 073",
+      "category": "Corrida",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 74,
+      "name": "Urban Street 074",
+      "category": "Casual",
+      "price": 349.9,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 75,
+      "name": "Urban Court 075",
+      "category": "Basquete",
+      "price": 599.9,
+      "color": "Vermelho",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 76,
+      "name": "Urban Flip 076",
+      "category": "Skate",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1715693754047-4c0b56576495?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 77,
+      "name": "Urban Classic 077",
+      "category": "Lifestyle",
+      "price": 499.0,
+      "color": "Verde",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 78,
+      "name": "Urban Runner 078",
+      "category": "Corrida",
+      "price": 599.0,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 79,
+      "name": "Urban Street 079",
+      "category": "Casual",
+      "price": 699.5,
+      "color": "Preto",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1631087606988-a6be38fccaf6?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 80,
+      "name": "Urban Court 080",
+      "category": "Basquete",
+      "price": 399.9,
+      "color": "Cinza",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 81,
+      "name": "Urban Classic 081",
+      "category": "Lifestyle",
+      "price": 799.9,
+      "color": "Colorido",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 82,
+      "name": "Urban Runner 082",
+      "category": "Corrida",
+      "price": 199.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 83,
+      "name": "Urban Street 083",
+      "category": "Casual",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 84,
+      "name": "Urban Court 084",
+      "category": "Basquete",
+      "price": 699.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 85,
+      "name": "Urban Flip 085",
+      "category": "Skate",
+      "price": 249.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 86,
+      "name": "Urban Classic 086",
+      "category": "Lifestyle",
+      "price": 349.5,
+      "color": "Marrom",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 87,
+      "name": "Urban Runner 087",
+      "category": "Corrida",
+      "price": 799.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 88,
+      "name": "Urban Street Low Cut Comfort Plus 088",
+      "category": "Casual",
+      "price": 199.9,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 89,
+      "name": "Urban Court 089",
+      "category": "Basquete",
+      "price": 799.0,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 90,
+      "name": "Urban Flip 090",
+      "category": "Skate",
+      "price": 349.0,
+      "color": "Branco",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 91,
+      "name": "Urban Classic 091",
+      "category": "Lifestyle",
+      "price": 499.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 92,
+      "name": "Urban Runner 092",
+      "category": "Corrida",
+      "price": 399.5,
+      "color": "Rosa",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 93,
+      "name": "Urban Street 093",
+      "category": "Casual",
+      "price": 249.9,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1579338559194-a162d19bf842?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 94,
+      "name": "Urban Court 094",
+      "category": "Basquete",
+      "price": 799.9,
+      "color": "Preto",
+      "rating": 2,
+      "image": "https://images.unsplash.com/photo-1726133731483-d4b8bcabeb43?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 95,
+      "name": "Urban Flip 095",
+      "category": "Skate",
+      "price": 349.0,
+      "color": "Vermelho",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 96,
+      "name": "Urban Classic 096",
+      "category": "Lifestyle",
+      "price": 449.9,
+      "color": "Branco",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1715693754047-4c0b56576495?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 97,
+      "name": "Urban Runner 097",
+      "category": "Corrida",
+      "price": 449.0,
+      "color": "Verde",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 98,
+      "name": "Urban Street 098",
+      "category": "Casual",
+      "price": 699.0,
+      "color": "Branco",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 99,
+      "name": "Urban Court 099",
+      "category": "Basquete",
+      "price": 899.9,
+      "color": "Preto",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1631087606988-a6be38fccaf6?auto=format&fit=crop&w=600&h=600&q=70"
+    },
+    {
+      "id": 100,
+      "name": "Urban Flip 100",
+      "category": "Skate",
+      "price": 699.0,
+      "color": "Cinza",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&h=600&q=70"
+    }
+  ]
+}

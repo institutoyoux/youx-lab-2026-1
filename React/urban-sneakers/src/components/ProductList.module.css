@@ -1,0 +1,27 @@
+.produtos {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.loading {
+  max-width: 20%;
+}
+
+@media (min-width: 768px) {
+  .produtos {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .loading {
+    max-width: 20%;
+  }
+}
+

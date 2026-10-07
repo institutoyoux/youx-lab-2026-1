@@ -1,0 +1,49 @@
+body {
+  align-items: center;
+}
+
+.ProductCard {
+  display: flex;
+  align-items: start;
+  align-self: center;
+  flex-direction: column;
+  max-height: 50%;
+  max-width: 50%;
+  border: none;
+  padding: 1rem;
+}
+
+.divImagem {
+  width: 100%;
+}
+
+.ProductCard p {
+  margin: 0.25rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .ProductCard {
+    display: flex;
+    align-items: start;
+    align-self: center;
+    flex-direction: column;
+    max-height: 30%;
+    max-width: 30%;
+    border: none;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProductCard {
+    display: flex;
+    align-items: start;
+    align-self: center;
+    flex-direction: column;
+    max-height: 20%;
+    max-width: 20%;
+    border: none;
+    padding: 1rem;
+  }
+}

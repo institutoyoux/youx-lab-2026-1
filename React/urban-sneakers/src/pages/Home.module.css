@@ -1,0 +1,64 @@
+.filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.filter h3 {
+  margin: 0;
+}
+
+.filter box-icon:hover {
+  background-color: rgb(201, 201, 202);
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: 2ms;
+}
+
+.opcoes {
+  display: flex;
+  position: absolute;
+  background-color: rgba(255, 254, 254, 0.725);
+  backdrop-filter: blur(2px);
+  border-radius: 0.4rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin-left: 2rem;
+  z-index: 999;
+}
+
+h3 {
+  width: 100%;
+  padding: 1rem;
+}
+
+.Home {
+  margin: 0 auto;
+}
+
+box-icon:hover {
+  cursor: pointer;
+  transition: 2ms;
+}
+
+@media (min-width: 768px) {
+  .filter box-icon:hover {
+    background-color: rgb(201, 201, 202);
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: 2ms;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .Home {
+    margin: 0 auto;
+  }
+}
