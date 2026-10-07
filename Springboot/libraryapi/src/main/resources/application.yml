@@ -1,6 +1,9 @@
 spring:
   application:
     name: libraryapi
+  profiles:
+    active: production
+# SPRING_PROFILES_ACTIVE=production
   datasource:
     url: jdbc:postgresql://localhost:5433/library
     username: postgres
@@ -13,3 +16,25 @@ spring:
       ddl-auto: none
     properties:
       hibernate.hibernate.format_sql: true
+
+
+# production
+---
+spring:
+  config:
+    activate:
+      on-profile: production
+  jpa:
+    show-sql: false
+
+
+# homologacao
+---
+spring:
+  config:
+    activate:
+      on-profile: homologacao
+  jpa:
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://localhost:5433/library
