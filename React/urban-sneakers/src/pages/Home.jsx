@@ -7,13 +7,47 @@ import Options from "../form/Options";
 export default function Home() {
   const [filter, setFilter] = useState(false);
 
+  const [sneakersPesquisados, setSneakersPesquisados] = useState([]);
+
+  const [sneakers, setSneakers] = useState([]);
+  const [categoria, setCategoria] = useState();
+  const [valor, setValor] = useState(4);
+
   const modalFilter = () => {
     setFilter(!filter);
   };
 
+  
+
+  const verValor = (valor, price) => {
+    const validacoes = [
+      100 <= price && price <= 200,
+      200 <= price && price <= 300,
+      300 <= price && price <= 500,
+      price >= 500,
+      true
+    ];
+    return validacoes[valor];
+  };
+  const filtrar = (e) => {
+    setFilter(!filter);
+
+    setSneakersPesquisados(
+      sneakers.filter(
+        (tenis) => categoria != undefined ? tenis.category === categoria && verValor(valor, tenis.price) : verValor(valor, tenis.price) ,
+      ),
+    );
+    setCategoria(undefined)
+    setValor(4)
+  };
+
+
   return (
     <div className={styles.Home}>
-      <Header />
+      <Header
+        sneakers={sneakers}
+        setSneakersPesquisados={setSneakersPesquisados}
+      />
       {filter ? (
         <div>
           <div className={styles.filter}>
@@ -22,10 +56,10 @@ export default function Home() {
             </h3>
           </div>
           <div className={styles.opcoes}>
-            <Options />
+            <Options setCategoria={setCategoria} setValor={setValor} />
             <box-icon
               name="check-square"
-              onClick={() => setFilter(!filter)}
+              onClick={filtrar}
               type="regular"
             ></box-icon>
           </div>
@@ -36,7 +70,12 @@ export default function Home() {
           <box-icon onClick={modalFilter} name="filter-alt"></box-icon>
         </div>
       )}
-      <ProductList />
+      <ProductList
+        sneakers={sneakers}
+        setSneakers={setSneakers}
+        setSneakersPesquisados={setSneakersPesquisados}
+        sneakersPesquisados={sneakersPesquisados}
+      />
     </div>
   );
 }

@@ -3,11 +3,19 @@ import "boxicons";
 import styles from "./Header.module.css";
 import { useState } from "react";
 
-export default function Header() {
+export default function Header({ sneakers, setSneakersPesquisados }) {
   const [caixaPesquisar, setCaixaPesquisar] = useState(false);
 
   const modal = () => {
     setCaixaPesquisar(!caixaPesquisar);
+  };
+
+  const valorInput = (e) => {
+    setSneakersPesquisados(
+      sneakers.filter((tenis) =>
+        tenis.name.toLowerCase().includes(e.target.value.toLowerCase())
+      )
+    );
   };
 
   return (
@@ -29,6 +37,7 @@ export default function Header() {
               className={styles.modalPesquisar}
               type="text"
               placeholder="Buscar"
+              onChange={valorInput}
             />{" "}
           </div>
         </div>
@@ -40,8 +49,13 @@ export default function Header() {
         ></box-icon>
       )}
       <div className={styles.caixaAcoes}>
-        <input className={styles.pesquisar} type="text" placeholder="Buscar" />
-        <box-icon type="solid" name="cart"></box-icon>
+        <input
+          onChange={valorInput}
+          className={styles.pesquisar}
+          type="text"
+          placeholder="Buscar"
+        />
+        <box-icon className={styles.icon} type="solid" name="cart"></box-icon>
       </div>
     </div>
   );

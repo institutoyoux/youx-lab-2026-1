@@ -12,11 +12,8 @@
   margin: 0 auto;
   height: 40%;
   border: 1px solid black;
-  border-radius: 1.3rem;
-}
-
-.iconeSearch {
-  width: 30%;
+  border-radius: 0.6rem;
+  outline: none;
 }
 
 .pesquisar {
@@ -30,11 +27,16 @@
   margin: auto 0;
 }
 
-.header box-icon {
-  cursor: pointer;
+.iconeSearch {
+  min-width: 3rem;
+  font-size: 1rem;
   margin-top: 2rem;
 }
 
+.icon {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
 .header box-icon:hover {
   background-color: rgb(201, 201, 202);
   border-radius: 0.6rem;
