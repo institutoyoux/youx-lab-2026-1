@@ -8,7 +8,7 @@ export default function getTodosCursos(){
     return curso
 }
 
-function getCursos(i_curso){
+ function getCursos(i_curso){
     return curso[i_curso]
 }
 
