@@ -1,0 +1,22 @@
+#principal{
+    margin: 0 10%;
+}
+
+/* .personagem {
+    border: 1px solid black;
+    padding: 0.5rem;
+} */
+
+#personagens {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
