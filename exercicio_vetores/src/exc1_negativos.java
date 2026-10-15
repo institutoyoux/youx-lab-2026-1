@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;//importar ferramentas que o Java já possui.
 
-public class exc_1 {
+public class exc1_negativos {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

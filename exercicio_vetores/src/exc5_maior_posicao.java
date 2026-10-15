@@ -1,14 +1,14 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exc_2 {
+public class exc5_maior_posicao {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int n;
-        double soma, media;
+        int n, posmaior;
+        double maior;
 
         System.out.print("Quantos numeros voce vai digitar? ");
         n = sc.nextInt();
@@ -20,21 +20,18 @@ public class exc_2 {
             vetor[i] = sc.nextDouble();
         }
 
-        soma = 0;
-        for (int i=0; i<n; i++) {
-            soma = soma + vetor[i];
+        maior = vetor[0];
+        posmaior = 0;
+
+        for (int i=1; i<n; i++) {
+            if (vetor[i] > maior) {
+                maior = vetor[i];
+                posmaior = i;
+            }
         }
 
-        media = soma / n;
-
-        System.out.print("VALORES = ");
-
-        for (int i=0; i<n; i++) {
-            System.out.printf("%.1f  ", vetor[i]);
-        }
-
-        System.out.printf("\nSOMA = %.2f\n", soma);
-        System.out.printf("MEDIA = %.2f\n", media);
+        System.out.printf("MAIOR VALOR = %.1f\n", maior);
+        System.out.printf("POSICAO DO MAIOR VALOR = %d\n", posmaior);
 
         sc.close();
     }
