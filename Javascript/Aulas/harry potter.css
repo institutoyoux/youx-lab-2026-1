@@ -1,0 +1,8 @@
+body {
+    background-image: url('fundo harrypotter.webp');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur();
+}
