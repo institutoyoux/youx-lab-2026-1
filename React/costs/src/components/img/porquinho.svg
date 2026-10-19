@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Moeda -->
+  <circle cx="320" cy="160" r="70" fill="#f2f2f2" stroke="#2b2d42" stroke-width="3"></circle>
+  <text x="320" y="185" text-anchor="middle" font-size="80" font-family="Arial" fill="#f4b400" font-weight="bold">$</text>
+
+  <!-- Cabeça -->
+  <circle cx="110" cy="90" r="55" fill="#f4b400"></circle>
+  <path d="M70 10 C20 20, 20 80, 40 110" fill="none" stroke="#2b2d42" stroke-width="4"></path>
+  <path d="M95 30 C120 0, 160 20, 140 50" fill="none" stroke="#2b2d42" stroke-width="4"></path>
+  <line x1="85" y1="70" x2="100" y2="68" stroke="#2b2d42" stroke-width="3"></line>
+  <line x1="130" y1="70" x2="145" y2="68" stroke="#2b2d42" stroke-width="3"></line>
+  <path d="M110 65 L110 95 Q125 95 120 105" fill="none" stroke="#2b2d42" stroke-width="4"></path>
+
+  <!-- Corpo -->
+  <path d="M95 140 L200 140 L230 230 L140 240 Z" fill="#232540"></path>
+  <path d="M190 145 L270 120 L285 145 L220 170 Z" fill="#232540"></path>
+  <path d="M180 190 L270 190 L270 230 L190 230 Z" fill="#232540"></path>
+  <rect x="255" y="135" width="20" height="50" fill="#f4b400"></rect>
+  <rect x="245" y="185" width="25" height="45" fill="#f4b400"></rect>
+  <polygon points="150,140 170,140 190,180 170,180" fill="#ffffff"></polygon>
+
+  <!-- Cofrinho -->
+  <ellipse cx="310" cy="390" rx="180" ry="160" fill="#f5f5f5" stroke="#2b2d42" stroke-width="3"></ellipse>
+
+  <!-- Reflexos -->
+  <path d="M180 280 C140 320,140 450,220 500" fill="none" stroke="#ffffff" stroke-width="25" opacity="0.5"></path>
+  <path d="M430 300 C460 320,470 360,450 390" fill="none" stroke="#ffffff" stroke-width="15" opacity="0.5"></path>
+
+  <!-- Orelhas -->
+  <polygon points="420,240 460,200 460,260" fill="#f5f5f5" stroke="#2b2d42" stroke-width="3"></polygon>
+  <polygon points="460,200 490,170 490,240" fill="#f5f5f5" stroke="#2b2d42" stroke-width="3"></polygon>
+
+  <!-- Abertura -->
+  <ellipse cx="350" cy="250" rx="50" ry="10" fill="none" stroke="#2b2d42" stroke-width="4"></ellipse>
+
+  <!-- Olho -->
+  <line x1="430" y1="340" x2="455" y2="340" stroke="#2b2d42" stroke-width="6"></line>
+
+  <!-- Nariz -->
+  <path d="M510 320 L500 390" fill="none" stroke="#2b2d42" stroke-width="6"></path>
+  <path d="M500 390 Q540 380 540 410 Q520 430 490 430" fill="none" stroke="#2b2d42" stroke-width="6"></path>
+
+  <!-- Pernas -->
+  <rect x="180" y="500" width="45" height="80" rx="20" fill="#f5f5f5" stroke="#2b2d42" stroke-width="3"></rect>
+  <rect x="340" y="500" width="45" height="80" rx="20" fill="#f5f5f5" stroke="#2b2d42" stroke-width="3"></rect>
+
+  <!-- Rabo -->
+  <path d="M130 350
+           C40 330, 20 250, 80 250
+           C120 250, 120 290, 90 290
+           C70 290, 70 270, 90 270" fill="none" stroke="#2b2d42" stroke-width="5"></path>
+</svg>

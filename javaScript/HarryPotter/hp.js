@@ -3,6 +3,7 @@ async function Personagem() {
   const resposta = await fetch("https://hp-api.onrender.com/api/characters");
   const personagens = await resposta.json();
   const container = document.getElementById("container");
+  container.innerHTML=''
 
   personagens.forEach((personagem) => {
     const caixa1 = document.createElement("div");
@@ -13,10 +14,9 @@ async function Personagem() {
         <p>${personagem.name}</p>
         <a href="http://127.0.0.1:5500/hp2.html?id=${personagem.id}" id="btnMais">More information</a>
         `;
-        
+    
     container.appendChild(caixa1);
 
-    const btnMais = document.getElementById("btnMais");
   });
 }
 

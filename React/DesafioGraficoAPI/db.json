@@ -1,0 +1,72 @@
+{
+  "pesquisasMensais": [
+    {
+      "id": 1,
+      "mes": "Janeiro",
+      "respostas": 120,
+      "satisfacao": 72
+    },
+    {
+      "id": 2,
+      "mes": "Fevereiro",
+      "respostas": 145,
+      "satisfacao": 76
+    },
+    {
+      "id": 3,
+      "mes": "Março",
+      "respostas": 132,
+      "satisfacao": 74
+    },
+    {
+      "id": 4,
+      "mes": "Abril",
+      "respostas": 168,
+      "satisfacao": 81
+    },
+    {
+      "id": 5,
+      "mes": "Maio",
+      "respostas": 190,
+      "satisfacao": 84
+    },
+    {
+      "id": 6,
+      "mes": "Junho",
+      "respostas": 215,
+      "satisfacao": 87
+    }
+  ],
+  "metodosPesquisa": [
+    {
+      "id": 1,
+      "metodo": "Questionários",
+      "quantidade": 240,
+      "percentual": 40
+    },
+    {
+      "id": 2,
+      "metodo": "Entrevistas",
+      "quantidade": 150,
+      "percentual": 25
+    },
+    {
+      "id": 3,
+      "metodo": "Observação",
+      "quantidade": 96,
+      "percentual": 16
+    },
+    {
+      "id": 4,
+      "metodo": "Grupos focais",
+      "quantidade": 72,
+      "percentual": 12
+    },
+    {
+      "id": 5,
+      "metodo": "Análise documental",
+      "quantidade": 42,
+      "percentual": 7
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 
 function Condicional() {
   const [email, setEmail] = useState();
@@ -6,8 +6,12 @@ function Condicional() {
 
   function enviarEmail(e) {
     e.preventDefault();
-    setUserEmail(email)
+    setUserEmail(email);
     console.log(userEmail);
+  }
+
+  function limparEmail() {
+    setUserEmail("");
   }
 
   return (
@@ -23,10 +27,10 @@ function Condicional() {
           Enviar e-mail
         </button>
         {userEmail && (
-            <div>
-                <p>O e-mail do usuário é: {userEmail}</p>
-                <button onClick={limparEmail}>Limpar e-mail</button>
-            </div>
+          <div>
+            <p>O e-mail do usuário é: {userEmail}</p>
+            <button onClick={limparEmail}>Limpar e-mail</button>
+          </div>
         )}
       </form>
     </div>

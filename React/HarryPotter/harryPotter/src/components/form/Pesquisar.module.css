@@ -1,13 +1,11 @@
 .pesquisarInput{
     display: flex;
-    border: none;
+    border: 1px solid #D4AF37;
     height: 20px;
-    border-radius: 0.3rem;
-    color: wheat;
-} 
-.boxPesquisar {
-    color: wheat;
+    border-radius: 1em;
     backdrop-filter: blur(8px);
+    background-color: rgba(212, 175, 55, 0.1);
     position: fixed;
-    right: 5rem;
-}
+    right: 13%;
+    padding: 0.7rem;
+} 

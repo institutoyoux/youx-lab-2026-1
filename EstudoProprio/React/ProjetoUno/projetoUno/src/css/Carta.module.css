@@ -1,0 +1,16 @@
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 8rem;
+  height: auto;
+  margin: 0 -1.5rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+.carta > img {
+  width: 100%;
+  height: 100%;
+}
