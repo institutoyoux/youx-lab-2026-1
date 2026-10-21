@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu mapa Leaflet</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <h1>Monitoramento territorial</h1>
+    <div id="mapa"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <label for="municipio">Município</label>
+    <select id="municipio">
+      <option value="">Todos</option>
+      <option value="Linhares">Linhares</option>
+      <option value="Aracruz">Aracruz</option>
+    </select>
+    <label for="risco">Risco</label>
+    <select id="risco">
+      <option value="">Todos</option>
+      <option value="Baixo">Baixo</option>
+      <option value="Médio">Médio</option>
+      <option value="Alto">Alto</option>
+    </select>
+    <p id="resultado"></p>
+    <script src="js/app.js"></script>
+  </body>
+</html>
