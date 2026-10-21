@@ -1,0 +1,9 @@
+:root {
+    --subtext: rgba(255, 255, 255, 0.549);
+    --border: #333;
+    --claro: #fff;
+    --text: rgba(255, 255, 255, 0.902);
+    --brand: #28cc95;
+    --back: #121416;
+    --disabled: #173930;
+}

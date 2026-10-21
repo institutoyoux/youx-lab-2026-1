@@ -1,0 +1,61 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.75rem 2rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-weight: bold;
+    margin: auto;
+    font-size: 120%;
+}
+
+.main {
+    margin: 3rem auto;
+    width: 480px;
+    max-width: 90%;
+}
+.main > h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.input {
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.button {
+    background-color: var(--brand);
+    border: none;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 100rem;
+    color: #141a1b;
+    cursor: pointer;
+}
+.button.disabled {
+    background-color: var(--disabled);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.login {
+    width: 100%;
+    margin: 0.2rem 0;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 100rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+    border: 1px solid var(--border);
+    cursor: pointer;
+}
