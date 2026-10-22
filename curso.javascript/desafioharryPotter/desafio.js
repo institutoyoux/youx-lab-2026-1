@@ -1,20 +1,51 @@
-const personagens=document.getElementById("#container-personagens")
-
 fetch('https://hp-api.onrender.com/api/characters')
-.then(r=>r.json())
-.then((dados)=>{
-    for (const p of dados) {
-        p_nome="Nome:" + p.name
-        p_nasc="Data de Nascimento:" + p.dateOfBirth
-        p_informacao="ID:" + p.id
-        p_especie="Especie:" + p.species
+    .then(r => r.json())
+    .then((dados) => {
+    const personagens = document.getElementById("container-personagens")
+        for (let personagem of dados) {
+            const card=document.createElement("a")
+            card.className = "card"
+            
+            card.setAttribute("href", "/desafioharryPotter/personagem.html?id=" + personagem.id)
 
-        console.log(p_nome)
-        console.log(p_nasc)
-        console.log(p_informacao)
-        console.log(p_especie)
-    }
-})
+
+            const nome = document.createElement("div")
+            const nascimento = document.createElement("div")
+            const especie = document.createElement("div")
+            const imagem = document.createElement("img")
+           
+
+
+            nome.innerHTML = "Nome: " + personagem.name
+            nascimento.innerHTML = "Nascimento: " + personagem.dateOfBirth,
+            especie.innerHTML = "Especie: " + personagem.species
+            
+
+            imagem.src=personagem.image 
+
+
+            card.appendChild(nome)
+            card.appendChild(nascimento)
+            card.appendChild(especie)
+            card.appendChild(imagem)
+            personagens.appendChild(card)
+
+
+        }
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // {
 //     "id": "9e3f7ce4-b9a7-4244-b709-dae5c1f1d4a8",
