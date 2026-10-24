@@ -1,0 +1,5605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.93545,
+          -15.83866
+        ]
+      },
+      "properties": {
+        "id": "FC0001",
+        "data_hora": "2024-09-01T12:30:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 6.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.76006,
+          -11.90195
+        ]
+      },
+      "properties": {
+        "id": "FC0002",
+        "data_hora": "2024-09-01T13:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 66.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.96492,
+          -15.61366
+        ]
+      },
+      "properties": {
+        "id": "FC0003",
+        "data_hora": "2024-09-01T13:10:00",
+        "municipio": "Chapada dos Guimarães",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 154.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.44414,
+          -11.85014
+        ]
+      },
+      "properties": {
+        "id": "FC0004",
+        "data_hora": "2024-09-01T13:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 43.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.82495,
+          -16.32419
+        ]
+      },
+      "properties": {
+        "id": "FC0005",
+        "data_hora": "2024-09-01T13:50:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 10.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.05272,
+          -9.43435
+        ]
+      },
+      "properties": {
+        "id": "FC0006",
+        "data_hora": "2024-09-01T14:20:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 18.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.16618,
+          -15.69916
+        ]
+      },
+      "properties": {
+        "id": "FC0007",
+        "data_hora": "2024-09-01T14:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 59.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.22418,
+          -15.36746
+        ]
+      },
+      "properties": {
+        "id": "FC0008",
+        "data_hora": "2024-09-01T16:50:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 55.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.85264,
+          -9.75854
+        ]
+      },
+      "properties": {
+        "id": "FC0009",
+        "data_hora": "2024-09-01T17:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 65.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.85652,
+          -15.50185
+        ]
+      },
+      "properties": {
+        "id": "FC0010",
+        "data_hora": "2024-09-01T17:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 8.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.70977,
+          -16.02032
+        ]
+      },
+      "properties": {
+        "id": "FC0011",
+        "data_hora": "2024-09-01T19:00:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 18.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.19715,
+          -10.4754
+        ]
+      },
+      "properties": {
+        "id": "FC0012",
+        "data_hora": "2024-09-01T19:00:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 10.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.66972,
+          -12.11509
+        ]
+      },
+      "properties": {
+        "id": "FC0013",
+        "data_hora": "2024-09-01T19:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 15.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.19706,
+          -10.10069
+        ]
+      },
+      "properties": {
+        "id": "FC0014",
+        "data_hora": "2024-09-02T12:00:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 53.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5568,
+          -11.81471
+        ]
+      },
+      "properties": {
+        "id": "FC0015",
+        "data_hora": "2024-09-02T12:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 20.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.39625,
+          -11.80933
+        ]
+      },
+      "properties": {
+        "id": "FC0016",
+        "data_hora": "2024-09-02T12:40:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 148.0,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.28608,
+          -15.77573
+        ]
+      },
+      "properties": {
+        "id": "FC0017",
+        "data_hora": "2024-09-02T14:50:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 39.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.25416,
+          -16.06105
+        ]
+      },
+      "properties": {
+        "id": "FC0018",
+        "data_hora": "2024-09-02T15:10:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 22.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55445,
+          -9.99976
+        ]
+      },
+      "properties": {
+        "id": "FC0019",
+        "data_hora": "2024-09-02T15:20:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 10.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.86455,
+          -10.00633
+        ]
+      },
+      "properties": {
+        "id": "FC0020",
+        "data_hora": "2024-09-02T16:10:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 17.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.12569,
+          -9.87153
+        ]
+      },
+      "properties": {
+        "id": "FC0021",
+        "data_hora": "2024-09-02T17:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 26.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.43425,
+          -9.7856
+        ]
+      },
+      "properties": {
+        "id": "FC0022",
+        "data_hora": "2024-09-02T17:20:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 12.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.62079,
+          -11.96696
+        ]
+      },
+      "properties": {
+        "id": "FC0023",
+        "data_hora": "2024-09-02T18:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 6.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.05987,
+          -15.54661
+        ]
+      },
+      "properties": {
+        "id": "FC0024",
+        "data_hora": "2024-09-02T18:40:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 13.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.03587,
+          -15.77114
+        ]
+      },
+      "properties": {
+        "id": "FC0025",
+        "data_hora": "2024-09-02T19:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 55.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.99904,
+          -11.60144
+        ]
+      },
+      "properties": {
+        "id": "FC0026",
+        "data_hora": "2024-09-02T19:10:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 6.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.26775,
+          -15.73547
+        ]
+      },
+      "properties": {
+        "id": "FC0027",
+        "data_hora": "2024-09-02T19:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 69.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.91077,
+          -15.74191
+        ]
+      },
+      "properties": {
+        "id": "FC0028",
+        "data_hora": "2024-09-02T19:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 25.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.62388,
+          -10.09301
+        ]
+      },
+      "properties": {
+        "id": "FC0029",
+        "data_hora": "2024-09-02T19:50:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 132.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.45379,
+          -16.09954
+        ]
+      },
+      "properties": {
+        "id": "FC0030",
+        "data_hora": "2024-09-03T12:20:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 18.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.36699,
+          -12.07242
+        ]
+      },
+      "properties": {
+        "id": "FC0031",
+        "data_hora": "2024-09-03T12:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 19.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.47099,
+          -16.17645
+        ]
+      },
+      "properties": {
+        "id": "FC0032",
+        "data_hora": "2024-09-03T13:00:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 20.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.66974,
+          -11.58881
+        ]
+      },
+      "properties": {
+        "id": "FC0033",
+        "data_hora": "2024-09-03T14:10:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 41.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.32212,
+          -11.80294
+        ]
+      },
+      "properties": {
+        "id": "FC0034",
+        "data_hora": "2024-09-03T14:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 10.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.17267,
+          -10.19171
+        ]
+      },
+      "properties": {
+        "id": "FC0035",
+        "data_hora": "2024-09-03T14:20:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 154.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.58144,
+          -9.73949
+        ]
+      },
+      "properties": {
+        "id": "FC0036",
+        "data_hora": "2024-09-03T14:50:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 37.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.30837,
+          -15.72148
+        ]
+      },
+      "properties": {
+        "id": "FC0037",
+        "data_hora": "2024-09-03T15:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 144.9,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.4627,
+          -9.48314
+        ]
+      },
+      "properties": {
+        "id": "FC0038",
+        "data_hora": "2024-09-03T15:30:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 16.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.27993,
+          -12.08068
+        ]
+      },
+      "properties": {
+        "id": "FC0039",
+        "data_hora": "2024-09-03T15:40:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 16.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.00901,
+          -9.7232
+        ]
+      },
+      "properties": {
+        "id": "FC0040",
+        "data_hora": "2024-09-03T16:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 20.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.73147,
+          -15.68225
+        ]
+      },
+      "properties": {
+        "id": "FC0041",
+        "data_hora": "2024-09-03T16:40:00",
+        "municipio": "Chapada dos Guimarães",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 16.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.90488,
+          -16.1006
+        ]
+      },
+      "properties": {
+        "id": "FC0042",
+        "data_hora": "2024-09-03T18:20:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 21.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.87745,
+          -9.92567
+        ]
+      },
+      "properties": {
+        "id": "FC0043",
+        "data_hora": "2024-09-03T19:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 47.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44304,
+          -9.79319
+        ]
+      },
+      "properties": {
+        "id": "FC0044",
+        "data_hora": "2024-09-04T12:00:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 53.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.48113,
+          -9.61457
+        ]
+      },
+      "properties": {
+        "id": "FC0045",
+        "data_hora": "2024-09-04T12:30:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 7.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.81821,
+          -15.96823
+        ]
+      },
+      "properties": {
+        "id": "FC0046",
+        "data_hora": "2024-09-04T12:30:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 132.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.91617,
+          -9.80132
+        ]
+      },
+      "properties": {
+        "id": "FC0047",
+        "data_hora": "2024-09-04T12:50:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 17.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.27765,
+          -9.85919
+        ]
+      },
+      "properties": {
+        "id": "FC0048",
+        "data_hora": "2024-09-04T13:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 28.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0874,
+          -15.45623
+        ]
+      },
+      "properties": {
+        "id": "FC0049",
+        "data_hora": "2024-09-04T13:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 125.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.61027,
+          -11.51316
+        ]
+      },
+      "properties": {
+        "id": "FC0050",
+        "data_hora": "2024-09-04T13:40:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 7.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.53034,
+          -9.82139
+        ]
+      },
+      "properties": {
+        "id": "FC0051",
+        "data_hora": "2024-09-04T14:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 67.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.19022,
+          -9.97646
+        ]
+      },
+      "properties": {
+        "id": "FC0052",
+        "data_hora": "2024-09-04T15:20:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 88.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.25088,
+          -11.63183
+        ]
+      },
+      "properties": {
+        "id": "FC0053",
+        "data_hora": "2024-09-04T15:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 71.0,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.57742,
+          -9.97293
+        ]
+      },
+      "properties": {
+        "id": "FC0054",
+        "data_hora": "2024-09-04T15:30:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 27.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.88728,
+          -10.04909
+        ]
+      },
+      "properties": {
+        "id": "FC0055",
+        "data_hora": "2024-09-04T16:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 23.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.55486,
+          -9.42368
+        ]
+      },
+      "properties": {
+        "id": "FC0056",
+        "data_hora": "2024-09-04T16:40:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 42.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.95836,
+          -15.95707
+        ]
+      },
+      "properties": {
+        "id": "FC0057",
+        "data_hora": "2024-09-04T19:50:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 16.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.24116,
+          -15.38148
+        ]
+      },
+      "properties": {
+        "id": "FC0058",
+        "data_hora": "2024-09-05T13:10:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 45.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.35079,
+          -11.66392
+        ]
+      },
+      "properties": {
+        "id": "FC0059",
+        "data_hora": "2024-09-05T13:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 18.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.52117,
+          -9.76117
+        ]
+      },
+      "properties": {
+        "id": "FC0060",
+        "data_hora": "2024-09-05T13:40:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 6.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7233,
+          -11.88133
+        ]
+      },
+      "properties": {
+        "id": "FC0061",
+        "data_hora": "2024-09-05T14:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 18.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.60762,
+          -9.83697
+        ]
+      },
+      "properties": {
+        "id": "FC0062",
+        "data_hora": "2024-09-05T14:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 112.8,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.80864,
+          -16.20701
+        ]
+      },
+      "properties": {
+        "id": "FC0063",
+        "data_hora": "2024-09-05T15:20:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 35.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.67509,
+          -11.84263
+        ]
+      },
+      "properties": {
+        "id": "FC0064",
+        "data_hora": "2024-09-05T15:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 19.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.93619,
+          -10.11021
+        ]
+      },
+      "properties": {
+        "id": "FC0065",
+        "data_hora": "2024-09-05T15:30:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 91.2,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.55989,
+          -16.18907
+        ]
+      },
+      "properties": {
+        "id": "FC0066",
+        "data_hora": "2024-09-05T15:40:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 35.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.01499,
+          -15.3608
+        ]
+      },
+      "properties": {
+        "id": "FC0067",
+        "data_hora": "2024-09-05T17:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 40.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.6621,
+          -11.99461
+        ]
+      },
+      "properties": {
+        "id": "FC0068",
+        "data_hora": "2024-09-05T17:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 17.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.00878,
+          -16.38038
+        ]
+      },
+      "properties": {
+        "id": "FC0069",
+        "data_hora": "2024-09-05T17:50:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 17.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.10524,
+          -10.24967
+        ]
+      },
+      "properties": {
+        "id": "FC0070",
+        "data_hora": "2024-09-05T18:20:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 15.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.23397,
+          -9.51721
+        ]
+      },
+      "properties": {
+        "id": "FC0071",
+        "data_hora": "2024-09-05T18:30:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 132.9,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.01497,
+          -15.50946
+        ]
+      },
+      "properties": {
+        "id": "FC0072",
+        "data_hora": "2024-09-06T12:10:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 20.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.31614,
+          -15.83158
+        ]
+      },
+      "properties": {
+        "id": "FC0073",
+        "data_hora": "2024-09-06T12:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 13.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.70948,
+          -9.78459
+        ]
+      },
+      "properties": {
+        "id": "FC0074",
+        "data_hora": "2024-09-06T13:10:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 35.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1608,
+          -15.81266
+        ]
+      },
+      "properties": {
+        "id": "FC0075",
+        "data_hora": "2024-09-06T13:20:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 6.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5609,
+          -11.65237
+        ]
+      },
+      "properties": {
+        "id": "FC0076",
+        "data_hora": "2024-09-06T13:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 149.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.5134,
+          -16.27137
+        ]
+      },
+      "properties": {
+        "id": "FC0077",
+        "data_hora": "2024-09-06T14:00:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 56.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.78453,
+          -15.34819
+        ]
+      },
+      "properties": {
+        "id": "FC0078",
+        "data_hora": "2024-09-06T14:20:00",
+        "municipio": "Chapada dos Guimarães",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 13.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.21947,
+          -9.70527
+        ]
+      },
+      "properties": {
+        "id": "FC0079",
+        "data_hora": "2024-09-06T14:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 11.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.91703,
+          -15.79043
+        ]
+      },
+      "properties": {
+        "id": "FC0080",
+        "data_hora": "2024-09-06T14:30:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 8.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.87064,
+          -16.27987
+        ]
+      },
+      "properties": {
+        "id": "FC0081",
+        "data_hora": "2024-09-06T14:30:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 45.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.28597,
+          -15.53498
+        ]
+      },
+      "properties": {
+        "id": "FC0082",
+        "data_hora": "2024-09-06T15:40:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 18.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.50847,
+          -16.30311
+        ]
+      },
+      "properties": {
+        "id": "FC0083",
+        "data_hora": "2024-09-06T16:10:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 9.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2438,
+          -15.34745
+        ]
+      },
+      "properties": {
+        "id": "FC0084",
+        "data_hora": "2024-09-06T17:50:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 8.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.41327,
+          -9.74948
+        ]
+      },
+      "properties": {
+        "id": "FC0085",
+        "data_hora": "2024-09-06T18:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 73.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.12067,
+          -10.09251
+        ]
+      },
+      "properties": {
+        "id": "FC0086",
+        "data_hora": "2024-09-06T18:50:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 70.5,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0124,
+          -15.28656
+        ]
+      },
+      "properties": {
+        "id": "FC0087",
+        "data_hora": "2024-09-06T19:20:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 17.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.86994,
+          -15.82067
+        ]
+      },
+      "properties": {
+        "id": "FC0088",
+        "data_hora": "2024-09-06T19:40:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 21.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.3701,
+          -9.68498
+        ]
+      },
+      "properties": {
+        "id": "FC0089",
+        "data_hora": "2024-09-06T19:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 138.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.14108,
+          -9.74182
+        ]
+      },
+      "properties": {
+        "id": "FC0090",
+        "data_hora": "2024-09-07T12:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 6.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.79276,
+          -16.52924
+        ]
+      },
+      "properties": {
+        "id": "FC0091",
+        "data_hora": "2024-09-07T12:30:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 9.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.18688,
+          -15.66393
+        ]
+      },
+      "properties": {
+        "id": "FC0092",
+        "data_hora": "2024-09-07T12:40:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 68.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.44047,
+          -16.19508
+        ]
+      },
+      "properties": {
+        "id": "FC0093",
+        "data_hora": "2024-09-07T12:50:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 19.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1383,
+          -15.65301
+        ]
+      },
+      "properties": {
+        "id": "FC0094",
+        "data_hora": "2024-09-07T12:50:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 105.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.69801,
+          -12.11545
+        ]
+      },
+      "properties": {
+        "id": "FC0095",
+        "data_hora": "2024-09-07T13:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 17.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.38032,
+          -11.76919
+        ]
+      },
+      "properties": {
+        "id": "FC0096",
+        "data_hora": "2024-09-07T13:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 12.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.61181,
+          -11.28569
+        ]
+      },
+      "properties": {
+        "id": "FC0097",
+        "data_hora": "2024-09-07T13:20:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 73.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.36717,
+          -12.11378
+        ]
+      },
+      "properties": {
+        "id": "FC0098",
+        "data_hora": "2024-09-07T13:40:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 63.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.67801,
+          -12.07374
+        ]
+      },
+      "properties": {
+        "id": "FC0099",
+        "data_hora": "2024-09-07T13:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 9.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.02957,
+          -15.45786
+        ]
+      },
+      "properties": {
+        "id": "FC0100",
+        "data_hora": "2024-09-07T13:50:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 18.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.26591,
+          -9.86542
+        ]
+      },
+      "properties": {
+        "id": "FC0101",
+        "data_hora": "2024-09-07T14:10:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 66.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.48214,
+          -12.11028
+        ]
+      },
+      "properties": {
+        "id": "FC0102",
+        "data_hora": "2024-09-07T14:40:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 74.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.15258,
+          -15.46683
+        ]
+      },
+      "properties": {
+        "id": "FC0103",
+        "data_hora": "2024-09-07T15:00:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 14.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.69718,
+          -16.41664
+        ]
+      },
+      "properties": {
+        "id": "FC0104",
+        "data_hora": "2024-09-07T15:50:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 49.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.75503,
+          -15.95378
+        ]
+      },
+      "properties": {
+        "id": "FC0105",
+        "data_hora": "2024-09-07T16:10:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 13.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.22484,
+          -9.33893
+        ]
+      },
+      "properties": {
+        "id": "FC0106",
+        "data_hora": "2024-09-07T16:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 11.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.96236,
+          -9.97857
+        ]
+      },
+      "properties": {
+        "id": "FC0107",
+        "data_hora": "2024-09-07T16:50:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 46.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.08369,
+          -15.94391
+        ]
+      },
+      "properties": {
+        "id": "FC0108",
+        "data_hora": "2024-09-07T17:10:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 56.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.01698,
+          -15.34769
+        ]
+      },
+      "properties": {
+        "id": "FC0109",
+        "data_hora": "2024-09-07T17:10:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 120.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.50393,
+          -9.43071
+        ]
+      },
+      "properties": {
+        "id": "FC0110",
+        "data_hora": "2024-09-07T17:20:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 46.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.24174,
+          -15.56062
+        ]
+      },
+      "properties": {
+        "id": "FC0111",
+        "data_hora": "2024-09-07T17:20:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 24.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.09979,
+          -15.6619
+        ]
+      },
+      "properties": {
+        "id": "FC0112",
+        "data_hora": "2024-09-07T17:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 14.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.88576,
+          -9.74958
+        ]
+      },
+      "properties": {
+        "id": "FC0113",
+        "data_hora": "2024-09-07T18:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 14.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.58738,
+          -9.93998
+        ]
+      },
+      "properties": {
+        "id": "FC0114",
+        "data_hora": "2024-09-07T18:00:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 9.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.57188,
+          -11.92549
+        ]
+      },
+      "properties": {
+        "id": "FC0115",
+        "data_hora": "2024-09-07T18:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 38.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0474,
+          -16.40237
+        ]
+      },
+      "properties": {
+        "id": "FC0116",
+        "data_hora": "2024-09-07T18:50:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 7.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51904,
+          -11.68533
+        ]
+      },
+      "properties": {
+        "id": "FC0117",
+        "data_hora": "2024-09-07T18:50:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 31.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.92293,
+          -15.77303
+        ]
+      },
+      "properties": {
+        "id": "FC0118",
+        "data_hora": "2024-09-07T18:50:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 23.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.04677,
+          -9.95594
+        ]
+      },
+      "properties": {
+        "id": "FC0119",
+        "data_hora": "2024-09-07T19:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 98.0,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.70083,
+          -11.73032
+        ]
+      },
+      "properties": {
+        "id": "FC0120",
+        "data_hora": "2024-09-07T19:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 7.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.34252,
+          -11.66206
+        ]
+      },
+      "properties": {
+        "id": "FC0121",
+        "data_hora": "2024-09-07T19:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 18.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.33997,
+          -9.69564
+        ]
+      },
+      "properties": {
+        "id": "FC0122",
+        "data_hora": "2024-09-07T19:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 48.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.74835,
+          -16.45847
+        ]
+      },
+      "properties": {
+        "id": "FC0123",
+        "data_hora": "2024-09-08T12:00:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 22.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.27292,
+          -11.63362
+        ]
+      },
+      "properties": {
+        "id": "FC0124",
+        "data_hora": "2024-09-08T12:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 19.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.39776,
+          -15.56953
+        ]
+      },
+      "properties": {
+        "id": "FC0125",
+        "data_hora": "2024-09-08T12:30:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 13.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5374,
+          -16.43242
+        ]
+      },
+      "properties": {
+        "id": "FC0126",
+        "data_hora": "2024-09-08T12:30:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 46.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2151,
+          -15.71863
+        ]
+      },
+      "properties": {
+        "id": "FC0127",
+        "data_hora": "2024-09-08T12:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 40.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.28016,
+          -15.60652
+        ]
+      },
+      "properties": {
+        "id": "FC0128",
+        "data_hora": "2024-09-08T12:50:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 47.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.10421,
+          -15.35553
+        ]
+      },
+      "properties": {
+        "id": "FC0129",
+        "data_hora": "2024-09-08T13:00:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 20.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.51432,
+          -15.79937
+        ]
+      },
+      "properties": {
+        "id": "FC0130",
+        "data_hora": "2024-09-08T13:10:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 128.2,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.90582,
+          -16.01594
+        ]
+      },
+      "properties": {
+        "id": "FC0131",
+        "data_hora": "2024-09-08T13:30:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 64.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.72024,
+          -9.4291
+        ]
+      },
+      "properties": {
+        "id": "FC0132",
+        "data_hora": "2024-09-08T13:30:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 37.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.99979,
+          -9.42737
+        ]
+      },
+      "properties": {
+        "id": "FC0133",
+        "data_hora": "2024-09-08T13:40:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 47.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.03957,
+          -15.60231
+        ]
+      },
+      "properties": {
+        "id": "FC0134",
+        "data_hora": "2024-09-08T14:00:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 10.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.63259,
+          -16.32245
+        ]
+      },
+      "properties": {
+        "id": "FC0135",
+        "data_hora": "2024-09-08T14:00:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 64.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.62529,
+          -16.46281
+        ]
+      },
+      "properties": {
+        "id": "FC0136",
+        "data_hora": "2024-09-08T14:00:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 40.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.37743,
+          -11.66624
+        ]
+      },
+      "properties": {
+        "id": "FC0137",
+        "data_hora": "2024-09-08T14:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 18.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.63773,
+          -16.53968
+        ]
+      },
+      "properties": {
+        "id": "FC0138",
+        "data_hora": "2024-09-08T14:20:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 8.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.92797,
+          -15.72808
+        ]
+      },
+      "properties": {
+        "id": "FC0139",
+        "data_hora": "2024-09-08T14:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 57.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.29298,
+          -9.9253
+        ]
+      },
+      "properties": {
+        "id": "FC0140",
+        "data_hora": "2024-09-08T14:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 59.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.38248,
+          -11.63756
+        ]
+      },
+      "properties": {
+        "id": "FC0141",
+        "data_hora": "2024-09-08T14:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 10.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.32963,
+          -12.08864
+        ]
+      },
+      "properties": {
+        "id": "FC0142",
+        "data_hora": "2024-09-08T14:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 59.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52569,
+          -9.84365
+        ]
+      },
+      "properties": {
+        "id": "FC0143",
+        "data_hora": "2024-09-08T15:00:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 23.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.13549,
+          -9.67132
+        ]
+      },
+      "properties": {
+        "id": "FC0144",
+        "data_hora": "2024-09-08T15:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 9.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.47108,
+          -9.62698
+        ]
+      },
+      "properties": {
+        "id": "FC0145",
+        "data_hora": "2024-09-08T15:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 93.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.07771,
+          -9.64238
+        ]
+      },
+      "properties": {
+        "id": "FC0146",
+        "data_hora": "2024-09-08T15:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 25.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.98719,
+          -16.08486
+        ]
+      },
+      "properties": {
+        "id": "FC0147",
+        "data_hora": "2024-09-08T15:20:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 69.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7125,
+          -9.74166
+        ]
+      },
+      "properties": {
+        "id": "FC0148",
+        "data_hora": "2024-09-08T15:40:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 19.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.91199,
+          -15.3831
+        ]
+      },
+      "properties": {
+        "id": "FC0149",
+        "data_hora": "2024-09-08T15:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 82.2,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.41886,
+          -15.6237
+        ]
+      },
+      "properties": {
+        "id": "FC0150",
+        "data_hora": "2024-09-08T16:00:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 51.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9938,
+          -15.52886
+        ]
+      },
+      "properties": {
+        "id": "FC0151",
+        "data_hora": "2024-09-08T16:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 83.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.36724,
+          -9.69977
+        ]
+      },
+      "properties": {
+        "id": "FC0152",
+        "data_hora": "2024-09-08T16:10:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 10.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0313,
+          -10.08992
+        ]
+      },
+      "properties": {
+        "id": "FC0153",
+        "data_hora": "2024-09-08T16:20:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 25.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.11673,
+          -9.31213
+        ]
+      },
+      "properties": {
+        "id": "FC0154",
+        "data_hora": "2024-09-08T16:30:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 57.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.5347,
+          -16.29876
+        ]
+      },
+      "properties": {
+        "id": "FC0155",
+        "data_hora": "2024-09-08T16:30:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 89.5,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.42359,
+          -15.38394
+        ]
+      },
+      "properties": {
+        "id": "FC0156",
+        "data_hora": "2024-09-08T16:40:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 85.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.69016,
+          -16.50577
+        ]
+      },
+      "properties": {
+        "id": "FC0157",
+        "data_hora": "2024-09-08T16:50:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 67.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.14481,
+          -15.66808
+        ]
+      },
+      "properties": {
+        "id": "FC0158",
+        "data_hora": "2024-09-08T17:00:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 13.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.37851,
+          -11.60442
+        ]
+      },
+      "properties": {
+        "id": "FC0159",
+        "data_hora": "2024-09-08T17:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 22.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.30851,
+          -15.38261
+        ]
+      },
+      "properties": {
+        "id": "FC0160",
+        "data_hora": "2024-09-08T17:20:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 11.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.13177,
+          -9.95318
+        ]
+      },
+      "properties": {
+        "id": "FC0161",
+        "data_hora": "2024-09-08T17:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 11.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.17225,
+          -15.51498
+        ]
+      },
+      "properties": {
+        "id": "FC0162",
+        "data_hora": "2024-09-08T17:40:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 19.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.00829,
+          -16.26661
+        ]
+      },
+      "properties": {
+        "id": "FC0163",
+        "data_hora": "2024-09-08T17:50:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 42.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.43665,
+          -15.45684
+        ]
+      },
+      "properties": {
+        "id": "FC0164",
+        "data_hora": "2024-09-08T17:50:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 15.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.05691,
+          -10.05528
+        ]
+      },
+      "properties": {
+        "id": "FC0165",
+        "data_hora": "2024-09-08T18:00:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 10.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.95375,
+          -16.35736
+        ]
+      },
+      "properties": {
+        "id": "FC0166",
+        "data_hora": "2024-09-08T18:30:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 39.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.25855,
+          -9.77209
+        ]
+      },
+      "properties": {
+        "id": "FC0167",
+        "data_hora": "2024-09-08T19:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 33.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.83775,
+          -15.9948
+        ]
+      },
+      "properties": {
+        "id": "FC0168",
+        "data_hora": "2024-09-08T19:10:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 62.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.70321,
+          -9.8154
+        ]
+      },
+      "properties": {
+        "id": "FC0169",
+        "data_hora": "2024-09-08T19:20:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 24.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.44534,
+          -9.44448
+        ]
+      },
+      "properties": {
+        "id": "FC0170",
+        "data_hora": "2024-09-08T19:20:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 66.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.84508,
+          -16.16432
+        ]
+      },
+      "properties": {
+        "id": "FC0171",
+        "data_hora": "2024-09-08T19:40:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 8.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.85895,
+          -16.54464
+        ]
+      },
+      "properties": {
+        "id": "FC0172",
+        "data_hora": "2024-09-08T19:40:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 32.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.5271,
+          -9.68155
+        ]
+      },
+      "properties": {
+        "id": "FC0173",
+        "data_hora": "2024-09-08T19:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 12.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.48961,
+          -9.83347
+        ]
+      },
+      "properties": {
+        "id": "FC0174",
+        "data_hora": "2024-09-09T12:10:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 24.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.12656,
+          -9.6726
+        ]
+      },
+      "properties": {
+        "id": "FC0175",
+        "data_hora": "2024-09-09T12:20:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 30.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.01126,
+          -9.6661
+        ]
+      },
+      "properties": {
+        "id": "FC0176",
+        "data_hora": "2024-09-09T12:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 28.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.79271,
+          -16.03157
+        ]
+      },
+      "properties": {
+        "id": "FC0177",
+        "data_hora": "2024-09-09T12:30:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 45.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.63708,
+          -12.04678
+        ]
+      },
+      "properties": {
+        "id": "FC0178",
+        "data_hora": "2024-09-09T13:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 41.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.57724,
+          -11.71195
+        ]
+      },
+      "properties": {
+        "id": "FC0179",
+        "data_hora": "2024-09-09T13:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 9.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.59511,
+          -11.68386
+        ]
+      },
+      "properties": {
+        "id": "FC0180",
+        "data_hora": "2024-09-09T13:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 58.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0585,
+          -15.80965
+        ]
+      },
+      "properties": {
+        "id": "FC0181",
+        "data_hora": "2024-09-09T13:30:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 6.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.51791,
+          -9.76435
+        ]
+      },
+      "properties": {
+        "id": "FC0182",
+        "data_hora": "2024-09-09T13:40:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 9.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.37537,
+          -9.46185
+        ]
+      },
+      "properties": {
+        "id": "FC0183",
+        "data_hora": "2024-09-09T15:00:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 131.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.61691,
+          -16.52046
+        ]
+      },
+      "properties": {
+        "id": "FC0184",
+        "data_hora": "2024-09-09T15:10:00",
+        "municipio": "Rondonópolis",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 80.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.67421,
+          -12.05579
+        ]
+      },
+      "properties": {
+        "id": "FC0185",
+        "data_hora": "2024-09-09T15:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 7.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.06329,
+          -15.39795
+        ]
+      },
+      "properties": {
+        "id": "FC0186",
+        "data_hora": "2024-09-09T15:20:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 58.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.02413,
+          -10.13253
+        ]
+      },
+      "properties": {
+        "id": "FC0187",
+        "data_hora": "2024-09-09T15:30:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 22.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.28332,
+          -9.87585
+        ]
+      },
+      "properties": {
+        "id": "FC0188",
+        "data_hora": "2024-09-09T15:40:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 12.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.30634,
+          -9.7714
+        ]
+      },
+      "properties": {
+        "id": "FC0189",
+        "data_hora": "2024-09-09T15:50:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 109.9,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.12623,
+          -15.49355
+        ]
+      },
+      "properties": {
+        "id": "FC0190",
+        "data_hora": "2024-09-09T15:50:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 20.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.73642,
+          -11.98186
+        ]
+      },
+      "properties": {
+        "id": "FC0191",
+        "data_hora": "2024-09-09T15:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 10.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.86216,
+          -15.35526
+        ]
+      },
+      "properties": {
+        "id": "FC0192",
+        "data_hora": "2024-09-09T16:50:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 15.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.57767,
+          -15.29278
+        ]
+      },
+      "properties": {
+        "id": "FC0193",
+        "data_hora": "2024-09-09T17:10:00",
+        "municipio": "Chapada dos Guimarães",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 23.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.98163,
+          -15.42691
+        ]
+      },
+      "properties": {
+        "id": "FC0194",
+        "data_hora": "2024-09-09T17:30:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 12.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.87022,
+          -15.8565
+        ]
+      },
+      "properties": {
+        "id": "FC0195",
+        "data_hora": "2024-09-09T17:30:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 9.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.95944,
+          -10.29592
+        ]
+      },
+      "properties": {
+        "id": "FC0196",
+        "data_hora": "2024-09-09T17:30:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 58.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.27057,
+          -9.61723
+        ]
+      },
+      "properties": {
+        "id": "FC0197",
+        "data_hora": "2024-09-09T18:10:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 55.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.96282,
+          -15.53411
+        ]
+      },
+      "properties": {
+        "id": "FC0198",
+        "data_hora": "2024-09-09T18:20:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 78.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.68408,
+          -11.33968
+        ]
+      },
+      "properties": {
+        "id": "FC0199",
+        "data_hora": "2024-09-09T19:00:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 20.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.97616,
+          -11.61188
+        ]
+      },
+      "properties": {
+        "id": "FC0200",
+        "data_hora": "2024-09-09T19:30:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 26.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.59795,
+          -9.77817
+        ]
+      },
+      "properties": {
+        "id": "FC0201",
+        "data_hora": "2024-09-10T12:00:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 98.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.11251,
+          -16.11565
+        ]
+      },
+      "properties": {
+        "id": "FC0202",
+        "data_hora": "2024-09-10T12:00:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 72.2,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.62032,
+          -15.86394
+        ]
+      },
+      "properties": {
+        "id": "FC0203",
+        "data_hora": "2024-09-10T12:00:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 19.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.95275,
+          -15.81095
+        ]
+      },
+      "properties": {
+        "id": "FC0204",
+        "data_hora": "2024-09-10T12:00:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 18.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0581,
+          -9.76994
+        ]
+      },
+      "properties": {
+        "id": "FC0205",
+        "data_hora": "2024-09-10T13:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 9.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.96339,
+          -15.75867
+        ]
+      },
+      "properties": {
+        "id": "FC0206",
+        "data_hora": "2024-09-10T13:10:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 19.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.05651,
+          -9.40605
+        ]
+      },
+      "properties": {
+        "id": "FC0207",
+        "data_hora": "2024-09-10T14:00:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 15.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.82738,
+          -10.13757
+        ]
+      },
+      "properties": {
+        "id": "FC0208",
+        "data_hora": "2024-09-10T14:10:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 113.0,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.80414,
+          -16.15337
+        ]
+      },
+      "properties": {
+        "id": "FC0209",
+        "data_hora": "2024-09-10T14:30:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 92.1,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.90658,
+          -10.07978
+        ]
+      },
+      "properties": {
+        "id": "FC0210",
+        "data_hora": "2024-09-10T15:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 24.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2788,
+          -15.75673
+        ]
+      },
+      "properties": {
+        "id": "FC0211",
+        "data_hora": "2024-09-10T15:20:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 47.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.82215,
+          -16.06891
+        ]
+      },
+      "properties": {
+        "id": "FC0212",
+        "data_hora": "2024-09-10T16:40:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 96.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8332,
+          -11.56896
+        ]
+      },
+      "properties": {
+        "id": "FC0213",
+        "data_hora": "2024-09-10T16:40:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 86.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6547,
+          -9.73297
+        ]
+      },
+      "properties": {
+        "id": "FC0214",
+        "data_hora": "2024-09-10T16:50:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 11.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.05311,
+          -15.39401
+        ]
+      },
+      "properties": {
+        "id": "FC0215",
+        "data_hora": "2024-09-10T17:00:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 13.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.30845,
+          -9.21627
+        ]
+      },
+      "properties": {
+        "id": "FC0216",
+        "data_hora": "2024-09-10T17:40:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 19.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.14612,
+          -9.84781
+        ]
+      },
+      "properties": {
+        "id": "FC0217",
+        "data_hora": "2024-09-10T18:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 8.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.55518,
+          -11.70255
+        ]
+      },
+      "properties": {
+        "id": "FC0218",
+        "data_hora": "2024-09-10T18:30:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 68.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.94704,
+          -9.99738
+        ]
+      },
+      "properties": {
+        "id": "FC0219",
+        "data_hora": "2024-09-11T12:00:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 24.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.37517,
+          -15.4926
+        ]
+      },
+      "properties": {
+        "id": "FC0220",
+        "data_hora": "2024-09-11T12:20:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 33.8,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.88461,
+          -11.48404
+        ]
+      },
+      "properties": {
+        "id": "FC0221",
+        "data_hora": "2024-09-11T13:00:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 32.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0027,
+          -9.20323
+        ]
+      },
+      "properties": {
+        "id": "FC0222",
+        "data_hora": "2024-09-11T13:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 17.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.97559,
+          -15.5471
+        ]
+      },
+      "properties": {
+        "id": "FC0223",
+        "data_hora": "2024-09-11T13:40:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 62.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.41696,
+          -9.51946
+        ]
+      },
+      "properties": {
+        "id": "FC0224",
+        "data_hora": "2024-09-11T14:00:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 11.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.45903,
+          -16.16009
+        ]
+      },
+      "properties": {
+        "id": "FC0225",
+        "data_hora": "2024-09-11T14:20:00",
+        "municipio": "Cáceres",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 19.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.59168,
+          -11.34437
+        ]
+      },
+      "properties": {
+        "id": "FC0226",
+        "data_hora": "2024-09-11T15:40:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 10.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.26852,
+          -9.98481
+        ]
+      },
+      "properties": {
+        "id": "FC0227",
+        "data_hora": "2024-09-11T15:50:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 75.8,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.34453,
+          -12.10844
+        ]
+      },
+      "properties": {
+        "id": "FC0228",
+        "data_hora": "2024-09-11T16:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 6.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.35856,
+          -15.79767
+        ]
+      },
+      "properties": {
+        "id": "FC0229",
+        "data_hora": "2024-09-11T16:20:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 48.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.35706,
+          -9.41828
+        ]
+      },
+      "properties": {
+        "id": "FC0230",
+        "data_hora": "2024-09-11T16:30:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 67.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.38606,
+          -9.63009
+        ]
+      },
+      "properties": {
+        "id": "FC0231",
+        "data_hora": "2024-09-11T17:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 26.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.54202,
+          -16.01359
+        ]
+      },
+      "properties": {
+        "id": "FC0232",
+        "data_hora": "2024-09-11T17:50:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 13.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.64026,
+          -11.73494
+        ]
+      },
+      "properties": {
+        "id": "FC0233",
+        "data_hora": "2024-09-11T18:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 35.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.64643,
+          -11.88718
+        ]
+      },
+      "properties": {
+        "id": "FC0234",
+        "data_hora": "2024-09-11T19:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 55.3,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.49021,
+          -12.07542
+        ]
+      },
+      "properties": {
+        "id": "FC0235",
+        "data_hora": "2024-09-11T19:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 15.5,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.56569,
+          -11.90266
+        ]
+      },
+      "properties": {
+        "id": "FC0236",
+        "data_hora": "2024-09-12T12:20:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 36.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.34239,
+          -10.06665
+        ]
+      },
+      "properties": {
+        "id": "FC0237",
+        "data_hora": "2024-09-12T13:20:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 16.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5356,
+          -9.60079
+        ]
+      },
+      "properties": {
+        "id": "FC0238",
+        "data_hora": "2024-09-12T13:30:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 36.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.55437,
+          -15.51055
+        ]
+      },
+      "properties": {
+        "id": "FC0239",
+        "data_hora": "2024-09-12T13:40:00",
+        "municipio": "Chapada dos Guimarães",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "AQUA",
+        "frp": 51.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.64005,
+          -16.15708
+        ]
+      },
+      "properties": {
+        "id": "FC0240",
+        "data_hora": "2024-09-12T13:50:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 41.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.17311,
+          -15.81204
+        ]
+      },
+      "properties": {
+        "id": "FC0241",
+        "data_hora": "2024-09-12T14:20:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 102.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7164,
+          -15.9378
+        ]
+      },
+      "properties": {
+        "id": "FC0242",
+        "data_hora": "2024-09-12T14:50:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 16.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.22014,
+          -16.00483
+        ]
+      },
+      "properties": {
+        "id": "FC0243",
+        "data_hora": "2024-09-12T17:00:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "TERRA",
+        "frp": 112.5,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.97081,
+          -15.6937
+        ]
+      },
+      "properties": {
+        "id": "FC0244",
+        "data_hora": "2024-09-12T17:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 32.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.00355,
+          -10.08157
+        ]
+      },
+      "properties": {
+        "id": "FC0245",
+        "data_hora": "2024-09-12T17:20:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 130.9,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0286,
+          -16.35023
+        ]
+      },
+      "properties": {
+        "id": "FC0246",
+        "data_hora": "2024-09-12T17:40:00",
+        "municipio": "Barão de Melgaço",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NOAA-20",
+        "frp": 24.8,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.27317,
+          -9.24504
+        ]
+      },
+      "properties": {
+        "id": "FC0247",
+        "data_hora": "2024-09-12T17:50:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 14.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.85398,
+          -11.52203
+        ]
+      },
+      "properties": {
+        "id": "FC0248",
+        "data_hora": "2024-09-12T18:50:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 33.0,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.54921,
+          -9.56978
+        ]
+      },
+      "properties": {
+        "id": "FC0249",
+        "data_hora": "2024-09-12T19:00:00",
+        "municipio": "Apiacás",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 11.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.55605,
+          -9.86609
+        ]
+      },
+      "properties": {
+        "id": "FC0250",
+        "data_hora": "2024-09-12T19:00:00",
+        "municipio": "Cotriguaçu",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 39.5,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.14326,
+          -15.45181
+        ]
+      },
+      "properties": {
+        "id": "FC0251",
+        "data_hora": "2024-09-12T19:00:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 13.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.29781,
+          -9.82459
+        ]
+      },
+      "properties": {
+        "id": "FC0252",
+        "data_hora": "2024-09-12T19:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 39.2,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.99321,
+          -15.67949
+        ]
+      },
+      "properties": {
+        "id": "FC0253",
+        "data_hora": "2024-09-13T13:10:00",
+        "municipio": "Santo Antônio de Leverger",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "AQUA",
+        "frp": 51.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.05534,
+          -10.3011
+        ]
+      },
+      "properties": {
+        "id": "FC0254",
+        "data_hora": "2024-09-13T14:10:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 24.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.33959,
+          -15.76712
+        ]
+      },
+      "properties": {
+        "id": "FC0255",
+        "data_hora": "2024-09-13T14:20:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 13.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.10245,
+          -10.08939
+        ]
+      },
+      "properties": {
+        "id": "FC0256",
+        "data_hora": "2024-09-13T15:30:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 105.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.63949,
+          -11.7412
+        ]
+      },
+      "properties": {
+        "id": "FC0257",
+        "data_hora": "2024-09-13T16:00:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 8.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.31287,
+          -9.79732
+        ]
+      },
+      "properties": {
+        "id": "FC0258",
+        "data_hora": "2024-09-13T16:40:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 15.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.62893,
+          -11.90836
+        ]
+      },
+      "properties": {
+        "id": "FC0259",
+        "data_hora": "2024-09-13T16:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 19.0,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.00034,
+          -15.71349
+        ]
+      },
+      "properties": {
+        "id": "FC0260",
+        "data_hora": "2024-09-13T17:40:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 133.6,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.45013,
+          -16.40932
+        ]
+      },
+      "properties": {
+        "id": "FC0261",
+        "data_hora": "2024-09-13T17:40:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 11.1,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.24692,
+          -15.37475
+        ]
+      },
+      "properties": {
+        "id": "FC0262",
+        "data_hora": "2024-09-13T19:40:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "TERRA",
+        "frp": 144.3,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.42666,
+          -9.42567
+        ]
+      },
+      "properties": {
+        "id": "FC0263",
+        "data_hora": "2024-09-13T19:50:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 14.3,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.12082,
+          -15.41407
+        ]
+      },
+      "properties": {
+        "id": "FC0264",
+        "data_hora": "2024-09-14T12:30:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 32.7,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.11243,
+          -15.62396
+        ]
+      },
+      "properties": {
+        "id": "FC0265",
+        "data_hora": "2024-09-14T13:30:00",
+        "municipio": "Primavera do Leste",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 51.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52144,
+          -11.28431
+        ]
+      },
+      "properties": {
+        "id": "FC0266",
+        "data_hora": "2024-09-14T13:50:00",
+        "municipio": "Juína",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 31.6,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.50114,
+          -9.54964
+        ]
+      },
+      "properties": {
+        "id": "FC0267",
+        "data_hora": "2024-09-14T14:50:00",
+        "municipio": "Paranaíta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 28.4,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.07308,
+          -10.32098
+        ]
+      },
+      "properties": {
+        "id": "FC0268",
+        "data_hora": "2024-09-14T15:10:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 15.4,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.05483,
+          -15.6351
+        ]
+      },
+      "properties": {
+        "id": "FC0269",
+        "data_hora": "2024-09-14T16:10:00",
+        "municipio": "Cuiabá",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NPP",
+        "frp": 153.7,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.21213,
+          -10.01705
+        ]
+      },
+      "properties": {
+        "id": "FC0270",
+        "data_hora": "2024-09-14T16:30:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 64.9,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.23482,
+          -9.45569
+        ]
+      },
+      "properties": {
+        "id": "FC0271",
+        "data_hora": "2024-09-14T17:10:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 117.4,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2117,
+          -9.53728
+        ]
+      },
+      "properties": {
+        "id": "FC0272",
+        "data_hora": "2024-09-14T17:50:00",
+        "municipio": "Colniza",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "TERRA",
+        "frp": 7.2,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.42022,
+          -11.85056
+        ]
+      },
+      "properties": {
+        "id": "FC0273",
+        "data_hora": "2024-09-14T17:50:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "AQUA",
+        "frp": 50.1,
+        "risco": "medio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.96371,
+          -15.67512
+        ]
+      },
+      "properties": {
+        "id": "FC0274",
+        "data_hora": "2024-09-14T18:00:00",
+        "municipio": "Campo Verde",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 24.7,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.08471,
+          -9.98502
+        ]
+      },
+      "properties": {
+        "id": "FC0275",
+        "data_hora": "2024-09-15T12:50:00",
+        "municipio": "Peixoto de Azevedo",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 21.6,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8463,
+          -9.74563
+        ]
+      },
+      "properties": {
+        "id": "FC0276",
+        "data_hora": "2024-09-15T13:10:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NOAA-20",
+        "frp": 88.8,
+        "risco": "alto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.72716,
+          -12.0601
+        ]
+      },
+      "properties": {
+        "id": "FC0277",
+        "data_hora": "2024-09-15T14:10:00",
+        "municipio": "Sinop",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 19.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9078,
+          -15.5299
+        ]
+      },
+      "properties": {
+        "id": "FC0278",
+        "data_hora": "2024-09-15T16:20:00",
+        "municipio": "Várzea Grande",
+        "uf": "MT",
+        "bioma": "Cerrado",
+        "satelite": "NOAA-20",
+        "frp": 19.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.74397,
+          -16.35432
+        ]
+      },
+      "properties": {
+        "id": "FC0279",
+        "data_hora": "2024-09-15T17:40:00",
+        "municipio": "Poconé",
+        "uf": "MT",
+        "bioma": "Pantanal",
+        "satelite": "NPP",
+        "frp": 23.9,
+        "risco": "baixo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.19355,
+          -9.8018
+        ]
+      },
+      "properties": {
+        "id": "FC0280",
+        "data_hora": "2024-09-15T18:50:00",
+        "municipio": "Alta Floresta",
+        "uf": "MT",
+        "bioma": "Amazônia",
+        "satelite": "NPP",
+        "frp": 44.0,
+        "risco": "medio"
+      }
+    }
+  ]
+}

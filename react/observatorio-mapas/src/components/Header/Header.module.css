@@ -1,0 +1,31 @@
+.header {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    gap: 1rem;
+}
+
+.bolinha {
+    padding: 0.8rem;
+    aspect-ratio: 1;
+    background-color: green;
+    border-radius: 100%; 
+}
+.dados {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    gap: 0.4rem;
+}
+.dados h1 {
+    font-size: 1.45rem;
+}
+.dados h1, .dados p {
+    margin: 0;
+}
