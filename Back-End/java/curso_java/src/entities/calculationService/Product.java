@@ -11,6 +11,9 @@ public class Product implements Comparable<Product>{
         this.price = price;
     }
 
+    public Product(int id, String nomeProduto, double precoProduto) {
+    }
+
     public String getName() {
         return name;
     }

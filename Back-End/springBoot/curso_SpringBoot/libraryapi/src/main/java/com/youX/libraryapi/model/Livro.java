@@ -2,10 +2,9 @@ package com.youX.libraryapi.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity
@@ -25,7 +24,7 @@ public class Livro {
     private String titulo;
 
     @Column(name = "data_publicacao")
-    private String data_publicacao;
+    private LocalDate dataPublicacao;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "genero", length = 30, nullable = false)
@@ -37,4 +36,5 @@ public class Livro {
     @ManyToOne
     @JoinColumn(name = "id_autor")
     private Autor autor;
+
 }
