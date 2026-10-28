@@ -9,15 +9,15 @@ function App() {
     <div className="App">
       
       {/* <SayMyName nome=""/> */}
-      <Frases />
+      {/* <Frases /> */}
       <List />
     
-      <Pessoa
+      {/* <Pessoa
         nome="Alfredo" 
         idade="29" 
         profissao="Programador" 
         foto="https://via.placeholder.com/150" 
-      />
+      /> */}
     </div>
   )
 }
