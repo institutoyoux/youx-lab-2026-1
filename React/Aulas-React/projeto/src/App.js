@@ -1,6 +1,7 @@
 import './App.css';
 import Pessoa from './components/Pessoas';
-//import SayMyName from './components/SayMyName';
+import Frases from './components/Frase';
+import List from './components/List';
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
     <div className="App">
       
       {/* <SayMyName nome=""/> */}
+      <Frases />
+      <List />
+    
       <Pessoa
         nome="Alfredo" 
         idade="29" 
