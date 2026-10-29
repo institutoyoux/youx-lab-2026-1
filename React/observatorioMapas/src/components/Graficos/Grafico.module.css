@@ -1,0 +1,37 @@
+.graficos {
+    width: 100%;
+    max-width: 445px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.drash {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    width: 100%;
+}
+.comp {
+    border-radius: 1rem;
+    border: 1px solid #333;
+    width: 100%;
+    max-width: 200px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.comp p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.comp span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.grafico {
+    padding: 0.6rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+}

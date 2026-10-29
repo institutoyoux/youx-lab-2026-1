@@ -1,0 +1,128 @@
+[
+  {
+    "nome": "Alta Floresta",
+    "uf": "MT",
+    "latitude": -9.8756,
+    "longitude": -56.0862,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Apiacás",
+    "uf": "MT",
+    "latitude": -9.5397,
+    "longitude": -57.4589,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Barão de Melgaço",
+    "uf": "MT",
+    "latitude": -16.1942,
+    "longitude": -55.9674,
+    "bioma_predominante": "Pantanal"
+  },
+  {
+    "nome": "Campo Verde",
+    "uf": "MT",
+    "latitude": -15.545,
+    "longitude": -55.1626,
+    "bioma_predominante": "Cerrado"
+  },
+  {
+    "nome": "Chapada dos Guimarães",
+    "uf": "MT",
+    "latitude": -15.4606,
+    "longitude": -55.7497,
+    "bioma_predominante": "Cerrado"
+  },
+  {
+    "nome": "Colniza",
+    "uf": "MT",
+    "latitude": -9.4615,
+    "longitude": -59.2253,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Cotriguaçu",
+    "uf": "MT",
+    "latitude": -9.8566,
+    "longitude": -58.4198,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Cuiabá",
+    "uf": "MT",
+    "latitude": -15.601,
+    "longitude": -56.0974,
+    "bioma_predominante": "Cerrado"
+  },
+  {
+    "nome": "Cáceres",
+    "uf": "MT",
+    "latitude": -16.0764,
+    "longitude": -57.6818,
+    "bioma_predominante": "Pantanal"
+  },
+  {
+    "nome": "Juína",
+    "uf": "MT",
+    "latitude": -11.4272,
+    "longitude": -58.7406,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Paranaíta",
+    "uf": "MT",
+    "latitude": -9.6583,
+    "longitude": -56.4775,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Peixoto de Azevedo",
+    "uf": "MT",
+    "latitude": -10.2261,
+    "longitude": -54.9797,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Poconé",
+    "uf": "MT",
+    "latitude": -16.2568,
+    "longitude": -56.6228,
+    "bioma_predominante": "Pantanal"
+  },
+  {
+    "nome": "Primavera do Leste",
+    "uf": "MT",
+    "latitude": -15.544,
+    "longitude": -54.2811,
+    "bioma_predominante": "Cerrado"
+  },
+  {
+    "nome": "Rondonópolis",
+    "uf": "MT",
+    "latitude": -16.4706,
+    "longitude": -54.6356,
+    "bioma_predominante": "Cerrado"
+  },
+  {
+    "nome": "Santo Antônio de Leverger",
+    "uf": "MT",
+    "latitude": -15.8658,
+    "longitude": -56.0767,
+    "bioma_predominante": "Pantanal"
+  },
+  {
+    "nome": "Sinop",
+    "uf": "MT",
+    "latitude": -11.8642,
+    "longitude": -55.5053,
+    "bioma_predominante": "Amazônia"
+  },
+  {
+    "nome": "Várzea Grande",
+    "uf": "MT",
+    "latitude": -15.6458,
+    "longitude": -56.1322,
+    "bioma_predominante": "Cerrado"
+  }
+]
