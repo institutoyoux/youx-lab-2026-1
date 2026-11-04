@@ -2,31 +2,40 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculo_data_hora/Calculo_data_hora.iml" filepath="$PROJECT_DIR$/Calculo_data_hora/Calculo_data_hora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" filepath="$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enumeracoes/Enumeracoes.iml" filepath="$PROJECT_DIR$/Enumeracoes/Enumeracoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" filepath="$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estrutura_Sequencial/Estrutura_Sequencial.iml" filepath="$PROJECT_DIR$/Estrutura_Sequencial/Estrutura_Sequencial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc_cmps_objetos/Exc_cmps_objetos.iml" filepath="$PROJECT_DIR$/Exc_cmps_objetos/Exc_cmps_objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc_composicao/Exc_composicao.iml" filepath="$PROJECT_DIR$/Exc_composicao/Exc_composicao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc_vetores/Exc_vetores.iml" filepath="$PROJECT_DIR$/Exc_vetores/Exc_vetores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" filepath="$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrizes/Matrizes.iml" filepath="$PROJECT_DIR$/Matrizes/Matrizes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" filepath="$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" filepath="$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" filepath="$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" filepath="$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/construtores/construtores.iml" filepath="$PROJECT_DIR$/construtores/construtores.iml" />
-      <module fileurl="file://$PROJECT_DIR$/desafio_vetores/desafio_vetores.iml" filepath="$PROJECT_DIR$/desafio_vetores/desafio_vetores.iml" />
-      <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estrutura_do-while/estrutura_do-while.iml" filepath="$PROJECT_DIR$/estrutura_do-while/estrutura_do-while.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estrutura_for_aula57/estrutura_for_aula57.iml" filepath="$PROJECT_DIR$/estrutura_for_aula57/estrutura_for_aula57.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estrutura_for_exercicios/estrutura_for_exercicios.iml" filepath="$PROJECT_DIR$/estrutura_for_exercicios/estrutura_for_exercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estrutura_while/estrutura_while.iml" filepath="$PROJECT_DIR$/estrutura_while/estrutura_while.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exc1_aula_77/exc1_aula_77.iml" filepath="$PROJECT_DIR$/exc1_aula_77/exc1_aula_77.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exc2_aula_77/exc2_aula_77.iml" filepath="$PROJECT_DIR$/exc2_aula_77/exc2_aula_77.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exc3_aula_77/exc3_aula_77.iml" filepath="$PROJECT_DIR$/exc3_aula_77/exc3_aula_77.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exercicio_vetores/exercicio_vetores.iml" filepath="$PROJECT_DIR$/exercicio_vetores/exercicio_vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Construtores/construtores.iml" filepath="$PROJECT_DIR$/Construtores/construtores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data_hora/data_hora.iml" filepath="$PROJECT_DIR$/Data_hora/data_hora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio_vetores/desafio_vetores.iml" filepath="$PROJECT_DIR$/Desafio_vetores/desafio_vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/Encapsulamento/encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_do-while/estrutura_do-while.iml" filepath="$PROJECT_DIR$/Estrutura_do-while/estrutura_do-while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_for_aula57/estrutura_for_aula57.iml" filepath="$PROJECT_DIR$/Estrutura_for_aula57/estrutura_for_aula57.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_for_exercicios/estrutura_for_exercicios.iml" filepath="$PROJECT_DIR$/Estrutura_for_exercicios/estrutura_for_exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura_while/estrutura_while.iml" filepath="$PROJECT_DIR$/Estrutura_while/estrutura_while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc1_aula_77/exc1_aula_77.iml" filepath="$PROJECT_DIR$/Exc1_aula_77/exc1_aula_77.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc2_aula_77/exc2_aula_77.iml" filepath="$PROJECT_DIR$/Exc2_aula_77/exc2_aula_77.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc3_aula_77/exc3_aula_77.iml" filepath="$PROJECT_DIR$/Exc3_aula_77/exc3_aula_77.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc_listas/exc_listas.iml" filepath="$PROJECT_DIR$/Exc_listas/exc_listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exc_matrizes/exc_matrizes.iml" filepath="$PROJECT_DIR$/Exc_matrizes/exc_matrizes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exps_Cond_Ternaria/exps_cond_ternaria.iml" filepath="$PROJECT_DIR$/Exps_Cond_Ternaria/exps_cond_ternaria.iml" />
-      <module fileurl="file://$PROJECT_DIR$/funcoes_sintaxe/funcoes_sintaxe.iml" filepath="$PROJECT_DIR$/funcoes_sintaxe/funcoes_sintaxe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/membros_estaticos/membros_estaticos.iml" filepath="$PROJECT_DIR$/membros_estaticos/membros_estaticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcoes_sintaxe/funcoes_sintaxe.iml" filepath="$PROJECT_DIR$/Funcoes_sintaxe/funcoes_sintaxe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Membros_estaticos/membros_estaticos.iml" filepath="$PROJECT_DIR$/Membros_estaticos/membros_estaticos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primeiro_Projeto/primeiro_projeto.iml" filepath="$PROJECT_DIR$/Primeiro_Projeto/primeiro_projeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/problema_sem_orientacao_a_objetos/problema_sem_orientacao_a_objetos.iml" filepath="$PROJECT_DIR$/problema_sem_orientacao_a_objetos/problema_sem_orientacao_a_objetos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sobrecarga/sobrecarga.iml" filepath="$PROJECT_DIR$/sobrecarga/sobrecarga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sobrecarga/sobrecarga.iml" filepath="$PROJECT_DIR$/Sobrecarga/sobrecarga.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teste/teste.iml" filepath="$PROJECT_DIR$/Teste/teste.iml" />
       <module fileurl="file://$PROJECT_DIR$/tres _atributos_para_representar_melhor_o_triangulo/tres _atributos_para_representar_melhor_o_triangulo.iml" filepath="$PROJECT_DIR$/tres _atributos_para_representar_melhor_o_triangulo/tres _atributos_para_representar_melhor_o_triangulo.iml" />
       <module fileurl="file://$PROJECT_DIR$/vetores_pt2/vetores_pt2.iml" filepath="$PROJECT_DIR$/vetores_pt2/vetores_pt2.iml" />
