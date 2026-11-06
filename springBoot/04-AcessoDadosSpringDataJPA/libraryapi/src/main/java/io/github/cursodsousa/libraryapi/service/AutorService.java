@@ -20,7 +20,7 @@ public class AutorService {
 
     private final AutorRepository repository;
     private final AutorValidator validator;
-    private final LivroRepository livroRepository;
+    private LivroRepository livroRepository;
 
     public Autor salvar(Autor autor){
         validator.validar(autor);
