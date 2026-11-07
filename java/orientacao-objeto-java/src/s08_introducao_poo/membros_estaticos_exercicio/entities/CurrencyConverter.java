@@ -4,6 +4,14 @@ public class CurrencyConverter {
     public double cotacao;
     public double valor;
 
+    public double valorReal () {
+        return taxa() * cotacao;
+    }
+    public double taxa() {
+       return  valor + valor * 6/100;
+
+    }
+
 
 
     }
