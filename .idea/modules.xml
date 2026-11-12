@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calculo_data_hora/Calculo_data_hora.iml" filepath="$PROJECT_DIR$/Calculo_data_hora/Calculo_data_hora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes_metodos/Classes_metodos.iml" filepath="$PROJECT_DIR$/Classes_metodos/Classes_metodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" filepath="$PROJECT_DIR$/Entrada_De_Dados/Entrada_De_Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enumeracoes/Enumeracoes.iml" filepath="$PROJECT_DIR$/Enumeracoes/Enumeracoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" filepath="$PROJECT_DIR$/Estrutura_Repetitiva/Estrutura_Repetitiva.iml" />
@@ -11,12 +12,15 @@
       <module fileurl="file://$PROJECT_DIR$/Exc_composicao/Exc_composicao.iml" filepath="$PROJECT_DIR$/Exc_composicao/Exc_composicao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exc_vetores/Exc_vetores.iml" filepath="$PROJECT_DIR$/Exc_vetores/Exc_vetores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" filepath="$PROJECT_DIR$/Funcoes_Matematicas/Funcoes_matematicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heranca_e_polimorfismo/Heranca_e_polimorfismo.iml" filepath="$PROJECT_DIR$/Heranca_e_polimorfismo/Heranca_e_polimorfismo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Matrizes/Matrizes.iml" filepath="$PROJECT_DIR$/Matrizes/Matrizes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" filepath="$PROJECT_DIR$/Operadores_bitwise/Operadores_bitwise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" filepath="$PROJECT_DIR$/Saida_De_Dados/Saida_De_Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" filepath="$PROJECT_DIR$/Segundo_Projeto/Segundo_projeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" filepath="$PROJECT_DIR$/Sintaxe_Opcional/Sintaxe_opcional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sobreposicao_plvrSuper_Override/Sobreposicao_plvrSuper_Override.iml" filepath="$PROJECT_DIR$/Sobreposicao_plvrSuper_Override/Sobreposicao_plvrSuper_Override.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Upcasting_e_downcasting/Upcasting_e_downcasting.iml" filepath="$PROJECT_DIR$/Upcasting_e_downcasting/Upcasting_e_downcasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Construtores/construtores.iml" filepath="$PROJECT_DIR$/Construtores/construtores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data_hora/data_hora.iml" filepath="$PROJECT_DIR$/Data_hora/data_hora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio_vetores/desafio_vetores.iml" filepath="$PROJECT_DIR$/Desafio_vetores/desafio_vetores.iml" />
