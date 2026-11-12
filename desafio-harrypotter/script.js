@@ -3,7 +3,7 @@ fetch(endpoint)
   .then((resposta) => resposta.json())
   .then((personagens) => {
     const divPersonagens = document.getElementById("personagens");
-    for (personagem of personagens) {
+    for (let personagem of personagens) {
         const divPersonagem = document.createElement("div")
         divPersonagem.setAttribute("id", `${personagem.id}`)
         divPersonagem.setAttribute('class', 'personagem')
@@ -36,5 +36,11 @@ fetch(endpoint)
         divPersonagem.appendChild(h)
 
         divPersonagens.appendChild(divPersonagem)
+
+        const btn = document.createElement("a");
+        btn.setAttribute("class", "btn");
+        btn.setAttribute("href", `/desafio-harrypotter/detalhes.html?id=${personagem.id}&nome=${personagem.name}`);
+        btn.innerText = "Mais informações";
+        divPersonagem.appendChild(btn);
     }
   })

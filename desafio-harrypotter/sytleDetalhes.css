@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+
+body {
+    background-color: #e8d5a3;
+    font-family: 'Lora', serif;
+    color: #c99d1a;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 34px;
+    margin: 0 28%;
+    margin-bottom: 40px;
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af3760;
+}
+
+.detalhes{
+    font-family: Cormorant Garamond ;
+    padding: 18px;
+    margin: 25px auto;
+    max-width: 178px;
+    color: #705601;
+    background-color: #d4af37;
+    border: 2px solid #ba9312;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #dcad0330;
+    font-size: 17px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detalhes:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #dcad0330;
+}
+
+.wand{
+    font-family: Cormorant Garamond ;
+    padding: 18px;
+    margin: 25px auto;
+    max-width: 178px;
+    color: #705601;
+    background-color: #d4af37;
+    border: 2px solid #ba9312;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #dcad0330;
+    font-size: 17px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

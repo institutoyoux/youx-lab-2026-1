@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+
+body{
+    /* background-image: url("fundo.jpg"); */
+    background-color: #e8d5a3;
+}
+
+#principal{
+    margin: 0 13%;
+}
+
+.personagem {
+    border: 1px solid rgb(250, 225, 0);
+    padding: 0.5rem;
+    background-color: rgb(222, 210, 47);
+    /* border-radius: 10px;
+    border: 1px solid #d4af37; */
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 15px #e4ba31c6;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.personagem:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px #e4ba31c6;
+}
+
+#personagens {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#titulo{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 18px;
+    margin:0 26%;
+    color: #d4af37;
+    text-shadow: 0 0 10px #d4af3760;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #d4af37;
+    color: #fff;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #b8860b;
+}
+
