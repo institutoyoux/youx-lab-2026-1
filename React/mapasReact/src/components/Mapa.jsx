@@ -1,11 +1,11 @@
 
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-export default function Mapa({children}) {
+export default function Mapa({center, ponto, children}) {
   return (
     <MapContainer
-      center={[-21.241392, -44.997984]}
+      center={center}
       zoom={18}
       minZoom={4}
       maxZoom={18}
@@ -15,6 +15,8 @@ export default function Mapa({children}) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap contributors"
       />
+      
+      {ponto && (<Marker position={ponto} />)}
     </MapContainer>
   );
 }

@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import './root.css'
 import './index.css'
 import Home from './Home'
 
