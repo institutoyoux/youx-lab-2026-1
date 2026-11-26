@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Integrado - Camadas</title>
+  <link rel="stylesheet" href="leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="busca">
+      <input type="text" id="inputEndereco" value="Praça Augusto Silva, Lavras - MG" placeholder="Digite o endereço...">
+      <button id="btnBuscar" type="button">Buscar</button>
+    </div>
+
+    <div class="camadas">
+      <select id="selectCamada">
+        <option value="m">Camada: Mapa de Ruas</option>
+        <option value="y">Camada: Satélite com Ruas</option>
+        <option value="s">Camada: Apenas Satélite</option>
+        <option value="p">Camada: Terreno / Relevo</option>
+      </select>
+    </div>
+
+    <div id="mapa" title="Clique para abrir no Google Maps"></div>
+
+    <a id="linkMaps" class="btn-abrir" href="https://google.com" target="_blank" rel="noopener noreferrer">
+      Abrir no Google Maps
+    </a>
+  </div>
+
+  <script src="leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
